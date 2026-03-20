@@ -1,8 +1,12 @@
 # VCONIC TADHack 2026: Hackathon Review
 
+> **Event:** [VCONIC TADHack](https://blog.tadhack.com/2025/12/19/vconic-tadhack/) | March 7-8, 2026 | Virtual | [The Hacks blog post](https://blog.tadhack.com/2026/03/08/vconic-tadhack-the-hacks/)
+>
+> **Core technology:** [vCon](https://datatracker.ietf.org/doc/draft-ietf-vcon-vcon-container/) (IETF standard) | [vCon MCP Server](https://github.com/vcon-dev/vcon-mcp) ([docs](https://www.conserver.io/mcp-server/what-is-the-vcon-mcp-server) | [live](https://mcp.conserver.io/))
+
 ## Overview
 
-The VCONIC TADHack 2026 (March 7-8) drew 15 submissions from developers across four continents — Nigeria, Kenya, the United States, and Brazil — tackling problems in emergency response, financial services, education, compliance, supply chains, animal rescue, and personal memory. Every team built on the vCon standard. Most connected to the vCon MCP Server. Several pushed the boundaries of what vCon can represent, demonstrating that a conversation container originally designed for telephony is becoming a general-purpose intelligence format.
+The VCONIC TADHack 2026 (March 7-8) drew 15 submissions from developers across four continents — Nigeria, Kenya, the United States, and Brazil — tackling problems in emergency response, financial services, education, compliance, supply chains, animal rescue, and personal memory. Every team built on the [vCon standard](https://datatracker.ietf.org/group/vcon/about/). Most connected to the [vCon MCP Server](https://github.com/vcon-dev/vcon-mcp). Several pushed the boundaries of what vCon can represent, demonstrating that a conversation container originally designed for telephony is becoming a general-purpose intelligence format.
 
 This review examines each submission individually, then steps back to assess the hackathon as a whole: what it revealed about vCon's capabilities, where teams innovated, and what patterns emerged.
 
@@ -11,6 +15,8 @@ This review examines each submission individually, then steps back to assess the
 ## Individual Reviews
 
 ### 1. 911 First Response — Shouvik Sharma & Ankita Bhanushali
+
+> [Video](https://www.youtube.com/watch?v=HRKcU5U-gzI) | [vCon](vcons/911-first-response.vcon.json) | [Transcript](transcripts/911-first-response.json)
 
 **The idea:** Turn a live 911 call into a structured dispatch action in real time. The moment a call comes in, it becomes a vCon. AI extracts location, emergency type, severity, and incident classification (medical, fire, burglary, accident), then triggers the appropriate dispatch workflow — choosing the right service, finding the nearest unit, and dispatching immediately.
 
@@ -26,6 +32,8 @@ This review examines each submission individually, then steps back to assess the
 ---
 
 ### 2. Apparitions — David Sikes & Jared Ashcraft
+
+> [Video](https://www.youtube.com/watch?v=kYvfCVWyz1M) | [vCon](vcons/apparitions.vcon.json) | [Transcript](transcripts/apparitions.json)
 
 **The idea:** A location-based augmented reality framework where each point of interest is a vCon. Users walk through physical spaces — museums, historical sites, mystery stories — and audio/media triggers as they approach GPS coordinates stored in vCon attachments.
 
@@ -43,6 +51,8 @@ This review examines each submission individually, then steps back to assess the
 
 ### 3. Budget Yangu — Elvis Ogunga
 
+> [Video](https://www.youtube.com/watch?v=fxBPIaZPSTk) | [vCon](vcons/budget-yangu.vcon.json) | [Transcript](transcripts/budget-yangu.json)
+
 **The idea:** "My Budget" in Swahili — an AI-powered personal finance assistant where every conversation between the user and the AI becomes a vCon record that can be analyzed for financial insights.
 
 **What they built:** A Laravel-backed application where users manually input financial records and then use an AI agent to analyze their data. The agent retrieves user data via authenticated sessions, analyzes it, and every interaction is captured as a vCon with parties, dialog, and analysis. The app sends vCons to the MCP server running on a local node. A dashboard shows total vCon count, dialog types, conversation subjects, and data health metrics.
@@ -59,6 +69,8 @@ This review examines each submission individually, then steps back to assess the
 
 ### 4. ConsentMate — Abdurrahman Umar & Berlu (Team Skyline Coders)
 
+> [Video](https://www.youtube.com/watch?v=WUdpfmbMAAQ) | [vCon](vcons/consentmate.vcon.json) | [Transcript](transcripts/consentmate.json)
+
 **The idea:** An AI-powered GDPR compliance dashboard that tracks customer consent across all recorded conversations, provides compliance scoring, and delivers daily briefings.
 
 **What they built:** A Next.js dashboard with four core views: (1) a Daily Briefing that delivers a personalized compliance update each morning with a consent compliance score, (2) a Transcript tab previewing all vCon calls, (3) an Analysis tab breaking down each conversation for sentiment, compliance score, and key highlights, and (4) a Consent tab tracking active, expired, and expiring consent in one place. Backend AI generates real-time compliance messages and analyzes transcripts.
@@ -68,11 +80,13 @@ This review examines each submission individually, then steps back to assess the
 - AI analysis of vCon transcripts for compliance scoring
 - The analysis array carrying sentiment, compliance scores, and highlights
 
-**What makes it unique:** This is the submission most directly aligned with the vCon Lawful Basis extension. The daily compliance briefing with a numerical score is a compelling UX pattern — it turns a legal obligation into something a business owner can glance at over coffee.
+**What makes it unique:** This is the submission most directly aligned with the [vCon Lawful Basis extension](https://datatracker.ietf.org/doc/draft-howe-vcon-lawful-basis/). The daily compliance briefing with a numerical score is a compelling UX pattern — it turns a legal obligation into something a business owner can glance at over coffee.
 
 ---
 
 ### 5. ConvoLens — Josphat Mwangi
+
+> [Video](https://www.youtube.com/watch?v=lX8pXsz-47c) | [vCon](vcons/convolens.vcon.json) | [Transcript](transcripts/convolens.json)
 
 **The idea:** A customer conversation intelligence platform for banking and financial services that ingests conversations from any channel, converts them to vCon, analyzes them with AI, and provides a live dashboard.
 
@@ -91,6 +105,8 @@ This review examines each submission individually, then steps back to assess the
 
 ### 6. ConvoSense — Collins Omondi
 
+> [Video](https://www.youtube.com/watch?v=XNn8HUwuzec) | [vCon](vcons/convosense.vcon.json) | [Transcript](transcripts/convosense.json)
+
 **The idea:** A platform that solves the three core problems of SMB customer support: data scattered across platforms, manual effort to derive insights, and vendor lock-in.
 
 **What they built:** A dashboard that connects to VAPI (voice AI) and Intercom via internal plugins using API keys. Once connected, it pulls all conversations, then connects to the vCon MCP server. On connection, conversations are automatically synchronized into vCon format. An AI assistant with built-in visualization tools and all vCon MCP server tools can answer questions a support team would ask, providing analysis in seconds rather than hours.
@@ -107,6 +123,8 @@ This review examines each submission individually, then steps back to assess the
 
 ### 7. Life Canvas — Sabrina (Valencia College)
 
+> [Video](https://www.youtube.com/watch?v=C0UhGJR72pk) | [vCon](vcons/life-canvas.vcon.json) | [Transcript](transcripts/life-canvas.json)
+
 **The idea:** A personal life intelligence system that turns everyday moments — journal entries, photos, voice notes, moods — into structured vCon records that become searchable, analyzable life data.
 
 **What they built:** A full web application with: a Dashboard (journal entries, streaks, highlights, recent memories), a Journal (capture reflections via writing, photos, voice notes, or mood selection), Buckets (life categories: family, career, health, personal growth), a Calendar (revisit memories by date), Analytics (emotional trends, common topics, most-mentioned people), Memory Search, a Timeline (visual stories of personal growth), and Year in Review (annual milestones and insights). Behind the scenes, every entry becomes a structured vCon record, and AI detects meaningful patterns.
@@ -122,6 +140,8 @@ This review examines each submission individually, then steps back to assess the
 ---
 
 ### 8. Ollie — Anna Correa
+
+> [Video](https://www.youtube.com/watch?v=guBpk1E9yZA) | [vCon](vcons/ollie.vcon.json) | [Transcript](transcripts/ollie.json)
 
 **The idea:** An AI platform that crawls Reddit for lost pet reports, converts them to vCon records, and provides actionable tools for animal rescue coordination.
 
@@ -140,6 +160,8 @@ This review examines each submission individually, then steps back to assess the
 
 ### 9. OnePrice Sales Memory — Joan Ovalles Rosario (Valencia College)
 
+> [Video](https://www.youtube.com/watch?v=XCIGV91PZn4) | [vCon](vcons/oneprice-sales-memory.vcon.json) | [Transcript](transcripts/oneprice-sales-memory.json)
+
 **The idea:** End information decay in auto sales. Consolidate multi-channel customer interactions into a structured vCon-based memory system so salespeople never lose context on a deal.
 
 **What they built:** A working sales workflow demo: create a lead (Juan Soto, interested in Ford F-150, budget $1,000/month), run AI tagging analysis (warm lead, payment-sensitive, shopping competitors, price shock, needs manager follow-up), search across all vCons for hot leads matching criteria ("search my vCons for any hot leads who are highly sensitive to monthly payments"), and generate personalized follow-up scripts built directly from the vCon profile. The system uses Docker, the MCP server, OpenAI for analysis, and Supabase for storage.
@@ -157,22 +179,26 @@ This review examines each submission individually, then steps back to assess the
 
 ### 10. Patanisha — Charles Wachira
 
+> [Video](https://www.youtube.com/watch?v=bl_YNeu3MCM) | [vCon](vcons/patanisha.vcon.json) | [Transcript](transcripts/patanisha.json)
+
 **The idea:** "Patanisha" is Swahili for "unifying." The first support platform built on the vCon standard — every customer interaction (phone, SMS, email, chat) automatically becomes a vCon, unified into a single timeline.
 
 **What they built:** A live demo using Africa's Talking APIs for voice and SMS in the Kenyan market. The dashboard shows cases on the left, loaded from TADHack 2025 data as proof of scale. A simulated customer interaction demonstrates a voice call, SMS, and email all unified into one case timeline. Agents can claim cases, send SMS responses via Africa's Talking, and mark cases as resolved. All data flows to a Supabase backend. The team used Conserver.io for vCon storage and AI processing.
 
 **vCon capabilities demonstrated:**
 - "Phone call, that's a vCon. SMS, that's a vCon. Email, that's a vCon." — the clearest articulation of vCon's unification promise
-- Africa's Talking API integration for real-world telephony in the Kenyan market
-- Conserver.io as the vCon backend
+- [Africa's Talking](https://africastalking.com/) API integration for real-world telephony in the Kenyan market
+- [Conserver.io](https://www.conserver.io/) as the vCon backend
 - Supabase integration for the dashboard
-- Ready for the vCon App Store
+- Ready for the [vCon App Store](mailto:apply@mindmaking.com) (MindMaking)
 
 **What makes it unique:** Patanisha is the submission closest to production. It uses real telephony APIs (Africa's Talking) in a real market (Kenya), handles real communication channels (voice + SMS + email), and is deployed at a real URL (patanisha.ruita.co.ke). The "3 minutes not 30" support resolution claim, while aspirational, is grounded in a working demo. The Swahili naming and Kenyan market focus represent the growing East African developer community in vCon.
 
 ---
 
 ### 11. TraceConnect — Jevans Otieno
+
+> [Video](https://www.youtube.com/watch?v=POUeuloABtU) | [vCon](vcons/traceconnect.vcon.json) | [Transcript](transcripts/traceconnect.json)
 
 **The idea:** Enterprise-grade global visibility for distributed teams. HQ gets real-time intelligence on how branches in different countries handle issues and complaints, powered by vCon and Claude Desktop via MCP.
 
@@ -190,6 +216,8 @@ This review examines each submission individually, then steps back to assess the
 ---
 
 ### 12. vChat — Ahmadu Suleiman
+
+> [Video](https://www.youtube.com/watch?v=7_PImyiISn8) | [vCon](vcons/vchat.vcon.json) | [Transcript](transcripts/vchat.json)
 
 **The idea:** Bring vCon to everyone's phone. A general-purpose messaging app where you chat normally and vCon structures everything in the background — who said what, in what role, when, and what was agreed.
 
@@ -209,6 +237,8 @@ This review examines each submission individually, then steps back to assess the
 
 ### 13. vCohort — Ziyad Shuaibu, Abdulalim Ladan & Mubarak Ibrahim
 
+> [Video](https://www.youtube.com/watch?v=j6f88p8DIZU) | [vCon](vcons/vcohort.vcon.json) | [Transcript](transcripts/vcohort.json)
+
 **The idea:** A conversation intelligence layer for Nigeria's booming cohort-based learning market ($1.5B in 2025). Learning sessions on Zoom and Google Meet become vCon records, generating engagement analytics, confusion signals, and intervention recommendations.
 
 **What they built:** A full platform with: organization management, cohort creation, session upload/live recording ingestion. Per-session analytics include duration, speaking time vs. silence, engagement scores, questions asked, key moments, action items, and per-participant speaking time breakdowns. A transcript preview is available for each session, and vCon files can be downloaded in JSON format. The team built integrations for Zoom, Google Meet, and planned Trello/Slack/Google Calendar integration.
@@ -227,13 +257,15 @@ This review examines each submission individually, then steps back to assess the
 
 ### 14. vCon Example App — Muntaser Syed (Submission 1)
 
+> [Video](https://www.youtube.com/watch?v=msvvAcZFEng) | [vCon](vcons/vcon-example-app.vcon.json) | [Transcript](transcripts/vcon-example-app.json) | [Pull request on vcon-mcp](https://github.com/vcon-dev/vcon-mcp)
+
 **The idea:** A reference implementation demonstrating vCon enhancements: JSON-LD extensions for richer metadata, cryptographic signing for integrity verification, and MongoDB integration for analytics and vector search.
 
 **What they built:** An interactive web app where users can: load sample vCons, add JSON-LD context and extensions (external types, confidence labels), enrich analysis with extended metadata, cryptographically sign a vCon, verify integrity (tampering detection demonstrated by modifying a field and showing the signature check fail), and perform MongoDB-backed vector search across vCon embeddings.
 
 **vCon capabilities demonstrated:**
 - JSON-LD and JSON-LD-EX extensions for semantic enrichment
-- Cryptographic signing and integrity verification (JWS)
+- Cryptographic signing and integrity verification ([JWS](https://datatracker.ietf.org/doc/draft-ietf-vcon-vcon-container/))
 - Tamper detection — changing a single field breaks the signature
 - MongoDB vector search over vCon embeddings
 - Confidence labels for agentic AI trust decisions
@@ -243,6 +275,8 @@ This review examines each submission individually, then steps back to assess the
 ---
 
 ### 15. vCon Intelligence Platform — Muntaser Syed (Submission 2)
+
+> [Video](https://www.youtube.com/watch?v=h4ehOvFSqLw) | [vCon](vcons/vcon-intelligence-platform.vcon.json) | [Transcript](transcripts/vcon-intelligence-platform.json)
 
 **The idea:** A comprehensive multi-backend intelligence platform that ingests conversations from every source, enriches them, stores them in multiple database backends, and provides graph-based visualization and AI-powered querying.
 
@@ -257,7 +291,7 @@ This review examines each submission individually, then steps back to assess the
 - Whisper-based automatic transcription on audio upload
 - AI-powered cross-corpus querying
 
-**What makes it unique:** This is the most architecturally ambitious submission. The multi-backend approach (relational + graph + vector + document) acknowledges that different query patterns need different storage engines. The MQTT integration directly addresses the UNS (Unified Namespace) pattern discussed in Matthew Smith's training session, showing that vCon can participate in industrial event-driven architectures. The SIP REC ingestion connects vCon to traditional telephony infrastructure.
+**What makes it unique:** This is the most architecturally ambitious submission. The multi-backend approach (relational + graph + vector + document) acknowledges that different query patterns need different storage engines. The MQTT integration directly addresses the UNS (Unified Namespace) pattern discussed in [Matthew Smith's training session](https://www.youtube.com/watch?v=QNLUXTr3JI4) ([starter kit](https://github.com/fieldcloud/vcons-uns-starter-kit)), showing that vCon can participate in industrial event-driven architectures. The SIP REC ingestion connects vCon to traditional telephony infrastructure.
 
 ---
 
@@ -336,4 +370,44 @@ The pattern of "connect the MCP server, then query with natural language" appear
 
 4. **vCon attracts developers who think in systems.** These aren't toy demos. Multiple submissions (ConvoLens, vCon Intelligence Platform, Patanisha, vCohort) are architecturally complete enough to evolve into products.
 
-5. **The East African developer community is a natural fit.** Five Kenyan and three Nigerian submissions, many addressing local market needs with local telephony APIs (Africa's Talking), suggest that vCon has found an enthusiastic early-adopter community in a region where conversation-heavy business processes (customer support, financial services, education) are growing rapidly.
+5. **The East African developer community is a natural fit.** Five Kenyan and three Nigerian submissions, many addressing local market needs with local telephony APIs ([Africa's Talking](https://africastalking.com/)), suggest that vCon has found an enthusiastic early-adopter community in a region where conversation-heavy business processes (customer support, financial services, education) are growing rapidly.
+
+---
+
+## Resources
+
+### Specifications and Standards
+
+- [vCon Container Format](https://datatracker.ietf.org/doc/draft-ietf-vcon-vcon-container/) — The core IETF standard that every submission built on
+- [vCon Working Group](https://datatracker.ietf.org/group/vcon/about/) — IETF working group developing the standard
+- [vCon Lawful Basis Extension](https://datatracker.ietf.org/doc/draft-howe-vcon-lawful-basis/) — Consent and legal basis tracking (relevant to ConsentMate, vChat)
+- [vCon Lifecycle Management](https://datatracker.ietf.org/doc/draft-howe-vcon-lifecycle/) — SCITT-based transparency services
+- [SIP Extension for MCP](https://datatracker.ietf.org/doc/draft-howe-sipcore-mcp-extension/) — SIP protocol extension for MCP discovery (stretch objective for the hackathon)
+
+### Tools and Platforms
+
+- [vCon MCP Server](https://github.com/vcon-dev/vcon-mcp) — The core MCP server used by most submissions ([docs](https://www.conserver.io/mcp-server/what-is-the-vcon-mcp-server) | [live server](https://mcp.conserver.io/))
+- [vCon GitHub Organization](https://github.com/vcon-dev) — All vCon open source projects
+- [Conserver.io](https://www.conserver.io/) — VCONIC's vCon platform (used by Patanisha, others)
+- [vCon UNS Starter Kit](https://github.com/fieldcloud/vcons-uns-starter-kit) — vCon + Unified Namespace for manufacturing (relevant to vCon Intelligence Platform)
+- [Africa's Talking](https://africastalking.com/) — Voice and SMS APIs (used by Patanisha)
+
+### Training Sessions
+
+These sessions were held in the weeks before the hackathon and informed many submissions:
+
+| Session | Presenter | Video |
+|---------|-----------|-------|
+| VCONIC TADHack Background and Resources | Thomas McCarthy-Howe | [Watch](https://www.youtube.com/watch?v=Tm6EewfOa4M) |
+| AI Coding for Beginners | Rob Pickering | [Watch](https://www.youtube.com/watch?v=byP02fQe7sI) |
+| Consent and Lifecycle | Thomas McCarthy-Howe | [Watch](https://www.youtube.com/watch?v=jzOw94GKcbs) |
+| Spec-Driven Development | Jason Goecke ([sdd.goecke.io](https://sdd.goecke.io/)) | [Watch](https://www.youtube.com/watch?v=FnuzyBi2ntw) |
+| The VCON App Store | Audrey Hayn, MindMaking | [Watch](https://www.youtube.com/watch?v=cwgY3D7DVdY) |
+| VCON + UNS for Manufacturing | Matthew Smith ([starter kit](https://github.com/fieldcloud/vcons-uns-starter-kit)) | [Watch](https://www.youtube.com/watch?v=QNLUXTr3JI4) |
+
+### Event Links
+
+- [VCONIC TADHack Announcement](https://blog.tadhack.com/2025/12/19/vconic-tadhack/) — Original event page with challenge details
+- [VCONIC TADHack — The Hacks](https://blog.tadhack.com/2026/03/08/vconic-tadhack-the-hacks/) — Blog post covering all submissions
+- [How to Submit](https://blog.tadhack.com/2026/02/20/how-do-i-submit-my-vconic-hack/) — Submission process
+- [TADHack](https://tadhack.com) — Telecom Application Developer Hackathon

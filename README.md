@@ -17,23 +17,23 @@ The hackathon was organized by [TADHack](https://tadhack.com) and [VCONIC](https
 
 ## Submissions
 
-| # | Project | Team | Description |
-|---|---------|------|-------------|
-| 1 | **911 First Response** | Shouvik Sharma, Ankita Bhanushali | AI-assisted workflow that processes 911 emergency calls in real time, converting them into structured dispatch actions for first responders |
-| 2 | **Apparitions** | David Sikes, Jared Ashcraft | Museum/cultural experience app using vCon and AI to provide contextual, interactive guided experiences for visitors |
-| 3 | **Budget Yangu** | Elvis Ogunga | AI-powered personal finance assistant ("My Budget" in Swahili) providing budgeting advice and financial guidance through conversation |
-| 4 | **ConsentMate** | Abdurrahman Umar, Berlu (Team Skyline Coders) | AI-powered GDPR compliance dashboard that tracks customer consent, provides compliance scoring, and delivers daily actionable updates |
-| 5 | **ConvoLens** | Josphat Mwangi | Customer conversation intelligence platform built for banking and financial services |
-| 6 | **ConvoSense** | Collins Omondi | Conversation analysis tool for small to mid-size businesses to improve customer support operations |
-| 7 | **Life Canvas** | Sabrina (Valencia College) | Personal life intelligence system that captures everyday moments and turns them into searchable, structured insights using vCon |
-| 8 | **Ollie** | Anna Correa | AI-powered platform to help find and rescue lost animals faster through coordinated conversation tracking |
-| 9 | **OnePrice Sales Memory** | Joan Ovalles Rosario (Valencia College) | Sales conversation memory system for auto dealerships, giving sales teams persistent memory of customer interactions |
-| 10 | **Patanisha** | Charles Wachira | Unified customer support platform that consolidates phone, SMS, email, and chat conversations into vCon-structured records |
-| 11 | **TraceConnect** | Jevans Otieno | vCon-powered real-time visibility and compliance platform for global distribution networks |
-| 12 | **vChat** | Ahmadu Suleiman | Community mediation platform that records and structures informal agreements for accountability and conflict resolution |
-| 13 | **vCohort** | Ziyad Shuaibu, Abdulalim Ladan, Mubarak Ibrahim | Educational platform supporting bootcamps and cohort-based learning in Nigeria, using vCon to track student progress and mentor interactions |
-| 14 | **vCon Example App** | Muntaser Syed | Reference implementation demonstrating core vCon functionality for developers |
-| 15 | **vCon Intelligence Platform** | Muntaser Syed | Comprehensive multi-module platform for conversation intelligence and analytics |
+| # | Project | Team | Video | Description |
+|---|---------|------|-------|-------------|
+| 1 | **911 First Response** | Shouvik Sharma, Ankita Bhanushali | [Video](https://www.youtube.com/watch?v=HRKcU5U-gzI) | AI-assisted workflow that processes 911 emergency calls in real time, converting them into structured dispatch actions for first responders |
+| 2 | **Apparitions** | David Sikes, Jared Ashcraft | [Video](https://www.youtube.com/watch?v=kYvfCVWyz1M) | Location-based augmented reality framework using vCon as the container for GPS-triggered media experiences |
+| 3 | **Budget Yangu** | Elvis Ogunga | [Video](https://www.youtube.com/watch?v=fxBPIaZPSTk) | AI-powered personal finance assistant ("My Budget" in Swahili) providing budgeting advice and financial guidance through conversation |
+| 4 | **ConsentMate** | Abdurrahman Umar, Berlu (Team Skyline Coders) | [Video](https://www.youtube.com/watch?v=WUdpfmbMAAQ) | AI-powered GDPR compliance dashboard that tracks customer consent, provides compliance scoring, and delivers daily actionable updates |
+| 5 | **ConvoLens** | Josphat Mwangi | [Video](https://www.youtube.com/watch?v=lX8pXsz-47c) | Customer conversation intelligence platform built for banking and financial services |
+| 6 | **ConvoSense** | Collins Omondi | [Video](https://www.youtube.com/watch?v=XNn8HUwuzec) | Conversation analysis tool for small to mid-size businesses to improve customer support operations |
+| 7 | **Life Canvas** | Sabrina (Valencia College) | [Video](https://www.youtube.com/watch?v=C0UhGJR72pk) | Personal life intelligence system that captures everyday moments and turns them into searchable, structured insights using vCon |
+| 8 | **Ollie** | Anna Correa | [Video](https://www.youtube.com/watch?v=guBpk1E9yZA) | AI-powered platform to help find and rescue lost animals faster through coordinated conversation tracking |
+| 9 | **OnePrice Sales Memory** | Joan Ovalles Rosario (Valencia College) | [Video](https://www.youtube.com/watch?v=XCIGV91PZn4) | Sales conversation memory system for auto dealerships, giving sales teams persistent memory of customer interactions |
+| 10 | **Patanisha** | Charles Wachira | [Video](https://www.youtube.com/watch?v=bl_YNeu3MCM) | Unified customer support platform that consolidates phone, SMS, email, and chat conversations into vCon-structured records |
+| 11 | **TraceConnect** | Jevans Otieno | [Video](https://www.youtube.com/watch?v=POUeuloABtU) | vCon-powered real-time visibility and compliance platform for global distribution networks |
+| 12 | **vChat** | Ahmadu Suleiman | [Video](https://www.youtube.com/watch?v=7_PImyiISn8) | Community mediation platform that records and structures informal agreements for accountability and conflict resolution |
+| 13 | **vCohort** | Ziyad Shuaibu, Abdulalim Ladan, Mubarak Ibrahim | [Video](https://www.youtube.com/watch?v=j6f88p8DIZU) | Educational platform supporting bootcamps and cohort-based learning in Nigeria, using vCon to track student progress and mentor interactions |
+| 14 | **vCon Example App** | Muntaser Syed | [Video](https://www.youtube.com/watch?v=msvvAcZFEng) | Reference implementation demonstrating vCon JSON-LD extensions, cryptographic signing, and MongoDB vector search |
+| 15 | **vCon Intelligence Platform** | Muntaser Syed | [Video](https://www.youtube.com/watch?v=h4ehOvFSqLw) | Comprehensive multi-backend platform for conversation intelligence with SIP REC, Teams, WhatsApp, and MQTT ingestion |
 
 ## Hackathon Review
 
@@ -106,10 +106,42 @@ Transcriptions were generated using [mlx-whisper](https://github.com/ml-explore/
 
 ## Related Resources
 
-- [vCon MCP Server](https://github.com/vcon-dev/vcon-mcp) — The MCP server used in the hackathon
-- [vCon Specification](https://datatracker.ietf.org/doc/draft-ietf-vcon-vcon-container/) — IETF vCon container format
-- [VCONIC TADHack Blog Post](https://blog.tadhack.com/2025/12/19/vconic-tadhack/) — Event announcement and training session recordings
+### vCon Ecosystem
+
+- [vCon Specification](https://datatracker.ietf.org/doc/draft-ietf-vcon-vcon-container/) — IETF standard container format for conversation data
+- [vCon Working Group](https://datatracker.ietf.org/group/vcon/about/) — IETF working group developing the vCon standard
+- [vCon MCP Server](https://github.com/vcon-dev/vcon-mcp) — Model Context Protocol server for AI-powered conversation access ([docs](https://www.conserver.io/mcp-server/what-is-the-vcon-mcp-server) | [live server](https://mcp.conserver.io/))
+- [vCon GitHub Organization](https://github.com/vcon-dev) — All vCon open source projects
+- [Conserver.io](https://www.conserver.io/) — VCONIC's vCon platform
+- [vCon Lifecycle](https://datatracker.ietf.org/doc/draft-howe-vcon-lifecycle/) — SCITT-based transparency and lifecycle management
+- [vCon Lawful Basis](https://datatracker.ietf.org/doc/draft-howe-vcon-lawful-basis/) — Consent and legal basis tracking
+- [SIP Extension for MCP](https://datatracker.ietf.org/doc/draft-howe-sipcore-mcp-extension/) — SIP protocol extension for MCP discovery and transport
+- [vCon UNS Starter Kit](https://github.com/fieldcloud/vcons-uns-starter-kit) — vCon + Unified Namespace for manufacturing/process industries
+
+### Hackathon Event
+
+- [VCONIC TADHack Announcement](https://blog.tadhack.com/2025/12/19/vconic-tadhack/) — Event announcement, challenge details, and training session recordings
+- [VCONIC TADHack — The Hacks](https://blog.tadhack.com/2026/03/08/vconic-tadhack-the-hacks/) — Blog post covering the hackathon submissions
+- [How to Submit](https://blog.tadhack.com/2026/02/20/how-do-i-submit-my-vconic-hack/) — Submission process and timing
 - [TADHack](https://tadhack.com) — Telecom Application Developer Hackathon
+
+### Training Sessions
+
+These recorded sessions were held in the weeks leading up to the hackathon:
+
+| Session | Presenter | Date | Video |
+|---------|-----------|------|-------|
+| VCONIC TADHack Background and Resources | Thomas McCarthy-Howe | Jan 30, 2026 | [Watch](https://www.youtube.com/watch?v=Tm6EewfOa4M) |
+| AI Coding for Beginners | Rob Pickering | Feb 10, 2026 | [Watch](https://www.youtube.com/watch?v=byP02fQe7sI) |
+| Consent and Lifecycle | Thomas McCarthy-Howe | Feb 13, 2026 | [Watch](https://www.youtube.com/watch?v=jzOw94GKcbs) |
+| Spec-Driven Development | Jason Goecke | Feb 17, 2026 | [Watch](https://www.youtube.com/watch?v=FnuzyBi2ntw) |
+| The VCON App Store | Audrey Hayn (MindMaking) | Feb 27, 2026 | [Watch](https://www.youtube.com/watch?v=cwgY3D7DVdY) |
+| VCON + UNS for Manufacturing | Matthew Smith | Mar 3, 2026 | [Watch](https://www.youtube.com/watch?v=QNLUXTr3JI4) |
+
+Training session resources:
+- [Spec-Driven Development](https://sdd.goecke.io/) | [Anthropic Skills](https://anthropic-skills.goecke.io/) (Jason Goecke)
+- [vCon + UNS Starter Kit](https://github.com/fieldcloud/vcons-uns-starter-kit) | [TADSummit talk](https://blog.tadsummit.com/2025/12/17/matthew-smith-vcon-and-uns/) (Matthew Smith)
+- VCON App Store submissions: apply@mindmaking.com (Audrey Hayn, MindMaking)
 
 ## License
 
