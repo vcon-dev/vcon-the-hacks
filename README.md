@@ -35,6 +35,10 @@ The hackathon was organized by [TADHack](https://tadhack.com) and [VCONIC](https
 | 14 | **vCon Example App** | Muntaser Syed | Reference implementation demonstrating core vCon functionality for developers |
 | 15 | **vCon Intelligence Platform** | Muntaser Syed | Comprehensive multi-module platform for conversation intelligence and analytics |
 
+## Hackathon Review
+
+See **[HACKATHON-REVIEW.md](HACKATHON-REVIEW.md)** for a detailed review of all 15 submissions — individual assessments, demonstrations of vCon capabilities, unique ideas, and overall themes.
+
 ## Repository Structure
 
 ```
@@ -58,6 +62,7 @@ vcon-the-hacks/
 │   └── vcon-intelligence-platform.vcon.json
 ├── transcripts/                    # Raw Whisper transcription output
 ├── audio/                          # Extracted audio (not committed)
+├── HACKATHON-REVIEW.md             # Detailed review of all submissions
 └── LICENSE
 ```
 
