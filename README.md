@@ -58,7 +58,7 @@ vcon-the-hacks/
 │   └── vcon-intelligence-platform.vcon.json
 ├── transcripts/                    # Raw Whisper transcription output
 ├── audio/                          # Extracted audio (not committed)
-└── draft-howe-vcon-mcp-session-00.md  # MCP Session extension draft
+└── LICENSE
 ```
 
 ## vCon Structure
@@ -104,9 +104,8 @@ Transcriptions were generated using [mlx-whisper](https://github.com/ml-explore/
 - [vCon MCP Server](https://github.com/vcon-dev/vcon-mcp) — The MCP server used in the hackathon
 - [vCon Specification](https://datatracker.ietf.org/doc/draft-ietf-vcon-vcon-container/) — IETF vCon container format
 - [VCONIC TADHack Blog Post](https://blog.tadhack.com/2025/12/19/vconic-tadhack/) — Event announcement and training session recordings
-- [vCon MCP Session Extension](draft-howe-vcon-mcp-session-00.md) — Draft specification for capturing AI agent sessions in vCon format
 - [TADHack](https://tadhack.com) — Telecom Application Developer Hackathon
 
 ## License
 
-The vCon files in this repository are provided for educational and research purposes. Video content is hosted on YouTube and remains the property of the respective hackathon participants.
+This repository is licensed under the [MIT License](LICENSE). Video content is hosted on YouTube and remains the property of the respective hackathon participants.
