@@ -1,0 +1,295 @@
+{
+  "uuid": "191ebf37-2af3-4c38-83d9-30069449a355",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: vChat",
+  "parties": [
+    {
+      "name": "Ahmadu Suleiman",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "video/x-matroska",
+      "filename": "vChat by Ahmadu Suleiman [7_PImyiISn8].mkv",
+      "url": "https://www.youtube.com/watch?v=7_PImyiISn8",
+      "encoding": "none",
+      "size": 14012473
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "Good day everyone, my name is Ahmed Suleyman and I am presenting VChat. VChat started as a solution for community mediation. A space where important agreements are made informally but with no structured record of what was previously discussed. As I built it, I realized that the problem was much wider than that. VChat is a general purpose application that brings the power of VCon, a structured conversation data standard, to everyone's phone. Wrapped in a familiar, easy to use experience, you chat the way you already do and VCon quietly does the hard work in the background for you. So what is VCon and why does it matter? VCon is an open data format that turns any conversation into a structured, trustworthy record. Capturing who said it, in what role, when and what was agreed, all signed and verifiable. Everyday messaging platforms like WhatsApp and SMS are great for communication but they are not really designed to preserve the meaning and context of what is being discussed. VChat is filling that gap automatically by applying VCon's structure to every conversation. Using VChat is really straightforward. There are two parts and both produce the same result. If you are starting a new conversation, simply open the app, assign roles to participants and chat as you normally would. Everything is being structured in real time with no extra steps on your side. If the conversation has already happened on WhatsApp, SMS or email, you simply import it. VChat reads the thread, prompts you to assign roles and converts it into the same structured format, as if it had been captured natively from the beginning. The real world impact of this is quite significant. A community leader mediating a neighborhood dispute now has a verifiable record of what was agreed. A tenant and a landlord settling repair terms over text are no longer relying on memory or screenshots. A business owner confirming a delivery on WhatsApp has something solid to stand on. In every case, important conversations are becoming part of one unified record. Nothing is lost and the full history is always available. AI tools reading VCon understand the context such as who said what, in what role and so many other important metadata producing far more accurate and useful outputs. And when the records need to be shared with a bank, a lawyer, a government office or some other institution, it is structured, signed and independently verifiable. And where privacy is a concern, optional reduction is supported before anything is shared. VCon is an open standard that is currently powering communication infrastructure for forward-thinking organizations and its potential is only growing. VChat is building on that foundation, extending it to everyday people who can benefit from it just as much. And that is VChat, bringing VCon to everyone, for everyone. Thank you. Let me walk you through the VChat prototype. As you can see, we have three VCons loaded here. We are currently inside the first one, a land dispute between two people with multiple sessions across multiple parties. Some sessions were started natively in VChat, while others were imported from WhatsApp, SMS, email, all arriving in the same structured format. When a VCon is attached to an MCP server, AI capabilities become available directly on your conversations. You can generate insights, run semantic searches, and much more. The AI is reading context, roles, and sequences, making everything it returns far more accurate and useful than working with just a flat message thread. The other two VCons demonstrate use cases in healthcare and education. You can download or import your VCon data at any time, giving you full ownership and portability. And since VChat is built for everyday people, the prototype is fully optimized for mobile screens, because that is where these conversations are actually happening. Thank you. Thank you.",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 5.98,
+            "text": " Good day everyone, my name is Ahmed Suleyman and I am presenting VChat."
+          },
+          {
+            "start": 5.98,
+            "end": 9.94,
+            "text": " VChat started as a solution for community mediation."
+          },
+          {
+            "start": 9.94,
+            "end": 17.32,
+            "text": " A space where important agreements are made informally but with no structured record of what was previously discussed."
+          },
+          {
+            "start": 17.32,
+            "end": 22.6,
+            "text": " As I built it, I realized that the problem was much wider than that."
+          },
+          {
+            "start": 22.6,
+            "end": 31.6,
+            "text": " VChat is a general purpose application that brings the power of VCon, a structured conversation data standard, to everyone's phone."
+          },
+          {
+            "start": 31.6,
+            "end": 41.6,
+            "text": " Wrapped in a familiar, easy to use experience, you chat the way you already do and VCon quietly does the hard work in the background for you."
+          },
+          {
+            "start": 41.6,
+            "end": 45.6,
+            "text": " So what is VCon and why does it matter?"
+          },
+          {
+            "start": 45.6,
+            "end": 52.6,
+            "text": " VCon is an open data format that turns any conversation into a structured, trustworthy record."
+          },
+          {
+            "start": 52.6,
+            "end": 59.1,
+            "text": " Capturing who said it, in what role, when and what was agreed, all signed and verifiable."
+          },
+          {
+            "start": 59.1,
+            "end": 69.1,
+            "text": " Everyday messaging platforms like WhatsApp and SMS are great for communication but they are not really designed to preserve the meaning and context of what is being discussed."
+          },
+          {
+            "start": 69.1,
+            "end": 75.16,
+            "text": " VChat is filling that gap automatically by applying VCon's structure to every conversation."
+          },
+          {
+            "start": 75.6,
+            "end": 82.6,
+            "text": " Using VChat is really straightforward. There are two parts and both produce the same result."
+          },
+          {
+            "start": 82.6,
+            "end": 89.6,
+            "text": " If you are starting a new conversation, simply open the app, assign roles to participants and chat as you normally would."
+          },
+          {
+            "start": 89.6,
+            "end": 94.6,
+            "text": " Everything is being structured in real time with no extra steps on your side."
+          },
+          {
+            "start": 94.6,
+            "end": 99.6,
+            "text": " If the conversation has already happened on WhatsApp, SMS or email, you simply import it."
+          },
+          {
+            "start": 99.6,
+            "end": 109.6,
+            "text": " VChat reads the thread, prompts you to assign roles and converts it into the same structured format, as if it had been captured natively from the beginning."
+          },
+          {
+            "start": 109.6,
+            "end": 113.6,
+            "text": " The real world impact of this is quite significant."
+          },
+          {
+            "start": 113.6,
+            "end": 119.6,
+            "text": " A community leader mediating a neighborhood dispute now has a verifiable record of what was agreed."
+          },
+          {
+            "start": 119.6,
+            "end": 125.6,
+            "text": " A tenant and a landlord settling repair terms over text are no longer relying on memory or screenshots."
+          },
+          {
+            "start": 125.6,
+            "end": 131.6,
+            "text": " A business owner confirming a delivery on WhatsApp has something solid to stand on."
+          },
+          {
+            "start": 131.6,
+            "end": 136.6,
+            "text": " In every case, important conversations are becoming part of one unified record."
+          },
+          {
+            "start": 136.6,
+            "end": 139.6,
+            "text": " Nothing is lost and the full history is always available."
+          },
+          {
+            "start": 139.6,
+            "end": 149.6,
+            "text": " AI tools reading VCon understand the context such as who said what, in what role and so many other important metadata producing far more accurate and useful outputs."
+          },
+          {
+            "start": 149.6,
+            "end": 159.6,
+            "text": " And when the records need to be shared with a bank, a lawyer, a government office or some other institution, it is structured, signed and independently verifiable."
+          },
+          {
+            "start": 159.6,
+            "end": 166.6,
+            "text": " And where privacy is a concern, optional reduction is supported before anything is shared."
+          },
+          {
+            "start": 166.6,
+            "end": 176.6,
+            "text": " VCon is an open standard that is currently powering communication infrastructure for forward-thinking organizations and its potential is only growing."
+          },
+          {
+            "start": 176.6,
+            "end": 183.6,
+            "text": " VChat is building on that foundation, extending it to everyday people who can benefit from it just as much."
+          },
+          {
+            "start": 183.6,
+            "end": 189.6,
+            "text": " And that is VChat, bringing VCon to everyone, for everyone."
+          },
+          {
+            "start": 189.6,
+            "end": 190.6,
+            "text": " Thank you."
+          },
+          {
+            "start": 190.6,
+            "end": 195.6,
+            "text": " Let me walk you through the VChat prototype."
+          },
+          {
+            "start": 195.6,
+            "end": 198.6,
+            "text": " As you can see, we have three VCons loaded here."
+          },
+          {
+            "start": 198.6,
+            "end": 205.6,
+            "text": " We are currently inside the first one, a land dispute between two people with multiple sessions across multiple parties."
+          },
+          {
+            "start": 205.6,
+            "end": 217.6,
+            "text": " Some sessions were started natively in VChat, while others were imported from WhatsApp, SMS, email, all arriving in the same structured format."
+          },
+          {
+            "start": 217.6,
+            "end": 225.6,
+            "text": " When a VCon is attached to an MCP server, AI capabilities become available directly on your conversations."
+          },
+          {
+            "start": 225.6,
+            "end": 229.6,
+            "text": " You can generate insights, run semantic searches, and much more."
+          },
+          {
+            "start": 229.6,
+            "end": 239.6,
+            "text": " The AI is reading context, roles, and sequences, making everything it returns far more accurate and useful than working with just a flat message thread."
+          },
+          {
+            "start": 239.6,
+            "end": 245.6,
+            "text": " The other two VCons demonstrate use cases in healthcare and education."
+          },
+          {
+            "start": 245.6,
+            "end": 252.6,
+            "text": " You can download or import your VCon data at any time, giving you full ownership and portability."
+          },
+          {
+            "start": 252.6,
+            "end": 264.6,
+            "text": " And since VChat is built for everyday people, the prototype is fully optimized for mobile screens, because that is where these conversations are actually happening."
+          },
+          {
+            "start": 264.6,
+            "end": 265.6,
+            "text": " Thank you."
+          },
+          {
+            "start": 265.6,
+            "end": 265.6,
+            "text": ""
+          },
+          {
+            "start": 265.6,
+            "end": 266.6,
+            "text": " Thank you."
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "A solution for community mediation, providing a structured space where important agreements made informally can be properly recorded and tracked. vChat captures mediation conversations as vCons, ensuring accountability and providing a verifiable record of community agreements and conflict resolution.",
+        "tags": [
+          "community-mediation",
+          "conflict-resolution",
+          "agreements",
+          "accountability"
+        ],
+        "technologies": [
+          "vCon",
+          "conversation recording",
+          "agreement tracking"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "vChat",
+        "youtube_id": "7_PImyiISn8",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

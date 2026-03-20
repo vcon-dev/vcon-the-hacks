@@ -1,0 +1,291 @@
+{
+  "uuid": "21ea33e7-4170-4f39-b850-8f1eca9b49ee",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: TraceConnect",
+  "parties": [
+    {
+      "name": "Jevans Otieno",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "video/webm",
+      "filename": "TraceConnect by Jevans Otieno [POUeuloABtU].webm",
+      "url": "https://www.youtube.com/watch?v=POUeuloABtU",
+      "encoding": "none",
+      "size": 45084898
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "is Jevan Souteno and I'm going to present Trust Connect. So Trust Connect is a conversation reader. Basically what we're doing is a v-con powered real-time visibility and compliance for global distributed teams. So think of it as an enterprise that has a lot of branches globally and probably from the HQ how will they be able to have really real-time visibility and how they can be able to monitor on how issues and complaints are being processed in individual branches in different countries. So Trust the conversation, connect the dots. So the global blind spot. HQ uses control where teams go distributed. So what we have is siloed branch operations. Global branches, let's say, Nairobi, Lagos, New York operate independently. HQ has zero real-time visibility without manual reports from each branch manager. Delayed pattern detection, scattered conversion data and no cross-region intelligence. So what pain points are we trying to address here? We have realized there's usually knowledge isolation, especially now if people work in the East African market, they work for whatever knowledge they have. People in the West African, people in North America, South America and that. And then also we have week-long blind spots. So something might be happening in real-time but then now it's only after weekly meeting or bi-weekly meeting as well now the HQ is being informed by the branch manager on this other progress. So we are trying to see how we can use vicon and cloud desktop. So that's the HQ can be able to monitor in real-time and get global visibility on how different patches are working and how best to escalate certain situations so that we can be able to move faster. So what the solution we are doing is we are creating a v-code-powered intelligence. So capture all conversations into standardized vicon format and then we incorporate the MCP of cloud where now AI queries. So where now you can directly query and be able to be able to understand and make sense of what data of the data that is presented in different patches and how you can be able to connect them together. Yeah so one feature that we have built for this hackathon is a radar view real-time but a pattern detection you can be able to see a dashboard and be able to view the activities across different branches then conversation trail and airport queries and also consent dashboard cross-border compliance. yeah that's the architecture yeah so let's just go to the as you can see now this is the radar dashboard now we have added ask trust connect on the left here sidebar where now you can be able to query and be able to see okay what data you can okay who are the top agents they can be able to say one two three four now this is across globally different branches now this way i will tell you the branches in airobi these are the issues have been raised opened are still open seven have been resolved average time is 10 hours in lagos is 1.7 days so like like two days this one is like one day so you are able to now see able to not see okay now what is happening within different different badges this is just uh giving it a better look in terms of uh using graphical uh displays so that you can be able to see okay how are different which is uh uh performing so if you go to our cloud uh so you can be able now to query so you have connected the vehicle to the cloud uh cloud desktop via mcps and now you can now be able to query walk me through the enterprise outrage escalation in lego show me the full conversation and now you can be able to see what is happening different errors i think i will solve that error okay yeah so yeah you can now be able to query and you can be able to tell you okay um these are the this is incident and this is the vcon id branch legos priority and then this is the conversion trail can help people to tell what is how i know so i think yeah so that's it for me and uh so this is just mvp but i'm trying to prove it more how it can be able now to address different scenarios thank you",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 6.36,
+            "text": " is Jevan Souteno and I'm going to present Trust Connect. So Trust Connect is a conversation"
+          },
+          {
+            "start": 6.36,
+            "end": 11.76,
+            "text": " reader. Basically what we're doing is a v-con powered real-time visibility and compliance"
+          },
+          {
+            "start": 11.76,
+            "end": 19.02,
+            "text": " for global distributed teams. So think of it as an enterprise that has a lot of branches"
+          },
+          {
+            "start": 19.02,
+            "end": 28.32,
+            "text": " globally and probably from the HQ how will they be able to have really real-time visibility"
+          },
+          {
+            "start": 28.32,
+            "end": 34.38,
+            "text": " and how they can be able to monitor on how issues and complaints are being processed in"
+          },
+          {
+            "start": 34.38,
+            "end": 41.66,
+            "text": " individual branches in different countries. So Trust the conversation, connect the dots."
+          },
+          {
+            "start": 41.66,
+            "end": 47.5,
+            "text": " So the global blind spot. HQ uses control where teams go distributed. So what we have is siloed"
+          },
+          {
+            "start": 47.5,
+            "end": 53.64,
+            "text": " branch operations. Global branches, let's say, Nairobi, Lagos, New York operate independently."
+          },
+          {
+            "start": 53.64,
+            "end": 59.76,
+            "text": " HQ has zero real-time visibility without manual reports from each branch manager. Delayed pattern"
+          },
+          {
+            "start": 59.76,
+            "end": 68.1,
+            "text": " detection, scattered conversion data and no cross-region intelligence. So what pain points are we trying to address here?"
+          },
+          {
+            "start": 68.88,
+            "end": 74.86,
+            "text": " We have realized there's usually knowledge isolation, especially now if people work in the East African"
+          },
+          {
+            "start": 74.86,
+            "end": 80.44,
+            "text": " market, they work for whatever knowledge they have. People in the West African, people in North America,"
+          },
+          {
+            "start": 80.44,
+            "end": 87.82,
+            "text": " South America and that. And then also we have week-long blind spots. So something might be happening in"
+          },
+          {
+            "start": 87.82,
+            "end": 94.38,
+            "text": " real-time but then now it's only after weekly meeting or bi-weekly meeting as well now the HQ is being"
+          },
+          {
+            "start": 94.38,
+            "end": 100.34,
+            "text": " informed by the branch manager on this other progress. So we are trying to see how we can use vicon"
+          },
+          {
+            "start": 100.34,
+            "end": 110.98,
+            "text": " and cloud desktop. So that's the HQ can be able to monitor in real-time and get global visibility on how"
+          },
+          {
+            "start": 110.98,
+            "end": 116.9,
+            "text": " different patches are working and how best to escalate certain situations so that we can be able to move"
+          },
+          {
+            "start": 116.9,
+            "end": 128.1,
+            "text": " faster. So what the solution we are doing is we are creating a v-code-powered intelligence. So capture all"
+          },
+          {
+            "start": 128.1,
+            "end": 138.9,
+            "text": " conversations into standardized vicon format and then we incorporate the MCP of cloud where now AI"
+          },
+          {
+            "start": 138.9,
+            "end": 147.95999999999998,
+            "text": " queries. So where now you can directly query and be able to be able to understand and make sense of what"
+          },
+          {
+            "start": 147.95999999999998,
+            "end": 151.98,
+            "text": " data of the data that is presented in different patches and how you can be able to connect them"
+          },
+          {
+            "start": 151.98,
+            "end": 159.89999999999998,
+            "text": " together. Yeah so one feature that we have built for this hackathon is a radar view real-time but a"
+          },
+          {
+            "start": 159.89999999999998,
+            "end": 166.14,
+            "text": " pattern detection you can be able to see a dashboard and be able to view the activities across different"
+          },
+          {
+            "start": 166.14,
+            "end": 173.33999999999997,
+            "text": " branches then conversation trail and airport queries and also consent dashboard cross-border compliance."
+          },
+          {
+            "start": 173.34,
+            "end": 178.86,
+            "text": " yeah that's the architecture yeah so let's just go to the"
+          },
+          {
+            "start": 181.26,
+            "end": 186.86,
+            "text": " as you can see now this is the radar dashboard now we have added ask trust connect on the left here"
+          },
+          {
+            "start": 186.86,
+            "end": 191.98000000000002,
+            "text": " sidebar where now you can be able to query and be able to see okay what data you can okay who are the"
+          },
+          {
+            "start": 191.98000000000002,
+            "end": 199.18,
+            "text": " top agents they can be able to say one two three four now this is across globally different branches now"
+          },
+          {
+            "start": 199.18,
+            "end": 204.70000000000002,
+            "text": " this way i will tell you the branches in airobi these are the issues have been raised opened are still"
+          },
+          {
+            "start": 204.70000000000002,
+            "end": 211.98000000000002,
+            "text": " open seven have been resolved average time is 10 hours in lagos is 1.7 days so like like two days"
+          },
+          {
+            "start": 211.98000000000002,
+            "end": 218.94,
+            "text": " this one is like one day so you are able to now see able to not see okay now what is happening within"
+          },
+          {
+            "start": 218.94,
+            "end": 226.94,
+            "text": " different different badges this is just uh giving it a better look in terms of uh using graphical uh"
+          },
+          {
+            "start": 226.94,
+            "end": 233.34,
+            "text": " displays so that you can be able to see okay how are different which is uh uh performing so if you go to our"
+          },
+          {
+            "start": 233.34,
+            "end": 241.34,
+            "text": " cloud uh so you can be able now to query so you have connected the vehicle to the cloud uh cloud desktop"
+          },
+          {
+            "start": 241.34,
+            "end": 245.5,
+            "text": " via mcps and now you can now be able to query walk me through the enterprise outrage"
+          },
+          {
+            "start": 245.5,
+            "end": 249.42,
+            "text": " escalation in lego show me the full conversation and now you can be able to see"
+          },
+          {
+            "start": 249.42,
+            "end": 261.58,
+            "text": " what is happening different errors i think i will solve that error okay yeah so yeah you can now be"
+          },
+          {
+            "start": 261.58,
+            "end": 267.65999999999997,
+            "text": " able to query and you can be able to tell you okay um these are the this is incident and this is the"
+          },
+          {
+            "start": 267.65999999999997,
+            "end": 274.3,
+            "text": " vcon id branch legos priority and then this is the conversion trail can help people to tell what is"
+          },
+          {
+            "start": 274.3,
+            "end": 283.02000000000004,
+            "text": " how i know so i think yeah so that's it for me and uh so this is just mvp but i'm trying to prove it"
+          },
+          {
+            "start": 283.02000000000004,
+            "end": 295.74,
+            "text": " more how it can be able now to address different scenarios thank you"
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "A vCon-powered real-time visibility and compliance platform for global distribution networks. TraceConnect provides conversation-based audit trails and compliance tracking across distributed supply chains, ensuring transparency and regulatory compliance in international trade.",
+        "tags": [
+          "supply-chain",
+          "compliance",
+          "global-distribution",
+          "traceability",
+          "audit-trail"
+        ],
+        "technologies": [
+          "vCon",
+          "real-time monitoring",
+          "compliance analytics"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "TraceConnect",
+        "youtube_id": "POUeuloABtU",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

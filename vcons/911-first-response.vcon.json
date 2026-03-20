@@ -1,0 +1,264 @@
+{
+  "uuid": "6cdda4df-0707-49c2-ad5c-20e92b62a07f",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: 911 First Response",
+  "parties": [
+    {
+      "name": "Shouvik Sharma",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    },
+    {
+      "name": "Ankita Bhanushali",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0,
+        1
+      ],
+      "originator": 0,
+      "mediatype": "video/webm",
+      "filename": "911 First Response, by Shouvik Sharma, Ankita Bhanushali [HRKcU5U-gzI].webm",
+      "url": "https://www.youtube.com/watch?v=HRKcU5U-gzI",
+      "encoding": "none",
+      "size": 41890255
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "Good morning, everyone. Today we're presenting our project, 911 First Response, an AI-assisted workflow that turns a 911 call into a clear, structured dispatch action in real time. I'm Shuvik Sharma. I'm a data engineer focused on building scalable, cost-efficient data systems in the cloud, and I'm joined by Ankita Banishali, a data scientist who specializes in statistical modeling and machine learning. Together, we combine strong data infrastructure with real-time analysis to speed up the dispatch. Process. Here's the flow. The moment a 911 call comes in, we capture the conversation and store it as a VCon, a structured conversation record. That VCon is ingested into our VCon MCP server. From there, the system produces a live transcript, a short summary, and it extracts key, details, what service is needed, where to send help, and why. It also classifies the incident type, medical, fire, burglary, or accident. Based on that, it triggers the right dispatch workflow, chooses the right service, police, fire, or EMS, finds the nearest available unit, and dispatches immediately. Now, let's walk through two quick demos, one programmatic, and one user interface. Demo 1 is our MCP consumption script. We set the MCP base URL to port 3004, since that's where the VCon MCP server is running, and we run the script. First, it does a health check. When you see OK, the server is up. Next, it tries to ingest any .vcon.json files from the 911 underscore calls folder. If you see duplicate key errors, or ingested 0 of 3, that just means those UUIDs were already loaded. The key point is the server already has the VCons. Then the script lists stored VCons and fetches one by UUID, exactly how an AI assistant would read the same data using MCP tools like search underscore VCons or get underscore VCon. Finally, it prints the analysis inside the VCon, the transcript, the summary, speaker labels, and the derived action, like, Dispatch the nearest police unit to 5520 Cedar Lane. Reason, burglary in progress. Demo 2 is our VCon conversation viewer. We launch the Streamlit app, and it automatically scans the 911 underscore calls folder and any day folders, and loads all VCon files. At the top, you get a table view, folder, UUID, created time, duration, number of parties, and file name. So, you can quickly see everything available. In conversation details, you pick one VCon from a drop-down, and the page shows the full record. You can review metadata like the UUID and timestamps. See the parties in the call, check the dialogue details, and play audio, if a matching audio file exists. And in the analysis section, you see the transcript, summary, diarized conversation, and the structured action, plus the raw JSON for full transparency. There's also a refresh button, so new or updated VCons show up immediately. To wrap up, 911 first. Response turns a live emergency call into structured machine-readable dispatch instructions fast. The MCP server makes it easy for iTools to search and retrieve enriched conversations, and the viewer makes it easy for humans to inspect and validate the output. Thanks for your time. Happy to take questions.",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 13.200000000000001,
+            "text": " Good morning, everyone. Today we're presenting our project, 911 First Response, an AI-assisted workflow that turns a 911 call into a clear, structured dispatch action in real time."
+          },
+          {
+            "start": 13.96,
+            "end": 27.92,
+            "text": " I'm Shuvik Sharma. I'm a data engineer focused on building scalable, cost-efficient data systems in the cloud, and I'm joined by Ankita Banishali, a data scientist who specializes in statistical modeling and machine learning."
+          },
+          {
+            "start": 27.92,
+            "end": 34.74,
+            "text": " Together, we combine strong data infrastructure with real-time analysis to speed up the dispatch."
+          },
+          {
+            "start": 35.24,
+            "end": 44.980000000000004,
+            "text": " Process. Here's the flow. The moment a 911 call comes in, we capture the conversation and store it as a VCon, a structured conversation record."
+          },
+          {
+            "start": 45.78,
+            "end": 49.980000000000004,
+            "text": " That VCon is ingested into our VCon MCP server."
+          },
+          {
+            "start": 49.98,
+            "end": 60.0,
+            "text": " From there, the system produces a live transcript, a short summary, and it extracts key, details, what service is needed, where to send help, and why."
+          },
+          {
+            "start": 60.86,
+            "end": 65.5,
+            "text": " It also classifies the incident type, medical, fire, burglary, or accident."
+          },
+          {
+            "start": 66.42,
+            "end": 76.0,
+            "text": " Based on that, it triggers the right dispatch workflow, chooses the right service, police, fire, or EMS, finds the nearest available unit, and dispatches immediately."
+          },
+          {
+            "start": 76.0,
+            "end": 82.8,
+            "text": " Now, let's walk through two quick demos, one programmatic, and one user interface."
+          },
+          {
+            "start": 84.72,
+            "end": 87.76,
+            "text": " Demo 1 is our MCP consumption script."
+          },
+          {
+            "start": 88.6,
+            "end": 96.38,
+            "text": " We set the MCP base URL to port 3004, since that's where the VCon MCP server is running, and we run the script."
+          },
+          {
+            "start": 96.38,
+            "end": 99.32,
+            "text": " First, it does a health check."
+          },
+          {
+            "start": 100.25999999999999,
+            "end": 102.74,
+            "text": " When you see OK, the server is up."
+          },
+          {
+            "start": 103.5,
+            "end": 110.47999999999999,
+            "text": " Next, it tries to ingest any .vcon.json files from the 911 underscore calls folder."
+          },
+          {
+            "start": 111.06,
+            "end": 118.41999999999999,
+            "text": " If you see duplicate key errors, or ingested 0 of 3, that just means those UUIDs were already loaded."
+          },
+          {
+            "start": 119.16,
+            "end": 122.1,
+            "text": " The key point is the server already has the VCons."
+          },
+          {
+            "start": 122.1,
+            "end": 136.48,
+            "text": " Then the script lists stored VCons and fetches one by UUID, exactly how an AI assistant would read the same data using MCP tools like search underscore VCons or get underscore VCon."
+          },
+          {
+            "start": 137.0,
+            "end": 144.72,
+            "text": " Finally, it prints the analysis inside the VCon, the transcript, the summary, speaker labels, and the derived action, like,"
+          },
+          {
+            "start": 145.07999999999998,
+            "end": 149.12,
+            "text": " Dispatch the nearest police unit to 5520 Cedar Lane."
+          },
+          {
+            "start": 149.12,
+            "end": 151.96,
+            "text": " Reason, burglary in progress."
+          },
+          {
+            "start": 153.06,
+            "end": 155.76,
+            "text": " Demo 2 is our VCon conversation viewer."
+          },
+          {
+            "start": 156.42000000000002,
+            "end": 164.6,
+            "text": " We launch the Streamlit app, and it automatically scans the 911 underscore calls folder and any day folders, and loads all VCon files."
+          },
+          {
+            "start": 165.36,
+            "end": 173.24,
+            "text": " At the top, you get a table view, folder, UUID, created time, duration, number of parties, and file name."
+          },
+          {
+            "start": 173.24,
+            "end": 176.42000000000002,
+            "text": " So, you can quickly see everything available."
+          },
+          {
+            "start": 177.58,
+            "end": 183.34,
+            "text": " In conversation details, you pick one VCon from a drop-down, and the page shows the full record."
+          },
+          {
+            "start": 183.98000000000002,
+            "end": 187.52,
+            "text": " You can review metadata like the UUID and timestamps."
+          },
+          {
+            "start": 187.92000000000002,
+            "end": 194.20000000000002,
+            "text": " See the parties in the call, check the dialogue details, and play audio, if a matching audio file exists."
+          },
+          {
+            "start": 194.2,
+            "end": 204.0,
+            "text": " And in the analysis section, you see the transcript, summary, diarized conversation, and the structured action, plus the raw JSON for full transparency."
+          },
+          {
+            "start": 204.78,
+            "end": 208.7,
+            "text": " There's also a refresh button, so new or updated VCons show up immediately."
+          },
+          {
+            "start": 209.76,
+            "end": 212.32,
+            "text": " To wrap up, 911 first."
+          },
+          {
+            "start": 213.04,
+            "end": 218.45999999999998,
+            "text": " Response turns a live emergency call into structured machine-readable dispatch instructions fast."
+          },
+          {
+            "start": 218.46,
+            "end": 228.70000000000002,
+            "text": " The MCP server makes it easy for iTools to search and retrieve enriched conversations, and the viewer makes it easy for humans to inspect and validate the output."
+          },
+          {
+            "start": 229.98000000000002,
+            "end": 231.16,
+            "text": " Thanks for your time."
+          },
+          {
+            "start": 231.84,
+            "end": 232.86,
+            "text": " Happy to take questions."
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "An AI-assisted workflow that processes 911 emergency calls in real time, converting them into structured dispatch actions. The system captures the call as a vCon, uses AI to extract key information (location, emergency type, severity), and generates a structured dispatch recommendation for first responders.",
+        "tags": [
+          "emergency-services",
+          "911",
+          "real-time",
+          "dispatch",
+          "ai-extraction"
+        ],
+        "technologies": [
+          "vCon",
+          "AI/LLM",
+          "real-time processing"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "911 First Response",
+        "youtube_id": "HRKcU5U-gzI",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

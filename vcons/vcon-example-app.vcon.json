@@ -1,0 +1,233 @@
+{
+  "uuid": "7e0bdc95-5220-49f0-a63e-8cf3907df2ab",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: vCon Example App",
+  "parties": [
+    {
+      "name": "Muntaser Syed",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "video/webm",
+      "filename": "vCon Example App   TADHACK 2026 Muntaser Syed Submission 1 [msvvAcZFEng].webm",
+      "url": "https://www.youtube.com/watch?v=msvvAcZFEng",
+      "encoding": "none",
+      "size": 27956522
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "Hi, my name is Muntasar Syed and I am recording this video for the submission of my TADHack 2026 and this is the first of my submissions. So here what we have is the it's basically an example app I made for my actual work because it's essentially a pull request with a bunch of features. So in this iteration we have a way to enhance the vcon structure itself in two ways. First of all we add a JSON-LD plus JSON-LD-EX which is JSON-LD extensions enhancement to the vcon itself. So we can take a look at this is basically a random example vcon so you can see this is a vcon that or vcon data that that currently exists. The first thing I want to show you instead of just adding context and all of this stuff is the ability to cryptographically sign a vcon. So you can sign a vcon and you can do verify integrity and then we can reset to random. Let's try that again. Okay. Let's add some context. So here we've added some external types and so this is the enhancement that we that I included. We can enrich the analysis of this context. You can see this kind of adds context and adds confidence labels. This is very important for agentic AI and now we can go ahead and sign the vcon. So we've already cryptographically signed it so if we don't have any tampering with this vcon we can verify that the vcon is authentic with its signature. If however for this example I'm just going to change this one try to change this one go to like super legit agent and then I can inject this change here and if we go to the verify integrity the integrity check is going to fail and we can just change this back to Alice agent and then the vcon can be basically inspected. I also have the ability to load whatever sample vcon you want and then it's going to kind of load a sample. We can add some context and these are the enhancements we talked about. Enrich the analysis with our extensions the JSON LD extension. So these are the extension fields. So that's kind of something that happens on the on the vcon side of things. On the backend side of things I've added MongoDB integration. So obviously I don't have a huge plethora of vcons to work with but this is an example of how MongoDB analytics would work and then you can do a vector search with the vcon stored with the extended JSON LD features and then it can kind of do a vector search over the embeddings that match a certain issue. So you can do things like customer service and then you can do a vector search and then you can do a bunch of different stuff. So this is again this is all mock vcon data but all of these features are part of a pull request that I made about three weeks ago for Tadak and this pull request is on the vcon mcp app and it has essentially all the features that we just demonstrated over here. Okay so that's that does it for my first Tadak submission for 2026.",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 11.64,
+            "text": " Hi, my name is Muntasar Syed and I am recording this video for the submission of my TADHack"
+          },
+          {
+            "start": 11.64,
+            "end": 20.16,
+            "text": " 2026 and this is the first of my submissions. So here what we have is the it's basically an"
+          },
+          {
+            "start": 20.16,
+            "end": 28.080000000000002,
+            "text": " example app I made for my actual work because it's essentially a pull request with a bunch"
+          },
+          {
+            "start": 28.08,
+            "end": 38.64,
+            "text": " of features. So in this iteration we have a way to enhance the vcon structure itself in two ways."
+          },
+          {
+            "start": 38.64,
+            "end": 48.239999999999995,
+            "text": " First of all we add a JSON-LD plus JSON-LD-EX which is JSON-LD extensions enhancement to the vcon"
+          },
+          {
+            "start": 48.239999999999995,
+            "end": 57.480000000000004,
+            "text": " itself. So we can take a look at this is basically a random example vcon so you can see this is a"
+          },
+          {
+            "start": 57.48,
+            "end": 65.64,
+            "text": " vcon that or vcon data that that currently exists. The first thing I want to show you instead of just"
+          },
+          {
+            "start": 65.64,
+            "end": 74.28,
+            "text": " adding context and all of this stuff is the ability to cryptographically sign a vcon. So you can sign a"
+          },
+          {
+            "start": 74.28,
+            "end": 85.0,
+            "text": " vcon and you can do verify integrity and then we can reset to random. Let's try that again. Okay."
+          },
+          {
+            "start": 87.4,
+            "end": 88.6,
+            "text": " Let's add some context."
+          },
+          {
+            "start": 91.88,
+            "end": 97.4,
+            "text": " So here we've added some external types and so this is the enhancement that we"
+          },
+          {
+            "start": 97.4,
+            "end": 111.64,
+            "text": " that I included. We can enrich the analysis of this context. You can see this kind of adds context and"
+          },
+          {
+            "start": 111.64,
+            "end": 122.28,
+            "text": " adds confidence labels. This is very important for agentic AI and now we can go ahead and sign the vcon."
+          },
+          {
+            "start": 122.28,
+            "end": 128.84,
+            "text": " So we've already cryptographically signed it so if we don't have any tampering with this vcon we can"
+          },
+          {
+            "start": 128.84,
+            "end": 137.32,
+            "text": " verify that the vcon is authentic with its signature. If however for this example I'm just going to change"
+          },
+          {
+            "start": 137.32,
+            "end": 146.52,
+            "text": " this one try to change this one go to like super legit agent and then I can inject this change here"
+          },
+          {
+            "start": 146.52,
+            "end": 156.68,
+            "text": " and if we go to the verify integrity the integrity check is going to fail and we can just change this back to Alice agent"
+          },
+          {
+            "start": 158.52,
+            "end": 169.4,
+            "text": " and then the vcon can be basically inspected. I also have the ability to load whatever sample vcon you want"
+          },
+          {
+            "start": 169.4,
+            "end": 179.24,
+            "text": " and then it's going to kind of load a sample. We can add some context and these are the enhancements we talked about."
+          },
+          {
+            "start": 179.24,
+            "end": 187.72,
+            "text": " Enrich the analysis with our extensions the JSON LD extension. So these are the extension fields."
+          },
+          {
+            "start": 189.48000000000002,
+            "end": 195.96,
+            "text": " So that's kind of something that happens on the on the vcon side of things. On the backend side of things"
+          },
+          {
+            "start": 195.96,
+            "end": 205.96,
+            "text": " I've added MongoDB integration. So obviously I don't have a huge plethora of vcons to work with"
+          },
+          {
+            "start": 205.96,
+            "end": 213.8,
+            "text": " but this is an example of how MongoDB analytics would work and then you can do a vector search"
+          },
+          {
+            "start": 213.8,
+            "end": 227.72,
+            "text": " with the vcon stored with the extended JSON LD features and then it can kind of do a vector search over"
+          },
+          {
+            "start": 228.52,
+            "end": 235.32000000000002,
+            "text": " the embeddings that match a certain issue. So you can do things like customer service"
+          },
+          {
+            "start": 235.32,
+            "end": 244.28,
+            "text": " and then you can do a vector search and then you can do a bunch of different stuff. So this is"
+          },
+          {
+            "start": 245.07999999999998,
+            "end": 252.44,
+            "text": " again this is all mock vcon data but all of these features are part of a pull request that I made"
+          },
+          {
+            "start": 253.16,
+            "end": 260.2,
+            "text": " about three weeks ago for Tadak and this pull request is on the vcon mcp app and it has"
+          },
+          {
+            "start": 260.2,
+            "end": 269.96,
+            "text": " essentially all the features that we just demonstrated over here. Okay so that's that does it for my first"
+          },
+          {
+            "start": 271.4,
+            "end": 277.96,
+            "text": " Tadak submission for 2026."
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "Muntaser Syed's first TADHack 2026 submission \u2014 an example application demonstrating core vCon functionality. Shows how to build a basic app that creates, stores, and retrieves vCon conversation containers, serving as a reference implementation for other developers.",
+        "tags": [
+          "example-app",
+          "reference-implementation",
+          "developer-tools"
+        ],
+        "technologies": [
+          "vCon",
+          "example implementation"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "vCon Example App",
+        "youtube_id": "msvvAcZFEng",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,286 @@
+{
+  "uuid": "8c17f365-7654-411f-a84e-b4083301f396",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: OnePrice Sales Memory",
+  "parties": [
+    {
+      "name": "Joan Ovalles Rosario",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "video/x-matroska",
+      "filename": "OnePrice Sales Memory by Joan Ovalles Rosario [XCIGV91PZn4].mkv",
+      "url": "https://www.youtube.com/watch?v=XCIGV91PZn4",
+      "encoding": "none",
+      "size": 18648513
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "Hello, my name is Joan Ovalles. I am a computer science student at Valencia College. My hack is called OnePrice Sales Memory. OnePrice is the fictional name that I'm giving to the dealership, and I'm going to talk about sales memory and information decay a little bit. The goal of this hack is to end information decay. One of the problems is that it can lead to lost customer details, mismatch offers, and reduce close rates. OnePrice Sales Memory consolidates multi-channel customer interactions into a structured, accessible system. The benefits are improved accuracy, faster deals, enhanced customer trust, and better operational efficiency result from reduced information decay. Here it is in action. Let's paste the first prompt. We are creating a annual lead for Juan Soto. He's my favorite player, so let's have a little fun here. Babesot player, to be specific. He's interested in a Ford F-150 and know that he has a strict budget of $1,000 a month. The lead has been created. Perfect. Now, let's run the analysis tool for Juan Soto's lead. Let's see what the tagging tool tells us about Juan Soto. In the meantime, let's copy the next prompt. So, it is a new lead. It is warm. This is the vehicle. Payment sensitive. Shopping competitors. Price shock. Needs manager follow-up. Escalation is recommended. And the lead summary is attached. So, now let's say, search my V-count for any hot leads who are highly sensitive to monthly payments. So, if my manager asks me for leads, if we need to review some leads to save deals, I don't have to go one by one. I just run this prompt. And here are the results. James Smith, that's a lead that I created before. Generate a follow-up script for Juan Soto based on his V-com profile. We don't have to think hard about what to say to our customers. We just generate the follow-up to the specific leads given the information that is already stored in our memory. Here's a one price style follow-up script built directly from his V-com profile we just created and analyzed. So, here is the script that we created for Juan Soto. Two options based on Juan's profile both lean into one price model and directly addresses his payment sensitive tag. The longer version is great for email or phone script while the short version works well as a text or a quick message. Would you like to either to log either of these as a follow-up on his V-com? We can log it as a follow-up on his V-com to leave it there. But look how simple it is and how we can reach out to customers to give them a personalized message based on their information, based on the information we have in our memory about the specific customer without being too generic. And that makes us look more professional, save more time, and make the customer feel more valued. Let's talk a little bit about the technical and strategic advantages. The V-com MCP server advantages are unified communication channels. V-com MCP server unifies voice, SMS, email, CRM notes, and in-store chats into a single standardized conversation record. It has an AI-powered conversation analysis. It has persistent sales memory. And it supports multiple dealership locations. So for the system architecture and business impact, we can say the following. Under the hood, the system uses Docker containers, fast NCP server functionality, AI-driven analysis through an OpenAI API key, and secure data storage through Supabase. As for the business impact and showroom performance, it provides consistent brand messaging, data-driven sales insights, enhance showroom efficiency, and improve customer experience. I hope you guys like my hack. I'm pretty excited about this because I can actually use it in my everyday job. Thank you to all the TADHack team and the sponsors.",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 6.12,
+            "text": " Hello, my name is Joan Ovalles. I am a computer science student at Valencia College. My hack is"
+          },
+          {
+            "start": 6.12,
+            "end": 12.66,
+            "text": " called OnePrice Sales Memory. OnePrice is the fictional name that I'm giving to the dealership,"
+          },
+          {
+            "start": 13.16,
+            "end": 18.88,
+            "text": " and I'm going to talk about sales memory and information decay a little bit. The goal of"
+          },
+          {
+            "start": 18.88,
+            "end": 25.1,
+            "text": " this hack is to end information decay. One of the problems is that it can lead to lost customer"
+          },
+          {
+            "start": 25.1,
+            "end": 32.1,
+            "text": " details, mismatch offers, and reduce close rates. OnePrice Sales Memory consolidates multi-channel"
+          },
+          {
+            "start": 32.86,
+            "end": 39.86,
+            "text": " customer interactions into a structured, accessible system. The benefits are improved accuracy,"
+          },
+          {
+            "start": 39.86,
+            "end": 46.260000000000005,
+            "text": " faster deals, enhanced customer trust, and better operational efficiency result from reduced"
+          },
+          {
+            "start": 46.260000000000005,
+            "end": 53.260000000000005,
+            "text": " information decay. Here it is in action. Let's paste the first prompt. We are creating a"
+          },
+          {
+            "start": 55.1,
+            "end": 59.82,
+            "text": " annual lead for Juan Soto. He's my favorite player, so let's have a little fun here. Babesot"
+          },
+          {
+            "start": 59.82,
+            "end": 65.1,
+            "text": " player, to be specific. He's interested in a Ford F-150 and know that he has a strict budget"
+          },
+          {
+            "start": 65.1,
+            "end": 74.86,
+            "text": " of $1,000 a month. The lead has been created. Perfect. Now, let's run the analysis tool for"
+          },
+          {
+            "start": 74.86,
+            "end": 83.9,
+            "text": " Juan Soto's lead. Let's see what the tagging tool tells us about Juan Soto. In the meantime,"
+          },
+          {
+            "start": 83.9,
+            "end": 91.9,
+            "text": " let's copy the next prompt. So, it is a new lead. It is warm. This is the vehicle. Payment sensitive."
+          },
+          {
+            "start": 92.54,
+            "end": 100.7,
+            "text": " Shopping competitors. Price shock. Needs manager follow-up. Escalation is recommended. And the lead"
+          },
+          {
+            "start": 100.7,
+            "end": 109.18,
+            "text": " summary is attached. So, now let's say, search my V-count for any hot leads who are highly sensitive to"
+          },
+          {
+            "start": 109.18,
+            "end": 116.46000000000001,
+            "text": " monthly payments. So, if my manager asks me for leads, if we need to review some leads to save deals,"
+          },
+          {
+            "start": 117.26,
+            "end": 124.22000000000001,
+            "text": " I don't have to go one by one. I just run this prompt. And here are the results. James Smith,"
+          },
+          {
+            "start": 125.66000000000001,
+            "end": 132.94,
+            "text": " that's a lead that I created before. Generate a follow-up script for Juan Soto based on his V-com"
+          },
+          {
+            "start": 132.94,
+            "end": 141.9,
+            "text": " profile. We don't have to think hard about what to say to our customers. We just generate the follow-up"
+          },
+          {
+            "start": 142.54,
+            "end": 149.57999999999998,
+            "text": " to the specific leads given the information that is already stored in our memory. Here's a one"
+          },
+          {
+            "start": 149.57999999999998,
+            "end": 155.66,
+            "text": " price style follow-up script built directly from his V-com profile we just created and analyzed. So,"
+          },
+          {
+            "start": 155.66,
+            "end": 162.94,
+            "text": " here is the script that we created for Juan Soto. Two options based on Juan's profile both lean into one"
+          },
+          {
+            "start": 162.94,
+            "end": 167.74,
+            "text": " price model and directly addresses his payment sensitive tag. The longer version is great for"
+          },
+          {
+            "start": 167.74,
+            "end": 173.42,
+            "text": " email or phone script while the short version works well as a text or a quick message. Would you like to"
+          },
+          {
+            "start": 173.42,
+            "end": 180.46,
+            "text": " either to log either of these as a follow-up on his V-com? We can log it as a follow-up on his V-com to"
+          },
+          {
+            "start": 180.46,
+            "end": 189.42000000000002,
+            "text": " leave it there. But look how simple it is and how we can reach out to customers to give them a personalized"
+          },
+          {
+            "start": 190.86,
+            "end": 197.66,
+            "text": " message based on their information, based on the information we have in our memory about the specific"
+          },
+          {
+            "start": 197.66,
+            "end": 204.46,
+            "text": " customer without being too generic. And that makes us look more professional, save more time,"
+          },
+          {
+            "start": 204.46,
+            "end": 215.58,
+            "text": " and make the customer feel more valued. Let's talk a little bit about the technical and strategic"
+          },
+          {
+            "start": 215.58,
+            "end": 224.70000000000002,
+            "text": " advantages. The V-com MCP server advantages are unified communication channels. V-com MCP server"
+          },
+          {
+            "start": 224.70000000000002,
+            "end": 232.38,
+            "text": " unifies voice, SMS, email, CRM notes, and in-store chats into a single standardized conversation record."
+          },
+          {
+            "start": 232.38,
+            "end": 239.42,
+            "text": " It has an AI-powered conversation analysis. It has persistent sales memory. And it supports multiple"
+          },
+          {
+            "start": 239.42,
+            "end": 240.46,
+            "text": " dealership locations."
+          },
+          {
+            "start": 244.78,
+            "end": 251.74,
+            "text": " So for the system architecture and business impact, we can say the following. Under the hood, the system uses"
+          },
+          {
+            "start": 252.3,
+            "end": 259.58,
+            "text": " Docker containers, fast NCP server functionality, AI-driven analysis through an OpenAI"
+          },
+          {
+            "start": 259.58,
+            "end": 264.38,
+            "text": " API key, and secure data storage through Supabase."
+          },
+          {
+            "start": 267.09999999999997,
+            "end": 272.7,
+            "text": " As for the business impact and showroom performance, it provides consistent brand messaging,"
+          },
+          {
+            "start": 273.26,
+            "end": 279.58,
+            "text": " data-driven sales insights, enhance showroom efficiency, and improve customer experience."
+          },
+          {
+            "start": 279.58,
+            "end": 284.78,
+            "text": " I hope you guys like my hack. I'm pretty excited about this because I can actually use it in my"
+          },
+          {
+            "start": 284.78,
+            "end": 298.29999999999995,
+            "text": " everyday job. Thank you to all the TADHack team and the sponsors."
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "A sales conversation memory system for auto dealerships. OnePrice (fictional dealership name) captures and structures sales conversations as vCons, giving sales teams persistent memory of customer interactions, preferences, and negotiation history to improve the car-buying experience.",
+        "tags": [
+          "sales",
+          "automotive",
+          "dealership",
+          "conversation-memory",
+          "CRM"
+        ],
+        "technologies": [
+          "vCon",
+          "AI sales analysis",
+          "conversation memory"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "OnePrice Sales Memory",
+        "youtube_id": "XCIGV91PZn4",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "uuid": "e27c9dff-59f1-4fda-aa4e-78b4d2770d37",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: Ollie",
+  "parties": [
+    {
+      "name": "Anna Corr\u00eaa",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "video/webm",
+      "filename": "Ollie by Anna Corr\u00eaa [guBpk1E9yZA].webm",
+      "url": "https://www.youtube.com/watch?v=guBpk1E9yZA",
+      "encoding": "none",
+      "size": 64366472
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "Hello everyone, my name is Yana and today I'm gonna present you OLLI, a way of helping animals faster with AI. Nowadays everyone is finding lost pets and everyone's gonna help those pets. However, all of those chats are scattered around the internet and it's so hard to find exactly what to do. So OLLI is gonna turn those online conversations on Reddit into real vq actions. So once a day because of Versailles has on the free tier some constraints on how many times I can curl Reddit. So it's gonna curl Reddit once a day and then find pets that need help and add all of those here in this website. So it's easier for everyone to find ways of helping and it's gonna use this data to find actionable insights. So right here in the home page you can just click here and you can search for exactly what you look for. You can put the location here. I'm using Huggy Face as my stack for AI because I couldn't pay for anything. So but I did add a way of adding an open AI key if you're running this locally and you wanna use open AI for example. There's a live feed right here. A little bit about this the tech stack I'm using Next.js, MangoDB, I'm also using TypeScript and I built my MCP server from scratch and I'm gonna go over a little bit of that. In every page you can see the little cat right here. It's gonna be a chat and you can ask many questions on it. You can ask are there any dogs near Austin and it's gonna find it you and you can just click on it and find that dog. What should I do if I find a stray cat? So sometimes you found it already and you want help with what you can do and this chat can do that as well. It's gonna be in every page. This is the feed is the same that goes from the home screen. So here you can go for location for example. So if I add Texas for example, it's gonna filter for all of the places that are in Texas that you can find animals. So here after we have the map. The map is gonna be a way of visualizing where those animals are in and where they need help. Since I'm using Hugging Face, it's not the best finding location so not all of them are here but if you use OpenAI they should be all good to go. So for example here if I click on this, this one is in Orlando so kind of accurate on the place that is in. So if I go in another one, this one is in Houston and you can see it's right there. The help now is just a way of making it easier for some people to go over it. So you can just support foster requests and then you can filter it and you can see all of them. The MCP server, I built it from scratch. So I tried to make it in a way that it builds over what the MCP server for Vcons already make. So I think I forgot to say that but the way on the Oli works is that it's gonna curl the MCP server for Reddit. Turn this into a Vcon and then after turning into a Vcon that makes it easier for the AI to analyze everything. So the MCP server was built in with the Vcon MCP server in mind. So those are the tools that they have so far. So for example, search animal conversations, find lost paths, find ways to help and many other options. So the insights page show our overall review since I could only curly once. It's only showing 176 total conversations, but that's only for one day. And it kind of breaks down a little bit on some of the things that it found. This is deployed on Versa. So if you want to go into this URL, you can find my hack. This is my GitHub. Here are some of the features. So just to kind of like get that done again. So it's going to ingest ready conversations, normalize data into Vcon records and store them in MangoDB, runs AI enrichment. So summary, for example, and sentiment, provide operational UIs for feed, actions, actions, etc. Expose MCP tools for AI assistance and integrations and includes a standalone MCP server that you can use on to use in X.js. That's it for me. Thank you.",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.88,
+            "end": 6.04,
+            "text": " Hello everyone, my name is Yana and today I'm gonna present you OLLI, a way of"
+          },
+          {
+            "start": 6.04,
+            "end": 12.4,
+            "text": " helping animals faster with AI. Nowadays everyone is finding lost pets and"
+          },
+          {
+            "start": 12.4,
+            "end": 18.64,
+            "text": " everyone's gonna help those pets. However, all of those chats are scattered"
+          },
+          {
+            "start": 18.64,
+            "end": 24.44,
+            "text": " around the internet and it's so hard to find exactly what to do. So OLLI is gonna"
+          },
+          {
+            "start": 24.44,
+            "end": 30.5,
+            "text": " turn those online conversations on Reddit into real vq actions. So once a day"
+          },
+          {
+            "start": 30.5,
+            "end": 35.36,
+            "text": " because of Versailles has on the free tier some constraints on how many times I"
+          },
+          {
+            "start": 35.36,
+            "end": 41.72,
+            "text": " can curl Reddit. So it's gonna curl Reddit once a day and then find pets that need"
+          },
+          {
+            "start": 41.72,
+            "end": 46.32,
+            "text": " help and add all of those here in this website. So it's easier for everyone to"
+          },
+          {
+            "start": 46.32,
+            "end": 51.8,
+            "text": " find ways of helping and it's gonna use this data to find actionable insights."
+          },
+          {
+            "start": 51.8,
+            "end": 56.559999999999995,
+            "text": " So right here in the home page you can just click here and you can search for"
+          },
+          {
+            "start": 56.559999999999995,
+            "end": 62.54,
+            "text": " exactly what you look for. You can put the location here. I'm using Huggy Face as my"
+          },
+          {
+            "start": 62.54,
+            "end": 70.03999999999999,
+            "text": " stack for AI because I couldn't pay for anything. So but I did add a way of adding"
+          },
+          {
+            "start": 70.03999999999999,
+            "end": 73.88,
+            "text": " an open AI key if you're running this locally and you wanna use open AI for"
+          },
+          {
+            "start": 73.88,
+            "end": 79.6,
+            "text": " example. There's a live feed right here. A little bit about this the tech stack I'm"
+          },
+          {
+            "start": 79.6,
+            "end": 85.3,
+            "text": " using Next.js, MangoDB, I'm also using TypeScript and I built my MCP server from"
+          },
+          {
+            "start": 85.3,
+            "end": 89.88,
+            "text": " scratch and I'm gonna go over a little bit of that. In every page you can see the"
+          },
+          {
+            "start": 89.88,
+            "end": 95.36,
+            "text": " little cat right here. It's gonna be a chat and you can ask many questions on it."
+          },
+          {
+            "start": 95.36,
+            "end": 101.22,
+            "text": " You can ask are there any dogs near Austin and it's gonna find it you and you can"
+          },
+          {
+            "start": 101.22,
+            "end": 103.6,
+            "text": " just click on it and find that dog."
+          },
+          {
+            "start": 103.6,
+            "end": 109.14,
+            "text": " What should I do if I find a stray cat? So sometimes you found it already and you"
+          },
+          {
+            "start": 109.14,
+            "end": 115.69999999999999,
+            "text": " want help with what you can do and this chat can do that as well. It's gonna be in"
+          },
+          {
+            "start": 115.69999999999999,
+            "end": 121.46,
+            "text": " every page. This is the feed is the same that goes from the home screen. So here you can"
+          },
+          {
+            "start": 121.46,
+            "end": 128.42,
+            "text": " go for location for example. So if I add Texas for example, it's gonna filter for all of the"
+          },
+          {
+            "start": 128.42,
+            "end": 138.35999999999999,
+            "text": " places that are in Texas that you can find animals. So here after we have the map. The"
+          },
+          {
+            "start": 138.35999999999999,
+            "end": 144.32,
+            "text": " map is gonna be a way of visualizing where those animals are in and where they need help."
+          },
+          {
+            "start": 144.32,
+            "end": 152.17999999999998,
+            "text": " Since I'm using Hugging Face, it's not the best finding location so not all of them are here but"
+          },
+          {
+            "start": 152.18,
+            "end": 157.70000000000002,
+            "text": " if you use OpenAI they should be all good to go. So for example here if I click on this,"
+          },
+          {
+            "start": 158.66,
+            "end": 164.1,
+            "text": " this one is in Orlando so kind of accurate on the place that is in. So if I go in another one,"
+          },
+          {
+            "start": 164.82,
+            "end": 168.02,
+            "text": " this one is in Houston and you can see it's right there."
+          },
+          {
+            "start": 170.02,
+            "end": 177.46,
+            "text": " The help now is just a way of making it easier for some people to go over it. So you can just support"
+          },
+          {
+            "start": 177.46,
+            "end": 184.9,
+            "text": " foster requests and then you can filter it and you can see all of them. The MCP server, I built it from"
+          },
+          {
+            "start": 184.9,
+            "end": 193.94,
+            "text": " scratch. So I tried to make it in a way that it builds over what the MCP server for Vcons already make."
+          },
+          {
+            "start": 194.82,
+            "end": 201.46,
+            "text": " So I think I forgot to say that but the way on the Oli works is that it's gonna curl"
+          },
+          {
+            "start": 201.46,
+            "end": 207.86,
+            "text": " the MCP server for Reddit. Turn this into a Vcon and then after turning into a Vcon that makes it easier"
+          },
+          {
+            "start": 207.86,
+            "end": 216.34,
+            "text": " for the AI to analyze everything. So the MCP server was built in with the Vcon MCP server in mind."
+          },
+          {
+            "start": 216.34,
+            "end": 221.22,
+            "text": " So those are the tools that they have so far. So for example, search animal conversations,"
+          },
+          {
+            "start": 221.22,
+            "end": 225.3,
+            "text": " find lost paths, find ways to help and many other options."
+          },
+          {
+            "start": 225.3,
+            "end": 235.06,
+            "text": " So the insights page show our overall review since I could only curly once. It's only showing 176 total"
+          },
+          {
+            "start": 235.06,
+            "end": 241.54000000000002,
+            "text": " conversations, but that's only for one day. And it kind of breaks down a little bit on some of the"
+          },
+          {
+            "start": 241.54000000000002,
+            "end": 249.3,
+            "text": " things that it found. This is deployed on Versa. So if you want to go into this URL, you can find my"
+          },
+          {
+            "start": 249.3,
+            "end": 258.90000000000003,
+            "text": " hack. This is my GitHub. Here are some of the features. So just to kind of like get that done"
+          },
+          {
+            "start": 259.62,
+            "end": 266.02,
+            "text": " again. So it's going to ingest ready conversations, normalize data into Vcon records and store them in"
+          },
+          {
+            "start": 266.02,
+            "end": 274.1,
+            "text": " MangoDB, runs AI enrichment. So summary, for example, and sentiment, provide operational UIs for feed,"
+          },
+          {
+            "start": 274.1,
+            "end": 282.66,
+            "text": " actions, actions, etc. Expose MCP tools for AI assistance and integrations and includes a standalone MCP"
+          },
+          {
+            "start": 282.66,
+            "end": 298.90000000000003,
+            "text": " server that you can use on to use in X.js. That's it for me. Thank you."
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "An AI-powered platform to help find and rescue lost animals faster. Ollie streamlines the process of reporting, tracking, and coordinating rescue efforts for lost pets, using conversation records to maintain continuity across multiple people involved in animal rescue efforts.",
+        "tags": [
+          "animal-rescue",
+          "lost-pets",
+          "coordination",
+          "community"
+        ],
+        "technologies": [
+          "vCon",
+          "AI assistance",
+          "coordination platform"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "Ollie",
+        "youtube_id": "guBpk1E9yZA",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "uuid": "ebc5f5b5-1812-4348-b358-703f2b41337c",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: ConsentMate",
+  "parties": [
+    {
+      "name": "Abdurrahman Umar",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    },
+    {
+      "name": "Berlu",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0,
+        1
+      ],
+      "originator": 0,
+      "mediatype": "video/x-matroska",
+      "filename": "ConsentMate [WUdpfmbMAAQ].mkv",
+      "url": "https://www.youtube.com/watch?v=WUdpfmbMAAQ",
+      "encoding": "none",
+      "size": 4248270
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "Hi, we are Abdramamdin Umar and Berlu from Team Skyline Coders and our hack is called Concept Net. Concept Net is an AI-powered compliance dashboard that helps businesses track customer concepts, stay GDPR safe and get daily actionable compliance updates all in one simple interface. The problem is that businesses today record calls, messages and customer interactions but often struggle to track what was concerned too. Missing concept updates can lead to legal issues, fines or damage customer trust. Most tools are complex and don't give real-time actionable updates. We want to build something simple, visual and AI-powered to make compliance effortless. Here is Concept Net in Action. As you can see, this is a daily briefing which every morning the business receives a personalized compliance update like good morning your consent compliance score is 8 over 10. No urgent concept actions are required today. As you can see it, as you can see it right there. And here is our transcript tab. This is a preview of all Vukon calls so you can quickly see what was said. And here is also our analysis tab. Each conversation is broken down for sentiments, compliance score and key highlights, all powered by AI. And here is our concept tab. Which tracks all active experience or expired concept in one place so businesses never miss a critical action. Our front end is built with Next.js, user react and tarwin inspired by upgrade glass like UI for clarity and alignment. The backend AI handled by Bellow generates real-time compliance messages and analyzing transcripts. It is designed to integrate easily with messaging platforms like WhatsApp or email. The architecture is modular so businesses can scale the AI or add more integrations without rewriting the dashboard. Concept makes GDPR compliance simple, automated and visually clear. Businesses save time, reduce risks and can focus on good instead of worrying about legal funds. We are excited to bring Concept Net to life and help every business stay compliant effortless. Thank you very much.",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 7.68,
+            "text": " Hi, we are Abdramamdin Umar and Berlu from Team Skyline Coders and our hack is called Concept"
+          },
+          {
+            "start": 7.68,
+            "end": 12.24,
+            "text": " Net. Concept Net is an AI-powered compliance dashboard that helps businesses track customer"
+          },
+          {
+            "start": 12.24,
+            "end": 18.64,
+            "text": " concepts, stay GDPR safe and get daily actionable compliance updates all in one simple interface."
+          },
+          {
+            "start": 19.76,
+            "end": 24.400000000000002,
+            "text": " The problem is that businesses today record calls, messages and customer interactions but"
+          },
+          {
+            "start": 24.400000000000002,
+            "end": 29.76,
+            "text": " often struggle to track what was concerned too. Missing concept updates can lead to legal issues,"
+          },
+          {
+            "start": 29.76,
+            "end": 35.760000000000005,
+            "text": " fines or damage customer trust. Most tools are complex and don't give real-time actionable"
+          },
+          {
+            "start": 35.760000000000005,
+            "end": 42.56,
+            "text": " updates. We want to build something simple, visual and AI-powered to make compliance effortless."
+          },
+          {
+            "start": 43.28,
+            "end": 50.8,
+            "text": " Here is Concept Net in Action. As you can see, this is a daily briefing which every morning the business"
+          },
+          {
+            "start": 50.8,
+            "end": 57.6,
+            "text": " receives a personalized compliance update like good morning your consent compliance score is"
+          },
+          {
+            "start": 57.6,
+            "end": 64.8,
+            "text": " 8 over 10. No urgent concept actions are required today. As you can see it, as you can see it right there."
+          },
+          {
+            "start": 66.72,
+            "end": 68.4,
+            "text": " And here is our transcript tab."
+          },
+          {
+            "start": 70.56,
+            "end": 78.32,
+            "text": " This is a preview of all Vukon calls so you can quickly see what was said. And here is also our"
+          },
+          {
+            "start": 78.32,
+            "end": 84.8,
+            "text": " analysis tab. Each conversation is broken down for sentiments, compliance score and key highlights,"
+          },
+          {
+            "start": 84.8,
+            "end": 92.96,
+            "text": " all powered by AI. And here is our concept tab. Which tracks all active experience or expired concept in"
+          },
+          {
+            "start": 92.96,
+            "end": 99.67999999999999,
+            "text": " one place so businesses never miss a critical action. Our front end is built with Next.js,"
+          },
+          {
+            "start": 99.67999999999999,
+            "end": 106.88,
+            "text": " user react and tarwin inspired by upgrade glass like UI for clarity and alignment. The backend AI handled by"
+          },
+          {
+            "start": 106.88,
+            "end": 113.36,
+            "text": " Bellow generates real-time compliance messages and analyzing transcripts. It is designed to integrate"
+          },
+          {
+            "start": 113.36,
+            "end": 119.92,
+            "text": " easily with messaging platforms like WhatsApp or email. The architecture is modular so businesses can"
+          },
+          {
+            "start": 119.92,
+            "end": 130.32,
+            "text": " scale the AI or add more integrations without rewriting the dashboard. Concept makes GDPR compliance simple,"
+          },
+          {
+            "start": 130.32,
+            "end": 136.48,
+            "text": " automated and visually clear. Businesses save time, reduce risks and can focus on good instead of"
+          },
+          {
+            "start": 136.48,
+            "end": 142.16,
+            "text": " worrying about legal funds. We are excited to bring Concept Net to life and help every business"
+          },
+          {
+            "start": 142.16,
+            "end": 149.12,
+            "text": " stay compliant effortless. Thank you very much."
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "An AI-powered compliance dashboard (by Team Skyline Coders) that helps businesses track customer consent, maintain GDPR compliance, and receive daily actionable compliance updates. Addresses the problem of businesses recording calls and interactions but failing to properly track consent status, which can lead to legal issues and fines.",
+        "tags": [
+          "compliance",
+          "GDPR",
+          "consent-tracking",
+          "dashboard"
+        ],
+        "technologies": [
+          "vCon",
+          "AI compliance analysis",
+          "consent management"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "ConsentMate",
+        "youtube_id": "WUdpfmbMAAQ",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

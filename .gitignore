@@ -1,0 +1,14 @@
+# Audio files (extracted from video, can be regenerated)
+audio/
+
+# Video files (too large for git, referenced by URL in vCons)
+*.webm
+*.mkv
+*.mp4
+
+# Saved web pages
+*.html
+*_files/
+
+# macOS
+.DS_Store

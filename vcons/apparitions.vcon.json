@@ -1,0 +1,573 @@
+{
+  "uuid": "7343bb91-8918-4dc0-9489-683457a884f6",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: Apparitions",
+  "parties": [
+    {
+      "name": "David Sikes",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    },
+    {
+      "name": "Jared Ashcraft",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0,
+        1
+      ],
+      "originator": 0,
+      "mediatype": "video/x-matroska",
+      "filename": "Apparitions, by David Sikes and Jared Ashcraft [kYvfCVWyz1M].mkv",
+      "url": "https://www.youtube.com/watch?v=kYvfCVWyz1M",
+      "encoding": "none",
+      "size": 69995026
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "Hi, I'm Jared. And I'm David. And this is Apparitions. Imagine that you're traveling to a museum in town that you've never been to, and you're interested in getting the most out of the time that you're there. It would be nice to have an audio tour through your museum, but one that is not constrained to a predetermined path, but instead could be determined by whatever catches your eye in the moment. Or, what if you're in the mood for a mystery, one in which you would actually stand in the locations that the author is running about as you hear the follow the story. Apparitions is a framework to make these and many more categories of location-based experiences a reality, one which we envisioned to be as flexible and adaptable as the stories that users could tell. In order to ensure the flexibility of this framework, we needed a model that was equally flexible. BKONS allowed for this and made the experience of developing our applications seamless and enjoyable. Apparitions is a broadly applicable augmented reality framework that allows users to create location-based media experiences. Apparitions can be used to create various experiences, such as, but are no way limited to, guiding users through a historical site, recreating a story, going on a scavenger hunt, or even touring a gallery or museum. Apparitions can be used to create a location-based event. The way that we have set up Apparitions is that each location-based event in a scenario is a VCon, which means that the entire scenario is simply a list of VCons. This encapsulates the data and makes it extremely easy to share, transfer, and save scenarios, including between devices. Everything that changes between events is stored in the VCons. In our demo, when we swap the VCons to change events, the text that scrolls by on the screen is the body of a dialogue, and the latitude, longitude, and path to the associated audio file that plays as we approach a location are all stored as attachments with type identifiers for each category. Future plans for Apparitions include the ability to embed other forms of media. For example, simply approaching a historical site could automatically show an image of how it looked in the past. We would also like to make our scenarios available for a user to browse, via both their current location as well as by category of scenario, for example, if your user was only interested in walking tours versus AR games. We imagine that any creators can upload scenarios to this website. Finally, and very importantly, we would use MCP to enable users to request synthesized voices from uploaded text to transcripts for scenarios that are requiring voice acting. In this case, what we're going to demonstrate is a mystery story. And so the way we envision it working is when you choose a scenario that sounds interesting, you would be given a physical real-world location as a point to start at. So if we were the user, we might look around and say, Ah, there's a garage over there. Let's go ahead and see if this scenario creator attached anything to that physical real-world object. And what you should see and hear as we get up to the object is you should hear the volume start up quietly at first, and then gradually go louder the closer we get. So you can hear now that we're at the physical object. It is full volume. I'll go ahead and demonstrate walking away. Let's listen again. I wonder if talking about my grandfather's ghost will allow that to happen. I don't know why that would work. The user might say to themselves, Alright, let's go around to the front of the house. Sounds like that guy might have been chased off. Maybe he ran down the street. What we'll do is we'll walk towards the street. I'll go ahead and let you listen. I borrowed a bid-buck for this guy Gary, and I went over to apologize to him that I needed one more week to pay him then. He was put on his tree and he started talking to me via garage. I didn't know that was going to be a plot. You can hear that as we get to the street it's now full volume. Since we store scenarios as a list of Vcons, with each Vcon being a separate location-based event, this makes playing events as the user approaches each physical location trivial, since the Vcon stores the location coordinates. Then, depending on the scenario, it is simple to either retrieve the closest location or play the scenario sequentially as a series of events. This is a testament to Vcon's extensible and adaptable nature, which has allowed us to create an extremely flexible framework for authoring location-based experiences. Thank you to Strollid for sponsoring this hack. And thanks for another great event, Alan. We have very much enjoyed past TAD hacks, and we're very much looking forward to the next one. We'll see you next time. We'll see you next time. We'll see you next time. We'll see you next time. We'll see you next time. We'll see you next time. We'll see you next time. We'll see you next time. We'll see you next time. We'll see you next time. We'll see you next time. We'll see you next time. We'll see you next time. We'll see you next time. We'll see you next time. We'll see you next time.",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 2.0,
+            "text": " Hi, I'm Jared."
+          },
+          {
+            "start": 2.0,
+            "end": 3.0,
+            "text": " And I'm David."
+          },
+          {
+            "start": 3.0,
+            "end": 5.0,
+            "text": " And this is Apparitions."
+          },
+          {
+            "start": 5.0,
+            "end": 9.0,
+            "text": " Imagine that you're traveling to a museum in town that you've never been to, and you're"
+          },
+          {
+            "start": 9.0,
+            "end": 12.0,
+            "text": " interested in getting the most out of the time that you're there."
+          },
+          {
+            "start": 12.0,
+            "end": 16.0,
+            "text": " It would be nice to have an audio tour through your museum, but one that is not constrained"
+          },
+          {
+            "start": 16.0,
+            "end": 20.0,
+            "text": " to a predetermined path, but instead could be determined by whatever catches your eye"
+          },
+          {
+            "start": 20.0,
+            "end": 21.0,
+            "text": " in the moment."
+          },
+          {
+            "start": 21.0,
+            "end": 26.0,
+            "text": " Or, what if you're in the mood for a mystery, one in which you would actually stand in the"
+          },
+          {
+            "start": 26.0,
+            "end": 30.0,
+            "text": " locations that the author is running about as you hear the follow the story."
+          },
+          {
+            "start": 30.0,
+            "end": 35.0,
+            "text": " Apparitions is a framework to make these and many more categories of location-based experiences"
+          },
+          {
+            "start": 35.0,
+            "end": 41.0,
+            "text": " a reality, one which we envisioned to be as flexible and adaptable as the stories that users could tell."
+          },
+          {
+            "start": 41.0,
+            "end": 46.0,
+            "text": " In order to ensure the flexibility of this framework, we needed a model that was equally flexible."
+          },
+          {
+            "start": 46.0,
+            "end": 52.0,
+            "text": " BKONS allowed for this and made the experience of developing our applications seamless and enjoyable."
+          },
+          {
+            "start": 52.0,
+            "end": 61.0,
+            "text": " Apparitions is a broadly applicable augmented reality framework that allows users to create location-based media experiences."
+          },
+          {
+            "start": 61.0,
+            "end": 70.0,
+            "text": " Apparitions can be used to create various experiences, such as, but are no way limited to, guiding users through a historical site,"
+          },
+          {
+            "start": 70.0,
+            "end": 76.0,
+            "text": " recreating a story, going on a scavenger hunt, or even touring a gallery or museum."
+          },
+          {
+            "start": 76.0,
+            "end": 77.0,
+            "text": " Apparitions can be used to create a location-based event."
+          },
+          {
+            "start": 77.0,
+            "end": 83.0,
+            "text": " The way that we have set up Apparitions is that each location-based event in a scenario is a VCon,"
+          },
+          {
+            "start": 83.0,
+            "end": 88.0,
+            "text": " which means that the entire scenario is simply a list of VCons."
+          },
+          {
+            "start": 88.0,
+            "end": 95.0,
+            "text": " This encapsulates the data and makes it extremely easy to share, transfer, and save scenarios, including between devices."
+          },
+          {
+            "start": 95.0,
+            "end": 99.0,
+            "text": " Everything that changes between events is stored in the VCons."
+          },
+          {
+            "start": 99.0,
+            "end": 107.0,
+            "text": " In our demo, when we swap the VCons to change events, the text that scrolls by on the screen is the body of a dialogue,"
+          },
+          {
+            "start": 107.0,
+            "end": 113.0,
+            "text": " and the latitude, longitude, and path to the associated audio file that plays as we approach a location"
+          },
+          {
+            "start": 113.0,
+            "end": 118.0,
+            "text": " are all stored as attachments with type identifiers for each category."
+          },
+          {
+            "start": 118.0,
+            "end": 125.0,
+            "text": " Future plans for Apparitions include the ability to embed other forms of media."
+          },
+          {
+            "start": 125.0,
+            "end": 131.0,
+            "text": " For example, simply approaching a historical site could automatically show an image of how it looked in the past."
+          },
+          {
+            "start": 131.0,
+            "end": 139.0,
+            "text": " We would also like to make our scenarios available for a user to browse, via both their current location as well as by category of scenario,"
+          },
+          {
+            "start": 139.0,
+            "end": 143.0,
+            "text": " for example, if your user was only interested in walking tours versus AR games."
+          },
+          {
+            "start": 143.0,
+            "end": 146.0,
+            "text": " We imagine that any creators can upload scenarios to this website."
+          },
+          {
+            "start": 146.0,
+            "end": 156.0,
+            "text": " Finally, and very importantly, we would use MCP to enable users to request synthesized voices from uploaded text to transcripts for scenarios that are requiring voice acting."
+          },
+          {
+            "start": 156.0,
+            "end": 162.0,
+            "text": " In this case, what we're going to demonstrate is a mystery story."
+          },
+          {
+            "start": 162.0,
+            "end": 168.0,
+            "text": " And so the way we envision it working is when you choose a scenario that sounds interesting,"
+          },
+          {
+            "start": 168.0,
+            "end": 173.0,
+            "text": " you would be given a physical real-world location as a point to start at."
+          },
+          {
+            "start": 173.0,
+            "end": 177.0,
+            "text": " So if we were the user, we might look around and say,"
+          },
+          {
+            "start": 177.0,
+            "end": 179.0,
+            "text": " Ah, there's a garage over there."
+          },
+          {
+            "start": 179.0,
+            "end": 185.0,
+            "text": " Let's go ahead and see if this scenario creator attached anything to that physical real-world object."
+          },
+          {
+            "start": 185.0,
+            "end": 192.0,
+            "text": " And what you should see and hear as we get up to the object is you should hear the volume start up quietly at first,"
+          },
+          {
+            "start": 192.0,
+            "end": 195.0,
+            "text": " and then gradually go louder the closer we get."
+          },
+          {
+            "start": 195.0,
+            "end": 210.0,
+            "text": " So you can hear now that we're at the physical object."
+          },
+          {
+            "start": 210.0,
+            "end": 212.0,
+            "text": " It is full volume."
+          },
+          {
+            "start": 212.0,
+            "end": 215.0,
+            "text": " I'll go ahead and demonstrate walking away."
+          },
+          {
+            "start": 215.0,
+            "end": 216.0,
+            "text": " Let's listen again."
+          },
+          {
+            "start": 216.0,
+            "end": 222.0,
+            "text": " I wonder if talking about my grandfather's ghost will allow that to happen."
+          },
+          {
+            "start": 222.0,
+            "end": 224.0,
+            "text": " I don't know why that would work."
+          },
+          {
+            "start": 224.0,
+            "end": 227.0,
+            "text": " The user might say to themselves,"
+          },
+          {
+            "start": 227.0,
+            "end": 229.0,
+            "text": " Alright, let's go around to the front of the house."
+          },
+          {
+            "start": 229.0,
+            "end": 231.0,
+            "text": " Sounds like that guy might have been chased off."
+          },
+          {
+            "start": 231.0,
+            "end": 233.0,
+            "text": " Maybe he ran down the street."
+          },
+          {
+            "start": 233.0,
+            "end": 236.0,
+            "text": " What we'll do is we'll walk towards the street."
+          },
+          {
+            "start": 236.0,
+            "end": 239.0,
+            "text": " I'll go ahead and let you listen."
+          },
+          {
+            "start": 239.0,
+            "end": 244.0,
+            "text": " I borrowed a bid-buck for this guy Gary,"
+          },
+          {
+            "start": 244.0,
+            "end": 248.0,
+            "text": " and I went over to apologize to him that I needed one more week to pay him then."
+          },
+          {
+            "start": 248.0,
+            "end": 251.0,
+            "text": " He was put on his tree and he started talking to me via garage."
+          },
+          {
+            "start": 251.0,
+            "end": 253.0,
+            "text": " I didn't know that was going to be a plot."
+          },
+          {
+            "start": 253.0,
+            "end": 256.0,
+            "text": " You can hear that as we get to the street it's now full volume."
+          },
+          {
+            "start": 256.0,
+            "end": 259.0,
+            "text": " Since we store scenarios as a list of Vcons,"
+          },
+          {
+            "start": 259.0,
+            "end": 262.0,
+            "text": " with each Vcon being a separate location-based event,"
+          },
+          {
+            "start": 262.0,
+            "end": 267.0,
+            "text": " this makes playing events as the user approaches each physical location trivial,"
+          },
+          {
+            "start": 267.0,
+            "end": 270.0,
+            "text": " since the Vcon stores the location coordinates."
+          },
+          {
+            "start": 270.0,
+            "end": 272.0,
+            "text": " Then, depending on the scenario,"
+          },
+          {
+            "start": 272.0,
+            "end": 275.0,
+            "text": " it is simple to either retrieve the closest location"
+          },
+          {
+            "start": 275.0,
+            "end": 278.0,
+            "text": " or play the scenario sequentially as a series of events."
+          },
+          {
+            "start": 278.0,
+            "end": 282.0,
+            "text": " This is a testament to Vcon's extensible and adaptable nature,"
+          },
+          {
+            "start": 282.0,
+            "end": 285.0,
+            "text": " which has allowed us to create an extremely flexible framework"
+          },
+          {
+            "start": 285.0,
+            "end": 288.0,
+            "text": " for authoring location-based experiences."
+          },
+          {
+            "start": 288.0,
+            "end": 292.0,
+            "text": " Thank you to Strollid for sponsoring this hack."
+          },
+          {
+            "start": 292.0,
+            "end": 294.0,
+            "text": " And thanks for another great event, Alan."
+          },
+          {
+            "start": 294.0,
+            "end": 297.0,
+            "text": " We have very much enjoyed past TAD hacks,"
+          },
+          {
+            "start": 297.0,
+            "end": 299.0,
+            "text": " and we're very much looking forward to the next one."
+          },
+          {
+            "start": 299.0,
+            "end": 300.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 300.0,
+            "end": 301.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 301.0,
+            "end": 302.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 302.0,
+            "end": 303.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 303.0,
+            "end": 304.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 304.0,
+            "end": 305.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 305.0,
+            "end": 307.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 307.0,
+            "end": 308.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 308.0,
+            "end": 309.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 309.0,
+            "end": 310.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 310.0,
+            "end": 311.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 311.0,
+            "end": 312.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 312.0,
+            "end": 313.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 313.0,
+            "end": 315.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 315.0,
+            "end": 318.0,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 318.0,
+            "end": 319.42,
+            "text": " We'll see you next time."
+          },
+          {
+            "start": 319.42,
+            "end": 319.42,
+            "text": ""
+          },
+          {
+            "start": 319.42,
+            "end": 319.42,
+            "text": ""
+          },
+          {
+            "start": 319.42,
+            "end": 319.42,
+            "text": ""
+          },
+          {
+            "start": 319.42,
+            "end": 319.42,
+            "text": ""
+          },
+          {
+            "start": 319.42,
+            "end": 319.42,
+            "text": ""
+          },
+          {
+            "start": 319.42,
+            "end": 319.42,
+            "text": ""
+          },
+          {
+            "start": 319.42,
+            "end": 319.42,
+            "text": ""
+          },
+          {
+            "start": 319.42,
+            "end": 319.42,
+            "text": ""
+          },
+          {
+            "start": 319.42,
+            "end": 319.42,
+            "text": ""
+          },
+          {
+            "start": 319.42,
+            "end": 319.42,
+            "text": ""
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "A museum/cultural experience application that uses vCon and AI to enhance visitor experiences. When visiting a museum, the system provides contextual information and interactive conversations about exhibits, creating personalized guided experiences that are stored as conversation records.",
+        "tags": [
+          "museum",
+          "cultural",
+          "interactive-guide",
+          "visitor-experience"
+        ],
+        "technologies": [
+          "vCon",
+          "AI assistant",
+          "contextual information"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "Apparitions",
+        "youtube_id": "kYvfCVWyz1M",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

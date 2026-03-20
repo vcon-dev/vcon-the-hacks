@@ -1,0 +1,325 @@
+{
+  "uuid": "d319a87e-7384-44b8-bcfb-92771ed1cc21",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: ConvoSense",
+  "parties": [
+    {
+      "name": "Collins Omondi",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "video/x-matroska",
+      "filename": "ConvoSense by Collins Omondi [XNn8HUwuzec].mkv",
+      "url": "https://www.youtube.com/watch?v=XNn8HUwuzec",
+      "encoding": "none",
+      "size": 21342009
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "Hi, I'm Colin Samundi and this is my submission for the Vicon MCP Hackathon 2026. Currently, many small to mid-size businesses face the following problems when it comes to customer support. Number one, customer support composition data is catered across various platforms, for example, VAPI, Intercom, Freshdesk, etc. Number two, deriving insights and actionable items requires manual effort which consumes business time. Number three, the current solution platforms require businesses to migrate fully into their platforms leading to vendor locking. An hypothetical situation, imagine Amacron an e-commerce store. So this is a recording of me having a conversation with their voice assistant. Your order, 1042, is shipped and is on its way. Here is a Converse Sense dashboard with a freshly onboarded business with zero calls and zero conversations from Intercom. And also zero synced conversations from both Intercom and VAPI. So, to be able to connect our platform to VAPI, we're going to use an internal plugin which requires a public API key and a private API key. So, these two can be able to connect our platform to VAPI. So, these two can be grabbed from your VAPI dashboard. As you can see, I'll provide my public API key. And also provide my VAPI private key. So, once we are connected to the VAPI account, we will be able to get a hold of all the conversations from VAPI. You can see listed here, we have the AI assistance that the Amacron business utilizes. And you also have the phone numbers. So, you'll notice that after the connection, we have access to all those voice calls. Like you see, they went from zero to nine. So, the next thing that we're going to do is connect the Intercom account, which requires an access token. So, you can just grab the access token from your Intercom dashboard. Paste it. And now we are connected. And now we are connected through the plugin. So, we also now have access to the Intercom account and all the conversations from Intercom. Like you can see, here's a nice breakdown of all the conversations. Top and seven, open four, closed two. Now we are going to connect our VCon MCP server. So, we are going to name it VConic MCP server. And we are going to provide the details. So, once you've added the MCP server, you can see we have access to the tools provided by MCP server. This is one of them, create VCon. And that's the description of the tool. So, automatically when you connect to the MCP server, it synchronizes after you've retrieved it. That's why we have all these conversations listed here in the table. And they are in VCon format. As you can see, we have the parties and the dialogues. These are in VCon format and not in the normal format. So, for business to utilize ConverSense, we provide this AI assistant with the built-in visualization tool and all the tools from the VConic MCP server. So, I'm just going to ask a very important question that a typical business or customer support team would ask. And this is where we see the magic of ConverSense. We actually now get to get analysis in less than minutes, say seconds. And also, our system is able to query both platforms using VCon tools. And that's how I was able to solve the problems I mentioned at the beginning. Thank you. Thank you. Thank you.",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 7.5,
+            "text": " Hi, I'm Colin Samundi and this is my submission for the Vicon MCP Hackathon 2026."
+          },
+          {
+            "start": 8.620000000000001,
+            "end": 14.56,
+            "text": " Currently, many small to mid-size businesses face the following problems when it comes to customer support."
+          },
+          {
+            "start": 15.38,
+            "end": 25.48,
+            "text": " Number one, customer support composition data is catered across various platforms, for example, VAPI, Intercom, Freshdesk, etc."
+          },
+          {
+            "start": 25.48,
+            "end": 35.46,
+            "text": " Number two, deriving insights and actionable items requires manual effort which consumes business time."
+          },
+          {
+            "start": 36.7,
+            "end": 46.7,
+            "text": " Number three, the current solution platforms require businesses to migrate fully into their platforms leading to vendor locking."
+          },
+          {
+            "start": 48.019999999999996,
+            "end": 51.94,
+            "text": " An hypothetical situation, imagine Amacron an e-commerce store."
+          },
+          {
+            "start": 51.94,
+            "end": 57.339999999999996,
+            "text": " So this is a recording of me having a conversation with their voice assistant."
+          },
+          {
+            "start": 58.04,
+            "end": 62.32,
+            "text": " Your order, 1042, is shipped and is on its way."
+          },
+          {
+            "start": 62.379999999999995,
+            "end": 72.18,
+            "text": " Here is a Converse Sense dashboard with a freshly onboarded business with zero calls and zero conversations from Intercom."
+          },
+          {
+            "start": 72.68,
+            "end": 79.94,
+            "text": " And also zero synced conversations from both Intercom and VAPI."
+          },
+          {
+            "start": 79.94,
+            "end": 94.92,
+            "text": " So, to be able to connect our platform to VAPI, we're going to use an internal plugin which requires a public API key and a private API key."
+          },
+          {
+            "start": 94.92,
+            "end": 96.92,
+            "text": " So, these two can be able to connect our platform to VAPI."
+          },
+          {
+            "start": 96.92,
+            "end": 98.86,
+            "text": " So, these two can be grabbed from your VAPI dashboard."
+          },
+          {
+            "start": 99.94,
+            "end": 103.12,
+            "text": " As you can see, I'll provide my public API key."
+          },
+          {
+            "start": 106.32000000000001,
+            "end": 109.42,
+            "text": " And also provide my VAPI private key."
+          },
+          {
+            "start": 109.42,
+            "end": 122.46000000000001,
+            "text": " So, once we are connected to the VAPI account, we will be able to get a hold of all the conversations from VAPI."
+          },
+          {
+            "start": 122.78,
+            "end": 131.4,
+            "text": " You can see listed here, we have the AI assistance that the Amacron business utilizes."
+          },
+          {
+            "start": 131.4,
+            "end": 134.04,
+            "text": " And you also have the phone numbers."
+          },
+          {
+            "start": 136.38,
+            "end": 141.22,
+            "text": " So, you'll notice that after the connection, we have access to all those voice calls."
+          },
+          {
+            "start": 141.36,
+            "end": 143.26,
+            "text": " Like you see, they went from zero to nine."
+          },
+          {
+            "start": 144.0,
+            "end": 153.96,
+            "text": " So, the next thing that we're going to do is connect the Intercom account, which requires an access token."
+          },
+          {
+            "start": 153.96,
+            "end": 161.16,
+            "text": " So, you can just grab the access token from your Intercom dashboard."
+          },
+          {
+            "start": 163.72,
+            "end": 164.44,
+            "text": " Paste it."
+          },
+          {
+            "start": 167.32,
+            "end": 169.0,
+            "text": " And now we are connected."
+          },
+          {
+            "start": 171.0,
+            "end": 172.62,
+            "text": " And now we are connected through the plugin."
+          },
+          {
+            "start": 173.24,
+            "end": 178.20000000000002,
+            "text": " So, we also now have access to the Intercom account and all the conversations from Intercom."
+          },
+          {
+            "start": 178.2,
+            "end": 184.66,
+            "text": " Like you can see, here's a nice breakdown of all the conversations."
+          },
+          {
+            "start": 184.92,
+            "end": 187.92,
+            "text": " Top and seven, open four, closed two."
+          },
+          {
+            "start": 188.38,
+            "end": 192.94,
+            "text": " Now we are going to connect our VCon MCP server."
+          },
+          {
+            "start": 193.56,
+            "end": 196.07999999999998,
+            "text": " So, we are going to name it VConic MCP server."
+          },
+          {
+            "start": 196.67999999999998,
+            "end": 198.12,
+            "text": " And we are going to provide the details."
+          },
+          {
+            "start": 198.12,
+            "end": 213.22,
+            "text": " So, once you've added the MCP server, you can see we have access to the tools provided by MCP server."
+          },
+          {
+            "start": 213.64000000000001,
+            "end": 215.42000000000002,
+            "text": " This is one of them, create VCon."
+          },
+          {
+            "start": 215.74,
+            "end": 219.46,
+            "text": " And that's the description of the tool."
+          },
+          {
+            "start": 220.92000000000002,
+            "end": 226.36,
+            "text": " So, automatically when you connect to the MCP server, it synchronizes after you've retrieved it."
+          },
+          {
+            "start": 226.36,
+            "end": 230.88000000000002,
+            "text": " That's why we have all these conversations listed here in the table."
+          },
+          {
+            "start": 231.5,
+            "end": 232.46,
+            "text": " And they are in VCon format."
+          },
+          {
+            "start": 232.58,
+            "end": 235.72000000000003,
+            "text": " As you can see, we have the parties and the dialogues."
+          },
+          {
+            "start": 237.0,
+            "end": 241.76000000000002,
+            "text": " These are in VCon format and not in the normal format."
+          },
+          {
+            "start": 241.76,
+            "end": 263.8,
+            "text": " So, for business to utilize ConverSense, we provide this AI assistant with the built-in visualization tool and all the tools from the VConic MCP server."
+          },
+          {
+            "start": 263.8,
+            "end": 272.98,
+            "text": " So, I'm just going to ask a very important question that a typical business or customer support team would ask."
+          },
+          {
+            "start": 273.5,
+            "end": 276.92,
+            "text": " And this is where we see the magic of ConverSense."
+          },
+          {
+            "start": 277.38,
+            "end": 283.74,
+            "text": " We actually now get to get analysis in less than minutes, say seconds."
+          },
+          {
+            "start": 283.74,
+            "end": 288.58,
+            "text": " And also, our system is able to query both platforms using VCon tools."
+          },
+          {
+            "start": 289.24,
+            "end": 292.6,
+            "text": " And that's how I was able to solve the problems I mentioned at the beginning."
+          },
+          {
+            "start": 293.26,
+            "end": 293.74,
+            "text": " Thank you."
+          },
+          {
+            "start": 293.74,
+            "end": 294.46000000000004,
+            "text": " Thank you."
+          },
+          {
+            "start": 294.46,
+            "end": 324.44,
+            "text": " Thank you."
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "A solution for small to mid-size businesses facing customer support challenges. ConvoSense uses vCon and AI to analyze customer support conversations, identifying common issues, tracking resolution quality, and providing actionable insights to improve support operations.",
+        "tags": [
+          "customer-support",
+          "SMB",
+          "conversation-analysis",
+          "support-optimization"
+        ],
+        "technologies": [
+          "vCon MCP",
+          "AI analysis",
+          "support analytics"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "ConvoSense",
+        "youtube_id": "XNn8HUwuzec",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

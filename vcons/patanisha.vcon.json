@@ -1,0 +1,335 @@
+{
+  "uuid": "b7af805c-f521-446c-ab2c-d513603c26c2",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: Patanisha",
+  "parties": [
+    {
+      "name": "Charles Wachira",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "video/x-matroska",
+      "filename": "Patanisha by Charles Wachira [bl_YNeu3MCM].mkv",
+      "url": "https://www.youtube.com/watch?v=bl_YNeu3MCM",
+      "encoding": "none",
+      "size": 8465478
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "Meet Sarah. She is a support agent at a growing company and every day she juggles phone calls, SMS messages, emails and chat conversations all in different systems. By the time she pieces together customers' history, five minutes have passed. The customers stay tweeting, frustrated and ready to leave. This is the reality for millions of support teams, fragmented conversations, lost context, angry customers and no way to see the full picture. Meet the solution to this problem that has been plaguing a lot of support agents. We introduced to you Patanisha, coined from the Swahidin for unifying. And what this system does is the first support platform built on the VCON standard, a new global format for conversations. VCON or virtual conversation is like PDF but for conversations, it captures who spoke, what they said, when and even how they felt. And the unified case, the pertinential dashboard, turns every customer interaction into a VCON automatically. Phone call, that's a VCON. SMS, that's a VCON. Email, that's a VCON. All unified info, all unified info into one timeline. And Serenal sees everything at a glance. Looking at the dashboard, you can see, we see the cases on the left. The cases I have right now are loaded from Chadhack 2025. And we can see the cases and then actions to do. We are using both Africa Stocking EPS for SMS and for phone calls. And we can also simulate such for the Kenyan market, for the Kenyan experience. You see the call that we did. We did a voice call, we sent an SMS and an email also. And this now brings everything together. And now, Serenal can claim the case, send an SMS via Africa Stocking EPA to them back with feedback. And also mark cases as resolved. And we were using the Chadhack dataset for proof of scale. And every call, every transcript, every sentiment shift, all unified. And this is sent to a Superbiz dashboard. Because already VCON supports, the CONSERVER IO GitHub supports using a Superbiz dashboard for, database for collecting that data and storing it for use. The text tag that has made this possible includes Africa Stocking, which provides the voice service and SMS. CONSERVER IO, which is our VCON bucket. Handle storage and AI processing. And our dashboard is the VCON app. And, um, but an issue is ready to be published to VCON app store, helping businesses unify their customer conversations. Um, for the, this is just the start. And, to moving forward, uh, we want to create a system for all industries, for any channels. One unified conversation timeline. That's the promise of, um, VCON and PART initial. That's the promise that it delivers today. Um, the call to action. Back to Sarah, our use case. With, um, PART initial. She resolves that complex case in three minutes, not thirty. The customer is satisfied, low and likely to recommend. That is the power of unified conversations, powered by VCON and CONSERVO. Um, try it yourself at PART initial.RUITA.CO.KE. We'll be providing the link to that. Um, every conversation, one timeline, zero context lost. Thank you.",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 7.0,
+            "text": " Meet Sarah. She is a support agent at a growing company and every day she juggles phone calls,"
+          },
+          {
+            "start": 7.0,
+            "end": 13.0,
+            "text": " SMS messages, emails and chat conversations all in different systems."
+          },
+          {
+            "start": 13.0,
+            "end": 18.0,
+            "text": " By the time she pieces together customers' history, five minutes have passed."
+          },
+          {
+            "start": 18.0,
+            "end": 22.0,
+            "text": " The customers stay tweeting, frustrated and ready to leave."
+          },
+          {
+            "start": 22.0,
+            "end": 27.0,
+            "text": " This is the reality for millions of support teams, fragmented conversations,"
+          },
+          {
+            "start": 27.0,
+            "end": 31.0,
+            "text": " lost context, angry customers and no way to see the full picture."
+          },
+          {
+            "start": 31.0,
+            "end": 38.0,
+            "text": " Meet the solution to this problem that has been plaguing a lot of support agents."
+          },
+          {
+            "start": 38.0,
+            "end": 47.0,
+            "text": " We introduced to you Patanisha, coined from the Swahidin for unifying."
+          },
+          {
+            "start": 47.0,
+            "end": 53.0,
+            "text": " And what this system does is the first support platform built on the VCON standard,"
+          },
+          {
+            "start": 53.0,
+            "end": 56.0,
+            "text": " a new global format for conversations."
+          },
+          {
+            "start": 56.0,
+            "end": 60.0,
+            "text": " VCON or virtual conversation is like PDF but for conversations,"
+          },
+          {
+            "start": 60.0,
+            "end": 65.0,
+            "text": " it captures who spoke, what they said, when and even how they felt."
+          },
+          {
+            "start": 65.0,
+            "end": 73.0,
+            "text": " And the unified case, the pertinential dashboard, turns every customer interaction into a VCON automatically."
+          },
+          {
+            "start": 73.0,
+            "end": 78.0,
+            "text": " Phone call, that's a VCON. SMS, that's a VCON. Email, that's a VCON."
+          },
+          {
+            "start": 78.0,
+            "end": 82.0,
+            "text": " All unified info, all unified info into one timeline."
+          },
+          {
+            "start": 82.0,
+            "end": 85.0,
+            "text": " And Serenal sees everything at a glance."
+          },
+          {
+            "start": 85.0,
+            "end": 91.0,
+            "text": " Looking at the dashboard, you can see, we see the cases on the left."
+          },
+          {
+            "start": 91.0,
+            "end": 96.0,
+            "text": " The cases I have right now are loaded from Chadhack 2025."
+          },
+          {
+            "start": 96.0,
+            "end": 100.0,
+            "text": " And we can see the cases and then actions to do."
+          },
+          {
+            "start": 100.0,
+            "end": 106.0,
+            "text": " We are using both Africa Stocking EPS for SMS and for phone calls."
+          },
+          {
+            "start": 106.0,
+            "end": 117.0,
+            "text": " And we can also simulate such for the Kenyan market, for the Kenyan experience."
+          },
+          {
+            "start": 117.0,
+            "end": 120.0,
+            "text": " You see the call that we did."
+          },
+          {
+            "start": 120.0,
+            "end": 126.0,
+            "text": " We did a voice call, we sent an SMS and an email also."
+          },
+          {
+            "start": 126.0,
+            "end": 129.0,
+            "text": " And this now brings everything together."
+          },
+          {
+            "start": 129.0,
+            "end": 137.0,
+            "text": " And now, Serenal can claim the case, send an SMS via Africa Stocking EPA to them back with feedback."
+          },
+          {
+            "start": 137.0,
+            "end": 139.0,
+            "text": " And also mark cases as resolved."
+          },
+          {
+            "start": 139.0,
+            "end": 146.0,
+            "text": " And we were using the Chadhack dataset for proof of scale."
+          },
+          {
+            "start": 146.0,
+            "end": 156.0,
+            "text": " And every call, every transcript, every sentiment shift, all unified."
+          },
+          {
+            "start": 156.0,
+            "end": 159.0,
+            "text": " And this is sent to a Superbiz dashboard."
+          },
+          {
+            "start": 159.0,
+            "end": 174.0,
+            "text": " Because already VCON supports, the CONSERVER IO GitHub supports using a Superbiz dashboard for, database for collecting that data and storing it for use."
+          },
+          {
+            "start": 174.0,
+            "end": 182.0,
+            "text": " The text tag that has made this possible includes Africa Stocking, which provides the voice service and SMS."
+          },
+          {
+            "start": 182.0,
+            "end": 185.0,
+            "text": " CONSERVER IO, which is our VCON bucket."
+          },
+          {
+            "start": 185.0,
+            "end": 187.0,
+            "text": " Handle storage and AI processing."
+          },
+          {
+            "start": 187.0,
+            "end": 190.0,
+            "text": " And our dashboard is the VCON app."
+          },
+          {
+            "start": 190.0,
+            "end": 199.0,
+            "text": " And, um, but an issue is ready to be published to VCON app store, helping businesses unify their customer conversations."
+          },
+          {
+            "start": 199.0,
+            "end": 203.0,
+            "text": " Um, for the, this is just the start."
+          },
+          {
+            "start": 203.0,
+            "end": 213.0,
+            "text": " And, to moving forward, uh, we want to create a system for all industries, for any channels."
+          },
+          {
+            "start": 213.0,
+            "end": 215.0,
+            "text": " One unified conversation timeline."
+          },
+          {
+            "start": 215.0,
+            "end": 219.0,
+            "text": " That's the promise of, um, VCON and PART initial."
+          },
+          {
+            "start": 219.0,
+            "end": 221.0,
+            "text": " That's the promise that it delivers today."
+          },
+          {
+            "start": 221.0,
+            "end": 223.0,
+            "text": " Um, the call to action."
+          },
+          {
+            "start": 223.0,
+            "end": 225.0,
+            "text": " Back to Sarah, our use case."
+          },
+          {
+            "start": 225.0,
+            "end": 227.0,
+            "text": " With, um, PART initial."
+          },
+          {
+            "start": 227.0,
+            "end": 231.0,
+            "text": " She resolves that complex case in three minutes, not thirty."
+          },
+          {
+            "start": 231.0,
+            "end": 235.0,
+            "text": " The customer is satisfied, low and likely to recommend."
+          },
+          {
+            "start": 235.0,
+            "end": 240.0,
+            "text": " That is the power of unified conversations, powered by VCON and CONSERVO."
+          },
+          {
+            "start": 240.0,
+            "end": 247.0,
+            "text": " Um, try it yourself at PART initial.RUITA.CO.KE."
+          },
+          {
+            "start": 247.0,
+            "end": 249.0,
+            "text": " We'll be providing the link to that."
+          },
+          {
+            "start": 249.0,
+            "end": 254.0,
+            "text": " Um, every conversation, one timeline, zero context lost."
+          },
+          {
+            "start": 254.0,
+            "end": 255.0,
+            "text": " Thank you."
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "A unified customer support platform that solves the problem of fragmented communication channels. The story follows \"Sarah\", a support agent juggling phone calls, SMS, emails, and chat across different systems. Patanisha consolidates all conversations into vCon-structured records, giving agents a complete customer interaction history.",
+        "tags": [
+          "customer-support",
+          "omnichannel",
+          "unified-communications",
+          "agent-productivity"
+        ],
+        "technologies": [
+          "vCon",
+          "multi-channel integration",
+          "AI assistance"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "Patanisha",
+        "youtube_id": "bl_YNeu3MCM",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "uuid": "e6f50113-8ef4-4740-84ea-11e8bdf9a041",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: vCon Intelligence Platform",
+  "parties": [
+    {
+      "name": "Muntaser Syed",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "video/webm",
+      "filename": "vCon Intelligence Platform \u2014 Tadhack 2026 submission 2 - Muntaser Syed [h4ehOvFSqLw].webm",
+      "url": "https://www.youtube.com/watch?v=h4ehOvFSqLw",
+      "encoding": "none",
+      "size": 56180473
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "Hello everyone, welcome to the demo of the VCon intelligence platform. This is my submission or my second submission to TADHack2026 and this is a culmination of all the different modules and interactivity I've added to enrich VCon and we'll go over it one by one. So this is the main dashboard of the platform. We have an ability to ingest from various data sources. We have interops with various different things. We have a RAG intelligence pipeline built in. So right now the system is completely empty. We have multiple backends. Right now we're using MongoDB. We have a Neo4j backend for graph databases. We also have support for ChromaDB and obviously the regular Supabase database that we can use. So currently we have an MQTT server that's running. So essentially what happens is this can plug into any of producer events or anything that produces a VCon can set up a signal via MQTT and this automatically populates. We have a JSON inspector. This is using JSON-LDEX which is my own JSON version. It's publicly available online via pip install. And we do a bunch of AI based analytics and we provide this as an interface for a Gentic AI to do various types of workflow. Okay. So without further ado, let's go into the ingest. So the first thing we want to do is kind of show you how we ingest things. We can do an ingestion via direct input. So you can manually enter in VCon details. So a subject, caller name, number, the recipient name or agent name, and then you can put in the transcript over here. We can input SIP rec. So we can basically get SIP recordings via SIP terminals and then we can generate a transcript. We can import via Teams chat. So if there is a Teams call and then there is a Teams transcript, you can import it right here. So this is basically like generated via Microsoft Teams. You can import a WhatsApp chat. So when you do a WhatsApp export, this is what a transcript looks like and this can be imported as well. And we can do an audio direct audio upload. So let's go look at the direct audio upload first. So let's say we have, actually let's put this around. So let's say we have Jennifer Walsh and she is calling agent Robert Martinez. And of course we'll just put in the random number here. And then we'll put in another random number over here. And let's choose an audio file. This can obviously be streaming audio as well. So this is a MP3 file that's around 90 seconds or a minute and 30 seconds long. Let's put that in. And then what happens is we have an automatic plugin with ASR engine. So this kind of transcribes it. We're using Whisper. We can plug that out for any other kind of API. And here's the official transcript. And then here's how the system works. We can ingest this VCon. And once we ingest the VCon, it kind of does all these steps. On a 30 second or 20 second timeout, there's an MQTT. Once the MQTT gets pushed, we can go back to the dashboard and we can see we have ingested one VCon. And here is the network that is generated. So we can see there was an agent who had a conversation with this customer. And these are the topics or nodes they talked about. We can actually inspect the VCon itself over here. And then we can see that this is an enhanced JSON-LDEX enhanced VCon. So it has many more fields and it has a lot of analytics added to it. We can ask it about the conversation and we can say, what was Jennifer calling about? And then ask it. And then for Robert Martinez issues internet connection, let's say, what was the billing issue? And you can ask things like various statistical questions. So you can say, what was the billing issue? Will there be any changes? Okay. There was no billing issue mentioned in the conversation. Let's take a look. So right now we don't have enough data for topics. Let's take a look at if we ingested much more data. So we have a lot of sample data that I generated and I'll just load them all by one by one. And then this thing you can see generates a bunch of samples and it has nine different conversations. And now we have totally 10 different VCon's. And we can see there's an example of a WhatsApp chat. There's an example of a Teams call. There's an example of a direct, I believe this is a, yeah, this might be from the SIPREC. And then we can say something like, what was the most frequent issue? And then you can say billing and account reader were the most frequent, including duplicate charges. And then it gives you a list of the conversations where it was. This is the entire graph visualized from Neo4j to kind of show you how the conversations look like. And then let's take a look at, so there are totally three active agents. They might appear as multiple nodes because they might have independent interactions. But there are three unique agents. This is a timeline of all the sentiment analysis. If we go into the Neo4j, let's take a look now. Let's just do this. And you can see these are the different nodes which have been created by Neo4j. And you can kind of take a look at the properties of each of these conversations and each of these agents in the node. So all in all, we kind of tried to hit a lot of the proposed functionality throughout the VCon proposals. So we do UNS. We have a direct MQTT connection and we do CIPREC as well as providing an interface for agentic AI to perform intelligence-based tasks based on VCon data that has been ingested. Okay, that kind of covers it. Thank you very much.",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 7.1000000000000005,
+            "text": " Hello everyone, welcome to the demo of the VCon intelligence platform."
+          },
+          {
+            "start": 7.78,
+            "end": 21.04,
+            "text": " This is my submission or my second submission to TADHack2026 and this is a culmination of all the different modules and interactivity I've added to enrich VCon and we'll go over it one by one."
+          },
+          {
+            "start": 21.04,
+            "end": 33.94,
+            "text": " So this is the main dashboard of the platform. We have an ability to ingest from various data sources. We have interops with various different things. We have a RAG intelligence pipeline built in."
+          },
+          {
+            "start": 33.94,
+            "end": 53.239999999999995,
+            "text": " So right now the system is completely empty. We have multiple backends. Right now we're using MongoDB. We have a Neo4j backend for graph databases. We also have support for ChromaDB and obviously the regular Supabase database that we can use."
+          },
+          {
+            "start": 53.24,
+            "end": 71.9,
+            "text": " So currently we have an MQTT server that's running. So essentially what happens is this can plug into any of producer events or anything that produces a VCon can set up a signal via MQTT and this automatically populates."
+          },
+          {
+            "start": 71.9,
+            "end": 81.16000000000001,
+            "text": " We have a JSON inspector. This is using JSON-LDEX which is my own JSON version. It's publicly available online via pip install."
+          },
+          {
+            "start": 81.94000000000001,
+            "end": 92.5,
+            "text": " And we do a bunch of AI based analytics and we provide this as an interface for a Gentic AI to do various types of workflow."
+          },
+          {
+            "start": 92.5,
+            "end": 107.48,
+            "text": " Okay. So without further ado, let's go into the ingest. So the first thing we want to do is kind of show you how we ingest things. We can do an ingestion via direct input."
+          },
+          {
+            "start": 107.48,
+            "end": 120.04,
+            "text": " So you can manually enter in VCon details. So a subject, caller name, number, the recipient name or agent name, and then you can put in the transcript over here."
+          },
+          {
+            "start": 120.74000000000001,
+            "end": 132.9,
+            "text": " We can input SIP rec. So we can basically get SIP recordings via SIP terminals and then we can generate a transcript."
+          },
+          {
+            "start": 132.9,
+            "end": 143.34,
+            "text": " We can import via Teams chat. So if there is a Teams call and then there is a Teams transcript, you can import it right here."
+          },
+          {
+            "start": 143.46,
+            "end": 154.42000000000002,
+            "text": " So this is basically like generated via Microsoft Teams. You can import a WhatsApp chat. So when you do a WhatsApp export, this is what a transcript looks like and this can be imported as well."
+          },
+          {
+            "start": 155.14000000000001,
+            "end": 161.0,
+            "text": " And we can do an audio direct audio upload. So let's go look at the direct audio upload first."
+          },
+          {
+            "start": 161.0,
+            "end": 177.76,
+            "text": " So let's say we have, actually let's put this around. So let's say we have Jennifer Walsh and she is calling agent Robert Martinez."
+          },
+          {
+            "start": 177.76,
+            "end": 187.95999999999998,
+            "text": " And of course we'll just put in the random number here. And then we'll put in another random number over here."
+          },
+          {
+            "start": 191.35999999999999,
+            "end": 195.73999999999998,
+            "text": " And let's choose an audio file. This can obviously be streaming audio as well."
+          },
+          {
+            "start": 195.74,
+            "end": 204.10000000000002,
+            "text": " So this is a MP3 file that's around 90 seconds or a minute and 30 seconds long. Let's put that in."
+          },
+          {
+            "start": 204.62,
+            "end": 214.76000000000002,
+            "text": " And then what happens is we have an automatic plugin with ASR engine. So this kind of transcribes it."
+          },
+          {
+            "start": 215.16000000000003,
+            "end": 219.12,
+            "text": " We're using Whisper. We can plug that out for any other kind of API."
+          },
+          {
+            "start": 219.12,
+            "end": 224.06,
+            "text": " And here's the official transcript. And then here's how the system works."
+          },
+          {
+            "start": 224.52,
+            "end": 230.68,
+            "text": " We can ingest this VCon. And once we ingest the VCon, it kind of does all these steps."
+          },
+          {
+            "start": 231.28,
+            "end": 236.38,
+            "text": " On a 30 second or 20 second timeout, there's an MQTT."
+          },
+          {
+            "start": 236.88,
+            "end": 242.26,
+            "text": " Once the MQTT gets pushed, we can go back to the dashboard and we can see we have ingested one VCon."
+          },
+          {
+            "start": 242.26,
+            "end": 249.0,
+            "text": " And here is the network that is generated. So we can see there was an agent who had a conversation with this customer."
+          },
+          {
+            "start": 249.56,
+            "end": 252.06,
+            "text": " And these are the topics or nodes they talked about."
+          },
+          {
+            "start": 253.2,
+            "end": 257.78,
+            "text": " We can actually inspect the VCon itself over here."
+          },
+          {
+            "start": 258.3,
+            "end": 264.5,
+            "text": " And then we can see that this is an enhanced JSON-LDEX enhanced VCon."
+          },
+          {
+            "start": 264.74,
+            "end": 268.12,
+            "text": " So it has many more fields and it has a lot of analytics added to it."
+          },
+          {
+            "start": 268.12,
+            "end": 274.42,
+            "text": " We can ask it about the conversation and we can say,"
+          },
+          {
+            "start": 275.06,
+            "end": 284.06,
+            "text": " what was Jennifer calling about?"
+          },
+          {
+            "start": 284.06,
+            "end": 290.86,
+            "text": " And then ask it."
+          },
+          {
+            "start": 290.86,
+            "end": 298.78000000000003,
+            "text": " And then for Robert Martinez issues internet connection, let's say,"
+          },
+          {
+            "start": 300.06,
+            "end": 307.88,
+            "text": " what was the billing issue?"
+          },
+          {
+            "start": 307.88,
+            "end": 316.38,
+            "text": " And you can ask things like various statistical questions."
+          },
+          {
+            "start": 316.56,
+            "end": 317.92,
+            "text": " So you can say, what was the billing issue?"
+          },
+          {
+            "start": 318.58,
+            "end": 319.76,
+            "text": " Will there be any changes?"
+          },
+          {
+            "start": 320.71999999999997,
+            "end": 320.9,
+            "text": " Okay."
+          },
+          {
+            "start": 321.56,
+            "end": 323.71999999999997,
+            "text": " There was no billing issue mentioned in the conversation."
+          },
+          {
+            "start": 324.48,
+            "end": 325.56,
+            "text": " Let's take a look."
+          },
+          {
+            "start": 325.62,
+            "end": 329.74,
+            "text": " So right now we don't have enough data for topics."
+          },
+          {
+            "start": 330.14,
+            "end": 333.06,
+            "text": " Let's take a look at if we ingested much more data."
+          },
+          {
+            "start": 333.06,
+            "end": 338.28000000000003,
+            "text": " So we have a lot of sample data that I generated and I'll just load them all by one by one."
+          },
+          {
+            "start": 338.8,
+            "end": 344.8,
+            "text": " And then this thing you can see generates a bunch of samples and it has nine different conversations."
+          },
+          {
+            "start": 345.46,
+            "end": 348.3,
+            "text": " And now we have totally 10 different VCon's."
+          },
+          {
+            "start": 348.78000000000003,
+            "end": 352.08,
+            "text": " And we can see there's an example of a WhatsApp chat."
+          },
+          {
+            "start": 352.42,
+            "end": 354.02,
+            "text": " There's an example of a Teams call."
+          },
+          {
+            "start": 354.02,
+            "end": 363.03999999999996,
+            "text": " There's an example of a direct, I believe this is a, yeah, this might be from the SIPREC."
+          },
+          {
+            "start": 363.4,
+            "end": 375.34,
+            "text": " And then we can say something like, what was the most frequent issue?"
+          },
+          {
+            "start": 375.34,
+            "end": 383.41999999999996,
+            "text": " And then you can say billing and account reader were the most frequent, including duplicate charges."
+          },
+          {
+            "start": 383.97999999999996,
+            "end": 386.88,
+            "text": " And then it gives you a list of the conversations where it was."
+          },
+          {
+            "start": 387.4,
+            "end": 397.15999999999997,
+            "text": " This is the entire graph visualized from Neo4j to kind of show you how the conversations look like."
+          },
+          {
+            "start": 397.16,
+            "end": 402.82000000000005,
+            "text": " And then let's take a look at, so there are totally three active agents."
+          },
+          {
+            "start": 403.08000000000004,
+            "end": 406.88000000000005,
+            "text": " They might appear as multiple nodes because they might have independent interactions."
+          },
+          {
+            "start": 407.32000000000005,
+            "end": 408.78000000000003,
+            "text": " But there are three unique agents."
+          },
+          {
+            "start": 409.42,
+            "end": 412.08000000000004,
+            "text": " This is a timeline of all the sentiment analysis."
+          },
+          {
+            "start": 412.64000000000004,
+            "end": 415.82000000000005,
+            "text": " If we go into the Neo4j, let's take a look now."
+          },
+          {
+            "start": 416.6,
+            "end": 417.62,
+            "text": " Let's just do this."
+          },
+          {
+            "start": 417.62,
+            "end": 425.48,
+            "text": " And you can see these are the different nodes which have been created by Neo4j."
+          },
+          {
+            "start": 425.48,
+            "end": 434.68,
+            "text": " And you can kind of take a look at the properties of each of these conversations and each of these agents in the node."
+          },
+          {
+            "start": 435.98,
+            "end": 446.94,
+            "text": " So all in all, we kind of tried to hit a lot of the proposed functionality throughout the VCon proposals."
+          },
+          {
+            "start": 446.94,
+            "end": 448.68,
+            "text": " So we do UNS."
+          },
+          {
+            "start": 448.98,
+            "end": 466.5,
+            "text": " We have a direct MQTT connection and we do CIPREC as well as providing an interface for agentic AI to perform intelligence-based tasks based on VCon data that has been ingested."
+          },
+          {
+            "start": 467.3,
+            "end": 469.24,
+            "text": " Okay, that kind of covers it."
+          },
+          {
+            "start": 469.3,
+            "end": 470.0,
+            "text": " Thank you very much."
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "Muntaser Syed's second TADHack 2026 submission \u2014 the vCon Intelligence Platform. A comprehensive platform that combines multiple modules for conversation intelligence, bringing together various vCon processing capabilities into a unified system for analyzing and deriving insights from conversation data.",
+        "tags": [
+          "intelligence-platform",
+          "conversation-analytics",
+          "unified-system",
+          "multi-module"
+        ],
+        "technologies": [
+          "vCon",
+          "AI analytics",
+          "platform architecture"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "vCon Intelligence Platform",
+        "youtube_id": "h4ehOvFSqLw",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

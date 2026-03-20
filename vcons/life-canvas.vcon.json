@@ -1,0 +1,297 @@
+{
+  "uuid": "f9b53b30-97ae-4e1a-9c3e-4d8552d0e2ae",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: Life Canvas",
+  "parties": [
+    {
+      "name": "Sabrina",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter",
+        "affiliation": "Valencia College"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "video/x-matroska",
+      "filename": "TADHack 2026 - Life Canvas [C0UhGJR72pk].mkv",
+      "url": "https://www.youtube.com/watch?v=C0UhGJR72pk",
+      "encoding": "none",
+      "size": 26117536
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "Think about this. How much of your life do you actually remember? Not just the big moments, but the small ones too. Conversations with people you love. Time spent with family. Goals you promised yourself you'd keep. But most of it disappears. Not because it didn't matter, but because life moves fast. Imagine being able to search your life. What if one day you wanted to remember every moment you wrote about your mom? Or every time you felt proud of yourself? Your emotional patterns? Your goals? Using the VCon framework, these moments can be organized into meaningful records that allow patterns to emerge across time. Because your life isn't just data, it's a story. And Life Canvas helps you remember it. Hi, my name is Sabrina and I am a student at Valencia College and today I'm excited to introduce to you Life Canvas. Life Canvas is a personal life intelligence system that helps people capture meaningful moments from their everyday life and turn them into insight. So starting with the dashboard, this gives the users a quick overview of their life activity. They can see their journal entries, streaks, highlights, and recent memories all in one place. Then with the main journal, this is where the users capture reflections through their writing, photos, voice notes, or moods. Over time, these entries become structured life data. So here, you can select your mood, right, you can upload a photo, send a voice note. Here we have the buckets. This helps organize life into categories like family, career, health, or personal growth, making it easier to track different areas of your life. The calendar allows users to revisit memories by day to see what happened on a specific date. Here we have the analytics page. This page helps users understand their patterns in their life, like emotional trends, common topics, and people that they mention the most. Here we have the analytics page. This is the first time of the year in review. This is the first time of the year in review. This is the first time of the year in review. Users can also search memories, making it easy to find past experiences, conversations, or moments. The timeline section shows life events, turning memories into visual stories of personal growth. And finally, we have the year in review, which summarizes important insights and milestones from the entire year. So behind the scenes, Life Canvas structures entries using the Bcon framework and uses AI to detect Bcon signals, highlighting meaningful life moments and patterns. Life Canvas helps people not just record their life, but to also understand it. To summarize Life Canvas, it turns your life moments into insight. Your life becomes searchable, organized, and understandable over time. And so how it works is you write a journal reflection, you can record a voice, thought, upload a photo memory, you can log a milestone, and track your personal goals. There's structured your structured life data with Bcon and MCP. Behind the scenes, every entry becomes a structured conversation record using the Bcon framework. Understanding your life through the insights. It analyzes entries to reveal patterns in a person's personal life. Protecting personal memories. Life Canvas is designed with privacy and security as a core principle. Protecting personal reflections, conversations, and memories is essential. So it secures storage of structured Bcon records, controlled AI access through the MCP server, and private user-controlled life buckets. Safe handling of sensitive personal information. The user maintains full ownership of their memories and data. So Life Canvas, your life organized. You have a shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 4.0,
+            "text": " Think about this. How much of your life do you actually remember?"
+          },
+          {
+            "start": 4.54,
+            "end": 10.120000000000001,
+            "text": " Not just the big moments, but the small ones too. Conversations with people you love."
+          },
+          {
+            "start": 10.58,
+            "end": 16.52,
+            "text": " Time spent with family. Goals you promised yourself you'd keep. But most of it disappears."
+          },
+          {
+            "start": 17.22,
+            "end": 23.580000000000002,
+            "text": " Not because it didn't matter, but because life moves fast. Imagine being able to search your"
+          },
+          {
+            "start": 23.580000000000002,
+            "end": 29.46,
+            "text": " life. What if one day you wanted to remember every moment you wrote about your mom? Or every"
+          },
+          {
+            "start": 29.46,
+            "end": 36.5,
+            "text": " time you felt proud of yourself? Your emotional patterns? Your goals? Using the VCon framework,"
+          },
+          {
+            "start": 36.92,
+            "end": 41.54,
+            "text": " these moments can be organized into meaningful records that allow patterns to emerge across"
+          },
+          {
+            "start": 41.54,
+            "end": 48.36,
+            "text": " time. Because your life isn't just data, it's a story. And Life Canvas helps you remember it."
+          },
+          {
+            "start": 48.36,
+            "end": 52.8,
+            "text": " Hi, my name is Sabrina and I am a student at Valencia College and today I'm excited to introduce"
+          },
+          {
+            "start": 52.8,
+            "end": 57.14,
+            "text": " to you Life Canvas. Life Canvas is a personal life intelligence system that helps people"
+          },
+          {
+            "start": 57.14,
+            "end": 60.56,
+            "text": " capture meaningful moments from their everyday life and turn them into insight."
+          },
+          {
+            "start": 60.56,
+            "end": 65.64,
+            "text": " So starting with the dashboard, this gives the users a quick overview of their life activity."
+          },
+          {
+            "start": 65.64,
+            "end": 70.1,
+            "text": " They can see their journal entries, streaks, highlights, and recent memories all in one place."
+          },
+          {
+            "start": 70.1,
+            "end": 75.8,
+            "text": " Then with the main journal, this is where the users capture reflections through their writing,"
+          },
+          {
+            "start": 75.8,
+            "end": 82.76,
+            "text": " photos, voice notes, or moods. Over time, these entries become structured life data. So here,"
+          },
+          {
+            "start": 82.76,
+            "end": 89.96000000000001,
+            "text": " you can select your mood, right, you can upload a photo, send a voice note."
+          },
+          {
+            "start": 93.0,
+            "end": 97.56,
+            "text": " Here we have the buckets. This helps organize life into categories like family, career, health,"
+          },
+          {
+            "start": 97.56,
+            "end": 101.48,
+            "text": " or personal growth, making it easier to track different areas of your life."
+          },
+          {
+            "start": 101.48,
+            "end": 108.52000000000001,
+            "text": " The calendar allows users to revisit memories by day to see what happened on a specific date."
+          },
+          {
+            "start": 115.0,
+            "end": 120.12,
+            "text": " Here we have the analytics page. This page helps users understand their patterns in their life,"
+          },
+          {
+            "start": 120.12,
+            "end": 123.80000000000001,
+            "text": " like emotional trends, common topics, and people that they mention the most."
+          },
+          {
+            "start": 123.8,
+            "end": 128.04,
+            "text": " Here we have the analytics page. This is the first time of the year in review."
+          },
+          {
+            "start": 128.04,
+            "end": 129.07999999999998,
+            "text": " This is the first time of the year in review. This is the first time of the year in review."
+          },
+          {
+            "start": 129.07999999999998,
+            "end": 133.72,
+            "text": " Users can also search memories, making it easy to find past experiences, conversations, or moments."
+          },
+          {
+            "start": 142.2,
+            "end": 147.32,
+            "text": " The timeline section shows life events, turning memories into visual stories of personal growth."
+          },
+          {
+            "start": 147.32,
+            "end": 153.88,
+            "text": " And finally, we have the year in review, which summarizes important insights and milestones from"
+          },
+          {
+            "start": 153.88,
+            "end": 160.6,
+            "text": " the entire year. So behind the scenes, Life Canvas structures entries using the Bcon framework and uses"
+          },
+          {
+            "start": 160.6,
+            "end": 167.64,
+            "text": " AI to detect Bcon signals, highlighting meaningful life moments and patterns. Life Canvas helps people"
+          },
+          {
+            "start": 167.64,
+            "end": 173.32,
+            "text": " not just record their life, but to also understand it. To summarize Life Canvas, it turns your life"
+          },
+          {
+            "start": 173.32,
+            "end": 178.76,
+            "text": " moments into insight. Your life becomes searchable, organized, and understandable over time."
+          },
+          {
+            "start": 180.51999999999998,
+            "end": 185.56,
+            "text": " And so how it works is you write a journal reflection, you can record a voice, thought,"
+          },
+          {
+            "start": 185.56,
+            "end": 189.72,
+            "text": " upload a photo memory, you can log a milestone, and track your personal goals."
+          },
+          {
+            "start": 191.72,
+            "end": 197.79999999999998,
+            "text": " There's structured your structured life data with Bcon and MCP. Behind the scenes,"
+          },
+          {
+            "start": 197.79999999999998,
+            "end": 202.12,
+            "text": " every entry becomes a structured conversation record using the Bcon framework."
+          },
+          {
+            "start": 204.2,
+            "end": 209.88,
+            "text": " Understanding your life through the insights. It analyzes entries to reveal patterns in a person's"
+          },
+          {
+            "start": 209.88,
+            "end": 210.6,
+            "text": " personal life."
+          },
+          {
+            "start": 213.07999999999998,
+            "end": 218.44,
+            "text": " Protecting personal memories. Life Canvas is designed with privacy and security as a core principle."
+          },
+          {
+            "start": 218.44,
+            "end": 223.79999999999998,
+            "text": " Protecting personal reflections, conversations, and memories is essential. So it secures storage of"
+          },
+          {
+            "start": 223.79999999999998,
+            "end": 230.68,
+            "text": " structured Bcon records, controlled AI access through the MCP server, and private user-controlled life"
+          },
+          {
+            "start": 230.68,
+            "end": 237.08,
+            "text": " buckets. Safe handling of sensitive personal information. The user maintains full ownership of their memories and data."
+          },
+          {
+            "start": 237.72,
+            "end": 240.44,
+            "text": " So Life Canvas, your life organized."
+          },
+          {
+            "start": 240.44,
+            "end": 242.97,
+            "text": " You have a shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared"
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "A personal life intelligence system that helps people capture meaningful moments from everyday life and turn them into searchable, structured insights. Features include journaling (text, photos, voice notes, moods), life categories (\"buckets\"), streak tracking, and emotional pattern analysis \u2014 all organized using the vCon framework.",
+        "tags": [
+          "personal-journaling",
+          "life-intelligence",
+          "memory",
+          "emotional-patterns",
+          "self-reflection"
+        ],
+        "technologies": [
+          "vCon",
+          "AI pattern analysis",
+          "multi-modal capture"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "Life Canvas",
+        "youtube_id": "C0UhGJR72pk",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

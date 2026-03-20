@@ -1,0 +1,280 @@
+{
+  "uuid": "6c9ef98c-0f03-4dde-9132-0e3bbb3a4777",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: Budget Yangu",
+  "parties": [
+    {
+      "name": "Elvis Ogunga",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "video/x-matroska",
+      "filename": "Budget Yangu by Elvis Ogunga [fxBPIaZPSTk].mkv",
+      "url": "https://www.youtube.com/watch?v=fxBPIaZPSTk",
+      "encoding": "none",
+      "size": 9967837
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "I'm the creator of Bajit Yangu. I'm a team of one. Bajit Yangu is an AI-powered personal finance assistant. Many people struggle to manage their finances and often rely on conversation with financial advisors or support agents to understand their budgets, expenses and financial decisions. However, these conversations are rarely structured or analyzed for insight. Our solution integrates Vicon to capture and restructure every financial conversation between our users and AI assistants inside the Bajit Yangu app. Each conversation becomes a standardized record that can be analyzed to extract insights like user intent, financial concerns and summaries. This transforms every day financial just into valuable data that helps users make smarter financial decisions while giving developers and business powerful analytics on how their financial AI sensors interact with users and how they can actually improve it and how they can improve their business. This is our business model. So this is the Bajit Yangu app where users keep their records. So they manually input their records and then they use the AI to analyze the data. So every data that they feed in these areas is included and money lent out and the reports actually shows. So this is how users can have a conversation with the AI agent. The AI agent retrieves the data that they have stored. So it uses the sessions whereby women, the request is made, they are authenticated. Then it can be able to fetch their data and the AI agent can be able to analyze their data from the cell. So they have been able to get a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared We have done everything actually today. So we are going to have total reconf, parties, dialogues, analysis, completion, and data health. Of course we have 100% data health. Dialogue types, it seems like we have text because that is what is enabled at the moment. So the recent reconf, financial assistance, financial assistance, and the application, the inquiry, the data. So we have got the conversations, the subjects of the conversations. There are some things we haven't been able to check, all the charts and then we would want to align the conversations. Real dialogues within the app. And we have got the analysis. But we haven't been stressed yet. And then we have got the... So we have got a Laravel backend. We have an existing approach by all the transactional stores. And then we have got the charts and where the charts are handled by the agent. So every chart request is handled from here, whereby we are using the Laravel agent package. So as you can see over here, we start by initializing the recon service. After that, we install the dialogue. And we use the payload. And now we can handle the name and role of the parties. You can see here the dialogue that was passed from that compilation. And then we send it to the MCP, which is running on our node, which is right here. So from here, I will...",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 10.08,
+            "text": " I'm the creator of Bajit Yangu. I'm a team of one. Bajit Yangu is an AI-powered personal finance assistant."
+          },
+          {
+            "start": 11.94,
+            "end": 25.34,
+            "text": " Many people struggle to manage their finances and often rely on conversation with financial advisors or support agents to understand their budgets, expenses and financial decisions."
+          },
+          {
+            "start": 25.34,
+            "end": 31.58,
+            "text": " However, these conversations are rarely structured or analyzed for insight."
+          },
+          {
+            "start": 32.64,
+            "end": 45.7,
+            "text": " Our solution integrates Vicon to capture and restructure every financial conversation between our users and AI assistants inside the Bajit Yangu app."
+          },
+          {
+            "start": 45.7,
+            "end": 59.78,
+            "text": " Each conversation becomes a standardized record that can be analyzed to extract insights like user intent, financial concerns and summaries."
+          },
+          {
+            "start": 59.78,
+            "end": 88.9,
+            "text": " This transforms every day financial just into valuable data that helps users make smarter financial decisions while giving developers and business powerful analytics on how their financial AI sensors interact with users and how they can actually improve it and how they can improve their business."
+          },
+          {
+            "start": 88.9,
+            "end": 91.30000000000001,
+            "text": " This is our business model."
+          },
+          {
+            "start": 103.02000000000001,
+            "end": 106.88000000000001,
+            "text": " So this is the Bajit Yangu app where users keep their records."
+          },
+          {
+            "start": 107.30000000000001,
+            "end": 111.04,
+            "text": " So they manually input their records and then they use the AI to analyze the data."
+          },
+          {
+            "start": 111.04,
+            "end": 121.28,
+            "text": " So every data that they feed in these areas is included and money lent out and the reports actually shows."
+          },
+          {
+            "start": 121.28,
+            "end": 127.86,
+            "text": " So this is how users can have a conversation with the AI agent."
+          },
+          {
+            "start": 128.02,
+            "end": 131.16,
+            "text": " The AI agent retrieves the data that they have stored."
+          },
+          {
+            "start": 131.56,
+            "end": 136.24,
+            "text": " So it uses the sessions whereby women, the request is made, they are authenticated."
+          },
+          {
+            "start": 137.08,
+            "end": 144.44,
+            "text": " Then it can be able to fetch their data and the AI agent can be able to analyze their data from the cell."
+          },
+          {
+            "start": 144.44,
+            "end": 174.44,
+            "text": " So they have been able to get a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with a shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared information with shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared shared"
+          },
+          {
+            "start": 174.44,
+            "end": 178.44,
+            "text": " We have done everything actually today."
+          },
+          {
+            "start": 178.44,
+            "end": 192.44,
+            "text": " So we are going to have total reconf, parties, dialogues, analysis, completion, and data health."
+          },
+          {
+            "start": 192.44,
+            "end": 195.44,
+            "text": " Of course we have 100% data health."
+          },
+          {
+            "start": 195.44,
+            "end": 203.44,
+            "text": " Dialogue types, it seems like we have text because that is what is enabled at the moment."
+          },
+          {
+            "start": 203.44,
+            "end": 208.44,
+            "text": " So the recent reconf, financial assistance, financial assistance,"
+          },
+          {
+            "start": 208.44,
+            "end": 213.44,
+            "text": " and the application, the inquiry, the data."
+          },
+          {
+            "start": 213.44,
+            "end": 219.44,
+            "text": " So we have got the conversations, the subjects of the conversations."
+          },
+          {
+            "start": 219.44,
+            "end": 224.44,
+            "text": " There are some things we haven't been able to check,"
+          },
+          {
+            "start": 224.44,
+            "end": 230.44,
+            "text": " all the charts and then we would want to align the conversations."
+          },
+          {
+            "start": 230.44,
+            "end": 237.44,
+            "text": " Real dialogues within the app."
+          },
+          {
+            "start": 237.44,
+            "end": 242.44,
+            "text": " And we have got the analysis."
+          },
+          {
+            "start": 242.44,
+            "end": 247.44,
+            "text": " But we haven't been stressed yet."
+          },
+          {
+            "start": 247.44,
+            "end": 252.44,
+            "text": " And then we have got the..."
+          },
+          {
+            "start": 252.44,
+            "end": 256.44,
+            "text": " So we have got a Laravel backend."
+          },
+          {
+            "start": 256.44,
+            "end": 258.44,
+            "text": " We have an existing approach by all the transactional stores."
+          },
+          {
+            "start": 258.44,
+            "end": 262.44,
+            "text": " And then we have got the charts and where the charts are handled by the agent."
+          },
+          {
+            "start": 262.44,
+            "end": 271.44,
+            "text": " So every chart request is handled from here, whereby we are using the Laravel agent package."
+          },
+          {
+            "start": 271.44,
+            "end": 277.44,
+            "text": " So as you can see over here, we start by initializing the recon service."
+          },
+          {
+            "start": 277.44,
+            "end": 281.44,
+            "text": " After that, we install the dialogue."
+          },
+          {
+            "start": 281.44,
+            "end": 283.44,
+            "text": " And we use the payload."
+          },
+          {
+            "start": 283.44,
+            "end": 288.44,
+            "text": " And now we can handle the name and role of the parties."
+          },
+          {
+            "start": 288.44,
+            "end": 294.44,
+            "text": " You can see here the dialogue that was passed from that compilation."
+          },
+          {
+            "start": 294.44,
+            "end": 303.44,
+            "text": " And then we send it to the MCP, which is running on our node, which is right here."
+          },
+          {
+            "start": 303.44,
+            "end": 305.44,
+            "text": " So from here, I will..."
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "An AI-powered personal finance assistant (\"Budget Yangu\" means \"My Budget\" in Swahili). Helps users manage their finances through conversational AI, providing budgeting advice, expense tracking, and financial guidance. Conversations are stored as vCons for continuity and accountability.",
+        "tags": [
+          "personal-finance",
+          "budgeting",
+          "ai-assistant",
+          "financial-literacy"
+        ],
+        "technologies": [
+          "vCon",
+          "AI/LLM",
+          "conversational finance"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "Budget Yangu",
+        "youtube_id": "fxBPIaZPSTk",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

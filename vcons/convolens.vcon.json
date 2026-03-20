@@ -1,0 +1,435 @@
+{
+  "uuid": "98a81f08-664a-4724-9818-6c6d640bd7da",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: ConvoLens",
+  "parties": [
+    {
+      "name": "Josphat Mwangi",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "video/x-matroska",
+      "filename": "ConvoLens by Josphat Mwangi [lX8pXsz-47c].mkv",
+      "url": "https://www.youtube.com/watch?v=lX8pXsz-47c",
+      "encoding": "none",
+      "size": 20203993
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "hi my name is Joseph at Mwangi and this is my submission to Vicon third hack in 26 my hack is called Convolence a customer conversation intelligence platform built for banking and financial service team the problem that I'm trying to handle is thousands of customers converse every day with phone calls whatsapp messages social media complaints app review and live chat to banks and to financial services so right now most of these data seats unused team cannot see which issue keep coming which customer are frustrated and or which conversations carry a compliance risk these insights is the insight is buried in in text so combo convalence bring brings it to brings it out so solution is combo does three things first ingesting a conversation from any channel you can paste whatsapp export a call transcript a tweets a tweet thread any any then cloud ai reads it figures it out and automatically formats and converts it into a standard ietf vcons record second it analyzes every conversation using cloud sentiments code issue classified classifications complaints flag recommendation action all stored in inside the vcons and inside the vcons analysis array third it gives the team a live dashboard a live dashboard compliance risk alerts customer journey timelines and ask cloud what the what ask cloud chat where you you can type a question like what are the top complaint this week and get the answer instantly so i'll take you through the demo but before first taking to the demo i can explain technically of how everything flow so every combination regardless of where it comes from it's stored on the vcont record parties dialogues turns dialogue stands analysis entries concept tracking and all in in the standard structure so the api returns a specific pure vcon json so any any external tool that can understand the vehicle can we can consume convalence directly i also run the official vcon mcp server alongside the platform which lets um cloud desktop query because records through the mcp as a native ai not no browser needed so i'll take you through the demo as you can see on my screen there is the beautiful charts where they can show the total conversation how many have resolved and gives you the percentage how many are waiting to be resolved and how many complaints have been flagged to waiting for review so i'll show you how where you can ingest the data the ai analysis which you can see as per now and then the compliance monitoring then ask claude and then yeah be good to go so as you can see on my screen this is the ai analysis where you can easily ingest data from different sources you can connect to whatsapp and to twitter formerly known to twitter which now is called x facebook page instagram call center and audio and audio audio and invoice and then as per there is email then there is crm so data can be just these are just uh connectors which can be scaled to more multiple depending on what the organization use and and more so again you can also like ingest data from like manually yeah using like pasting the charts like how the conversation has flow for example for the call center for the facebook instagram and more so so also you can upload a document which it can be extracted and there yeah so what cloud powers is the categorization it can categorize us complain uh feature feature requests bug bug report inquiries uh complaints suggestion compliance escalation and more so you can for these these are tests the test but you can ingest data and you can generate interest and ingest data automatically to a platform or even like create a topic and then categorize which channel does come from like that and then also you can play me with this api and then which it would give you the different post from the different platform like the dummy data so after that um where the magic really happens where you can see the conversations so these are the different conversations that has been there so for example you can see unable to log into the mobile bank app and unexplained chance charge on the account such such side and they have the different tags priority are they resolved that they open such and such so at least it gives them an overview of everything they can categorize and filter if they want to see if it is yeah it is only on where how it was raised the issue and they can as if um you can easily like manage everything so the other one is about the customer they can see the different customer who is the complaint they can get back to them in case they are resolved and more and even running a wording system to this customer for being good customers and alerting them in terms of the different issues that they are facing and bringing it to to being resolved the other one is the compliance meet so as you as you have known the banking the banking and the financial sector is heavily compliant reliable too so they have to answer to those questions that compliance risks that for example in kenya it is managed by the cbk so they have to answer this with this risk can resolve to brand reputations and brand reputation and heavy fines that comes from the regulator so you can see the different compliance and and the ones that are resolved which are minor which are critical and you can also know further where they have they have come from for example yes so you can view all the the complaints they can see they're solved what happened through the the yes the what happened through the platform and more so it gives you a basic overview of everything of what happened sorry for these yes so you can view the different conversation that happened in terms of everything at least getting a glean sum of what's what's done you can ask claude to re to real to real and analyze it and more and you can get the sentiments and and more so it for this one is stuck just fraud card services agent then compliance related so this is the overview so bringing it home a combo shows the vcon standard is not just storage format it's a foundation for intelligence so every channel every conversation every ai resource lives in one open standard teams get insight insight they they have never had before compliance team get really in time risks visibility and ai agents get a structured data layer that that they can query directly through the mcp so record is fully open source and it's in github which is build on next year super base for storage and then um beta earth for authentication and then anthropic for anthropic cloud for the cloud part so thank you for this opportunity i hope i hope component like shows the possibility where what is possible when you build with the vcon standards from day one thank you",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 7.0,
+            "text": " hi my name is Joseph at Mwangi and this is my submission to Vicon"
+          },
+          {
+            "start": 7.0,
+            "end": 14.46,
+            "text": " third hack in 26 my hack is called Convolence a customer conversation"
+          },
+          {
+            "start": 14.46,
+            "end": 19.72,
+            "text": " intelligence platform built for banking and financial service team the problem"
+          },
+          {
+            "start": 19.72,
+            "end": 23.12,
+            "text": " that I'm trying to handle is thousands of customers converse every day with"
+          },
+          {
+            "start": 23.12,
+            "end": 29.76,
+            "text": " phone calls whatsapp messages social media complaints app review and live"
+          },
+          {
+            "start": 29.76,
+            "end": 37.92,
+            "text": " chat to banks and to financial services so right now most of these data seats"
+          },
+          {
+            "start": 37.92,
+            "end": 45.84,
+            "text": " unused team cannot see which issue keep coming which customer are frustrated and"
+          },
+          {
+            "start": 45.84,
+            "end": 54.540000000000006,
+            "text": " or which conversations carry a compliance risk these insights is the insight is"
+          },
+          {
+            "start": 54.54,
+            "end": 63.42,
+            "text": " buried in in text so combo convalence bring brings it to brings it out so"
+          },
+          {
+            "start": 63.42,
+            "end": 70.92,
+            "text": " solution is combo does three things first ingesting a conversation from any channel"
+          },
+          {
+            "start": 70.92,
+            "end": 79.53999999999999,
+            "text": " you can paste whatsapp export a call transcript a tweets a tweet thread any any"
+          },
+          {
+            "start": 79.54,
+            "end": 87.7,
+            "text": " then cloud ai reads it figures it out and automatically formats and converts it into a"
+          },
+          {
+            "start": 87.7,
+            "end": 95.38000000000001,
+            "text": " standard ietf vcons record second it analyzes every conversation using cloud"
+          },
+          {
+            "start": 95.38000000000001,
+            "end": 103.7,
+            "text": " sentiments code issue classified classifications complaints flag recommendation action all stored in"
+          },
+          {
+            "start": 103.7,
+            "end": 110.74000000000001,
+            "text": " inside the vcons and inside the vcons analysis array third it gives the team a live dashboard"
+          },
+          {
+            "start": 111.78,
+            "end": 120.1,
+            "text": " a live dashboard compliance risk alerts customer journey timelines and ask cloud what the what"
+          },
+          {
+            "start": 121.86,
+            "end": 130.34,
+            "text": " ask cloud chat where you you can type a question like what are the top complaint this week and get the answer instantly"
+          },
+          {
+            "start": 130.34,
+            "end": 140.58,
+            "text": " so i'll take you through the demo but before first taking to the demo i can explain technically of how"
+          },
+          {
+            "start": 140.58,
+            "end": 145.38,
+            "text": " everything flow so every combination regardless of where it comes from it's stored on the vcont record"
+          },
+          {
+            "start": 146.02,
+            "end": 155.94,
+            "text": " parties dialogues turns dialogue stands analysis entries concept tracking and all in in the standard structure"
+          },
+          {
+            "start": 155.94,
+            "end": 165.62,
+            "text": " so the api returns a specific pure vcon json so any any external tool that can understand the vehicle can"
+          },
+          {
+            "start": 165.62,
+            "end": 175.7,
+            "text": " we can consume convalence directly i also run the official vcon mcp server alongside the platform which lets"
+          },
+          {
+            "start": 175.7,
+            "end": 185.62,
+            "text": " um cloud desktop query because records through the mcp as a native ai not no browser needed"
+          },
+          {
+            "start": 186.34,
+            "end": 193.62,
+            "text": " so i'll take you through the demo as you can see on my screen there is the beautiful charts where they"
+          },
+          {
+            "start": 193.62,
+            "end": 199.85999999999999,
+            "text": " can show the total conversation how many have resolved and gives you the percentage how many are waiting to"
+          },
+          {
+            "start": 199.85999999999999,
+            "end": 207.62,
+            "text": " be resolved and how many complaints have been flagged to waiting for review so i'll show you how where you"
+          },
+          {
+            "start": 207.62,
+            "end": 215.54,
+            "text": " can ingest the data the ai analysis which you can see as per now and then the compliance monitoring then"
+          },
+          {
+            "start": 215.54,
+            "end": 223.86,
+            "text": " ask claude and then yeah be good to go so as you can see on my screen this is the ai analysis where you"
+          },
+          {
+            "start": 223.86,
+            "end": 232.02,
+            "text": " can easily ingest data from different sources you can connect to whatsapp and to twitter formerly known to"
+          },
+          {
+            "start": 232.02,
+            "end": 243.22,
+            "text": " twitter which now is called x facebook page instagram call center and audio and audio audio and"
+          },
+          {
+            "start": 243.22,
+            "end": 253.14000000000001,
+            "text": " invoice and then as per there is email then there is crm so data can be just these are just"
+          },
+          {
+            "start": 253.14,
+            "end": 262.5,
+            "text": " uh connectors which can be scaled to more multiple depending on what the organization use and and"
+          },
+          {
+            "start": 262.5,
+            "end": 271.86,
+            "text": " more so again you can also like ingest data from like manually yeah using like pasting the charts like"
+          },
+          {
+            "start": 271.86,
+            "end": 278.65999999999997,
+            "text": " how the conversation has flow for example for the call center for the facebook instagram and more so"
+          },
+          {
+            "start": 278.66,
+            "end": 286.26000000000005,
+            "text": " so also you can upload a document which it can be extracted and there yeah so what cloud powers is the"
+          },
+          {
+            "start": 287.38000000000005,
+            "end": 296.82000000000005,
+            "text": " categorization it can categorize us complain uh feature feature requests bug bug report inquiries"
+          },
+          {
+            "start": 297.46000000000004,
+            "end": 306.5,
+            "text": " uh complaints suggestion compliance escalation and more so you can for these these are tests the test"
+          },
+          {
+            "start": 306.5,
+            "end": 313.78,
+            "text": " but you can ingest data and you can generate interest and ingest data automatically to a platform or"
+          },
+          {
+            "start": 314.34,
+            "end": 321.7,
+            "text": " even like create a topic and then categorize which channel does come from like that and then also you"
+          },
+          {
+            "start": 321.7,
+            "end": 327.62,
+            "text": " can play me with this api and then which it would give you the different post from the different"
+          },
+          {
+            "start": 327.62,
+            "end": 338.34000000000003,
+            "text": " platform like the dummy data so after that um where the magic really happens where you can see the"
+          },
+          {
+            "start": 338.34000000000003,
+            "end": 343.54,
+            "text": " conversations so these are the different conversations that has been there so for example you can see"
+          },
+          {
+            "start": 343.54,
+            "end": 350.98,
+            "text": " unable to log into the mobile bank app and unexplained chance charge on the account such such"
+          },
+          {
+            "start": 350.98,
+            "end": 357.86,
+            "text": " side and they have the different tags priority are they resolved that they open such and such so at least"
+          },
+          {
+            "start": 357.86,
+            "end": 364.1,
+            "text": " it gives them an overview of everything they can categorize and filter if they want to see if it is"
+          },
+          {
+            "start": 364.1,
+            "end": 372.98,
+            "text": " yeah it is only on where how it was raised the issue and they can as if um you can easily like manage"
+          },
+          {
+            "start": 372.98,
+            "end": 380.74,
+            "text": " everything so the other one is about the customer they can see the different customer who is the"
+          },
+          {
+            "start": 380.74,
+            "end": 387.78000000000003,
+            "text": " complaint they can get back to them in case they are resolved and more and even running a wording system"
+          },
+          {
+            "start": 388.42,
+            "end": 394.98,
+            "text": " to this customer for being good customers and alerting them in terms of the different issues that"
+          },
+          {
+            "start": 394.98,
+            "end": 404.1,
+            "text": " they are facing and bringing it to to being resolved the other one is the compliance meet so as you as you"
+          },
+          {
+            "start": 404.1,
+            "end": 413.86,
+            "text": " have known the banking the banking and the financial sector is heavily compliant reliable too so they have"
+          },
+          {
+            "start": 413.86,
+            "end": 421.14000000000004,
+            "text": " to answer to those questions that compliance risks that for example in kenya it is managed by the cbk so"
+          },
+          {
+            "start": 421.14,
+            "end": 431.3,
+            "text": " they have to answer this with this risk can resolve to brand reputations and brand reputation and heavy fines"
+          },
+          {
+            "start": 431.3,
+            "end": 440.26,
+            "text": " that comes from the regulator so you can see the different compliance and and the ones that are resolved"
+          },
+          {
+            "start": 440.26,
+            "end": 447.86,
+            "text": " which are minor which are critical and you can also know further where they have they have come from for example"
+          },
+          {
+            "start": 447.86,
+            "end": 460.34000000000003,
+            "text": " yes so you can view all the the complaints they can see they're solved what happened through the the yes"
+          },
+          {
+            "start": 460.34000000000003,
+            "end": 468.66,
+            "text": " the what happened through the platform and more so it gives you a basic overview of everything of what happened"
+          },
+          {
+            "start": 468.66,
+            "end": 470.1,
+            "text": " sorry for these"
+          },
+          {
+            "start": 479.22,
+            "end": 485.78000000000003,
+            "text": " yes so you can view the different conversation that happened in terms of everything at least getting a"
+          },
+          {
+            "start": 485.78000000000003,
+            "end": 496.26000000000005,
+            "text": " glean sum of what's what's done you can ask claude to re to real to real and analyze it and more"
+          },
+          {
+            "start": 496.26,
+            "end": 504.02,
+            "text": " and you can get the sentiments and and more so it for this one is stuck just fraud card services agent"
+          },
+          {
+            "start": 504.65999999999997,
+            "end": 515.86,
+            "text": " then compliance related so this is the overview so bringing it home a combo shows the vcon standard"
+          },
+          {
+            "start": 515.86,
+            "end": 521.9399999999999,
+            "text": " is not just storage format it's a foundation for intelligence so every channel every conversation"
+          },
+          {
+            "start": 521.94,
+            "end": 531.22,
+            "text": " every ai resource lives in one open standard teams get insight insight they they have never had before"
+          },
+          {
+            "start": 531.22,
+            "end": 539.3800000000001,
+            "text": " compliance team get really in time risks visibility and ai agents get a structured data layer that"
+          },
+          {
+            "start": 540.9000000000001,
+            "end": 547.86,
+            "text": " that they can query directly through the mcp so record is fully open source and it's in github"
+          },
+          {
+            "start": 547.86,
+            "end": 556.9,
+            "text": " which is build on next year super base for storage and then um beta earth for authentication and then"
+          },
+          {
+            "start": 556.9,
+            "end": 566.1,
+            "text": " anthropic for anthropic cloud for the cloud part so thank you for this opportunity i hope i hope"
+          },
+          {
+            "start": 566.1,
+            "end": 575.14,
+            "text": " component like shows the possibility where what is possible when you build with the vcon standards from day one"
+          },
+          {
+            "start": 575.14,
+            "end": 585.14,
+            "text": " thank you"
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "A customer conversation intelligence platform built for banking and financial services. ConvoLens analyzes customer conversations across channels to extract insights, identify patterns, and improve service quality in the financial sector.",
+        "tags": [
+          "banking",
+          "financial-services",
+          "conversation-intelligence",
+          "customer-insights"
+        ],
+        "technologies": [
+          "vCon",
+          "AI analytics",
+          "multi-channel analysis"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "ConvoLens",
+        "youtube_id": "lX8pXsz-47c",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}

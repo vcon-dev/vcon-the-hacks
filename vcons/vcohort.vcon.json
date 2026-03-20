@@ -1,0 +1,448 @@
+{
+  "uuid": "868392f6-a470-42ad-ae9e-bd6f63566fe1",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: vCohort",
+  "parties": [
+    {
+      "name": "Ziyad Shuaibu",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    },
+    {
+      "name": "Abdulalim Ladan",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    },
+    {
+      "name": "Mubarak Ibrahim",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0,
+        1,
+        2
+      ],
+      "originator": 0,
+      "mediatype": "video/x-matroska",
+      "filename": "vCohort by Ziyad Shuaibu, Abdulalim Ladan, and Mubarak Ibrahim [j6f88p8DIZU].mkv",
+      "url": "https://www.youtube.com/watch?v=j6f88p8DIZU",
+      "encoding": "none",
+      "size": 27714152
+    }
+  ],
+  "analysis": [
+    {
+      "type": "transcript",
+      "dialog": [
+        0
+      ],
+      "vendor": "mlx-community/whisper-turbo",
+      "schema": "whisper-v1",
+      "encoding": "json",
+      "body": {
+        "text": "Hello everyone, I'm going to present my team's products for this year's Tadhack, which is called V-Cohort. Nigeria's scale gap is driving rapid growth in bootcamps, mentorship programs, cohort-based learning, and digital training academies, while the most valuable learning moments which are conversations are lost. Today's learning programs run on Zoom, Google Meet, WhatsApp, and Slack. Some of them do have LMSs, but they also still rely on this meeting platform for them to have live classes maybe once a week, two times a week, or once every two weeks. Facilitators rely on manual notes or fragmented records to understand what's happened in sessions, and as programs scale, this creates major blind spots because institutions, coaches, mentors cannot see who is struggling, which topics confuse learners, which learners are disengaging, and whether teaching is effective. In a country trying to close the massive scale gap, this lack of learning intelligence is a serious problem. We then created V-Cohort, and V-Cohort is a conversation intelligence layer for cohort-based learning. We integrate directly with tools like Zoom and Google Meet. Also, we have options for uploading recorded sessions. When a learning session happens, V-Con join as an assistant and converts the entire conversation into a V-Con structured conversation record. And using that data, we generate cohort engagement analytics, learner confusion signals, session summaries, and intervention recommendation in simple terms, which form learning conversations into actionable intelligence. Now for our unique selling proposition, because we use V-Con standards, every session becomes a structured searchable intelligence asset. V-Con standards. This means programs can finally build institutional knowledge from conversations, and it's the difference between storing records and understanding learning outcomes. We have my team, which includes myself, Zia Shriwu, Bubaki, Brian Handel Frontend, Adelina Ladan, who handled backend. And part of the tech stack we used, we have React, Vite, RTK queries. For backend, we have Python, Plastic. Yeah. So let me take you through the thought process for us, how we came up with Sorte Platform. So Nigeria has a huge digital scale learning market, which is valued at $1.5 billion in 2025. This is also from Ken Research. While we went through some of the sessions before the hackathon, correct me if I'm wrong, I did hear Thomas say, as part of the vision for V-Con, they want to focus on enterprise tools, which made me think as to how we can create a product that will be able to make V-Con spread in growing markets. So part of the things that we implemented are data ingestion options, where we either have the bots join a live meeting or you can upload recording sessions. Then it then takes it to the MCP layer, the AI reason happens and it generates actionable insights for coaches, mentors, facilitators, institutions, for them to be able to make learning better for their students and ultimately increase their coaching companies or academies. Also, part of this we also thought of were integrations. So we have integrations for Google Calendar, Trello, Slack. Although all these things were not implemented due to time constraints, but these are things that we have in mind. Let me take you to the demo. Okay, so right here on my screen, we have a dashboard for a user in an organization. So most of the things here have been set up because the data that we had to upload was bulky. So for us to be able to do that on the demo, it will take time. So we have to do that pre the demo. So right here, you can create new organizations. It just depends on how many organizations you work in as an individual. So if you are a facilitator at SkillUp Copper, which is a training for core members in Nigeria to learn digital skills. So you can see all the data about the cohorts and sessions within your organization. So you have active cohorts, total participants, upcoming sessions, at risk participants, engagement data, active cohorts, and all that. So now we can go to the active cohorts. So right here, you can create a new cohort. So let's say you want to teach web developments, you type that and the description, which are the cohort details. So once you do that, it then takes you to a page similar to this. So right here, we already have something. And just for the purpose of demo, you can ignore the name. But you see the cohorts health score. You see your average attendance. You see your participation rates. Who are the people speaking? Why are the people asking questions? Like what's the rates? And then at risk counts, like how many participants need attention? So by this, the data for determining these are the people who aren't engaging in sessions. So a session basically is like a live class or a meeting that you jump on or that you hold as cohorts. So you can come here to add the new session. So you impute the session title. You upload the session recording if it has already been done. And you can also still add it to a live meeting. And you just click on upload session and it creates one which comes to this list right here. So we already have one that is completed. So the data was quite bulky. So we had to do it beforehand. So we have the duration of the cohorts intro call, which is one hour 45 minutes, you know, hence the long duration. So speaking time of 68% versus 32% silence or pauses, you know, all those things are captured. So you also have the questions that we ask. We also have the engagement score, how active were the participants within the meeting. So the session summary, like I said, is the intro chord. So it tells you about the training, your trainers, where the training will be held, and what are the tracks within that particular training. So you have your key moments. So you have the action items. So this helps keep facilitators on their toes. So once integration is done, you can actually add this into your task management platforms like Trello. You have your participants breakdown right here, where it tells you the speaking time for each participants. You have myself and you have other participants that were in that particular meeting. Then lastly, you also have the transcript preview, where you can set the raw transcript of the meeting. So you have it right here. You can also still view the full transcript if you want. But then there's also this button for you to download the VCon. So just show you that it works. You download the VCon in JSON format and you can share it with whoever you want to share it with. So this right here is basically the rundown of the product. And with this, we are turning conversations into intelligence and intelligence into better learning outcomes. Thank you.",
+        "language": "en",
+        "segments": [
+          {
+            "start": 0.0,
+            "end": 7.84,
+            "text": " Hello everyone, I'm going to present my team's products for this year's Tadhack, which is"
+          },
+          {
+            "start": 7.84,
+            "end": 13.84,
+            "text": " called V-Cohort. Nigeria's scale gap is driving rapid growth in bootcamps, mentorship programs,"
+          },
+          {
+            "start": 13.84,
+            "end": 17.68,
+            "text": " cohort-based learning, and digital training academies, while the most valuable learning"
+          },
+          {
+            "start": 17.68,
+            "end": 24.8,
+            "text": " moments which are conversations are lost. Today's learning programs run on Zoom, Google Meet,"
+          },
+          {
+            "start": 24.8,
+            "end": 30.880000000000003,
+            "text": " WhatsApp, and Slack. Some of them do have LMSs, but they also still rely on this meeting platform for"
+          },
+          {
+            "start": 30.880000000000003,
+            "end": 36.24,
+            "text": " them to have live classes maybe once a week, two times a week, or once every two weeks."
+          },
+          {
+            "start": 37.04,
+            "end": 42.400000000000006,
+            "text": " Facilitators rely on manual notes or fragmented records to understand what's happened in sessions,"
+          },
+          {
+            "start": 42.400000000000006,
+            "end": 49.28,
+            "text": " and as programs scale, this creates major blind spots because institutions, coaches, mentors cannot see"
+          },
+          {
+            "start": 49.28,
+            "end": 54.56,
+            "text": " who is struggling, which topics confuse learners, which learners are disengaging, and whether teaching"
+          },
+          {
+            "start": 54.56,
+            "end": 59.36,
+            "text": " is effective. In a country trying to close the massive scale gap, this lack of learning intelligence"
+          },
+          {
+            "start": 59.36,
+            "end": 66.0,
+            "text": " is a serious problem. We then created V-Cohort, and V-Cohort is a conversation intelligence layer"
+          },
+          {
+            "start": 66.0,
+            "end": 72.96000000000001,
+            "text": " for cohort-based learning. We integrate directly with tools like Zoom and Google Meet. Also, we have"
+          },
+          {
+            "start": 72.96000000000001,
+            "end": 80.32000000000001,
+            "text": " options for uploading recorded sessions. When a learning session happens, V-Con join as an assistant"
+          },
+          {
+            "start": 80.32,
+            "end": 85.83999999999999,
+            "text": " and converts the entire conversation into a V-Con structured conversation record. And using that data,"
+          },
+          {
+            "start": 85.83999999999999,
+            "end": 92.16,
+            "text": " we generate cohort engagement analytics, learner confusion signals, session summaries, and intervention"
+          },
+          {
+            "start": 92.16,
+            "end": 97.67999999999999,
+            "text": " recommendation in simple terms, which form learning conversations into actionable intelligence."
+          },
+          {
+            "start": 98.88,
+            "end": 102.63999999999999,
+            "text": " Now for our unique selling proposition, because we use V-Con standards,"
+          },
+          {
+            "start": 103.75999999999999,
+            "end": 107.6,
+            "text": " every session becomes a structured searchable intelligence asset."
+          },
+          {
+            "start": 107.6,
+            "end": 111.91999999999999,
+            "text": " V-Con standards. This means programs can finally build institutional knowledge from conversations,"
+          },
+          {
+            "start": 112.55999999999999,
+            "end": 116.0,
+            "text": " and it's the difference between storing records and understanding learning outcomes."
+          },
+          {
+            "start": 117.52,
+            "end": 121.36,
+            "text": " We have my team, which includes myself, Zia Shriwu,"
+          },
+          {
+            "start": 121.36,
+            "end": 125.03999999999999,
+            "text": " Bubaki, Brian Handel Frontend, Adelina Ladan, who handled backend."
+          },
+          {
+            "start": 125.03999999999999,
+            "end": 130.24,
+            "text": " And part of the tech stack we used, we have React, Vite, RTK queries. For backend, we have Python, Plastic."
+          },
+          {
+            "start": 130.24,
+            "end": 136.24,
+            "text": " Yeah. So let me take you through the thought process for us, how we came up with Sorte Platform."
+          },
+          {
+            "start": 136.24,
+            "end": 144.48000000000002,
+            "text": " So Nigeria has a huge digital scale learning market, which is valued at $1.5 billion in 2025."
+          },
+          {
+            "start": 144.48000000000002,
+            "end": 150.64000000000001,
+            "text": " This is also from Ken Research. While we went through some of the sessions before the hackathon,"
+          },
+          {
+            "start": 151.36,
+            "end": 159.68,
+            "text": " correct me if I'm wrong, I did hear Thomas say, as part of the vision for V-Con, they want to focus on enterprise tools,"
+          },
+          {
+            "start": 159.68,
+            "end": 165.44,
+            "text": " which made me think as to how we can create a product that will be able to make V-Con spread in"
+          },
+          {
+            "start": 168.72,
+            "end": 174.48000000000002,
+            "text": " growing markets. So part of the things that we implemented are data ingestion options, where we"
+          },
+          {
+            "start": 174.48000000000002,
+            "end": 182.16,
+            "text": " either have the bots join a live meeting or you can upload recording sessions. Then it then takes it to"
+          },
+          {
+            "start": 182.16,
+            "end": 189.84,
+            "text": " the MCP layer, the AI reason happens and it generates actionable insights for coaches, mentors, facilitators,"
+          },
+          {
+            "start": 189.84,
+            "end": 195.84,
+            "text": " institutions, for them to be able to make learning better for their students and ultimately increase"
+          },
+          {
+            "start": 195.84,
+            "end": 202.96,
+            "text": " their coaching companies or academies. Also, part of this we also thought of were integrations. So we have"
+          },
+          {
+            "start": 202.96,
+            "end": 206.8,
+            "text": " integrations for Google Calendar, Trello, Slack. Although all these things were not implemented due to"
+          },
+          {
+            "start": 206.8,
+            "end": 213.36,
+            "text": " time constraints, but these are things that we have in mind. Let me take you to the demo. Okay, so right"
+          },
+          {
+            "start": 213.36,
+            "end": 218.48000000000002,
+            "text": " here on my screen, we have a dashboard for a user in an organization. So most of the things here have"
+          },
+          {
+            "start": 218.48000000000002,
+            "end": 225.04000000000002,
+            "text": " been set up because the data that we had to upload was bulky. So for us to be able to do that on the"
+          },
+          {
+            "start": 225.04000000000002,
+            "end": 231.52,
+            "text": " demo, it will take time. So we have to do that pre the demo. So right here, you can create new"
+          },
+          {
+            "start": 231.52,
+            "end": 236.64000000000001,
+            "text": " organizations. It just depends on how many organizations you work in as an individual. So if you"
+          },
+          {
+            "start": 236.64,
+            "end": 243.35999999999999,
+            "text": " are a facilitator at SkillUp Copper, which is a training for core members in Nigeria to learn digital"
+          },
+          {
+            "start": 243.35999999999999,
+            "end": 250.72,
+            "text": " skills. So you can see all the data about the cohorts and sessions within your organization. So you have"
+          },
+          {
+            "start": 250.72,
+            "end": 258.56,
+            "text": " active cohorts, total participants, upcoming sessions, at risk participants, engagement data, active cohorts,"
+          },
+          {
+            "start": 258.56,
+            "end": 263.68,
+            "text": " and all that. So now we can go to the active cohorts. So right here, you can create a new cohort. So let's say"
+          },
+          {
+            "start": 263.68,
+            "end": 269.84000000000003,
+            "text": " you want to teach web developments, you type that and the description, which are the cohort details."
+          },
+          {
+            "start": 269.84000000000003,
+            "end": 275.84000000000003,
+            "text": " So once you do that, it then takes you to a page similar to this. So right here, we already have"
+          },
+          {
+            "start": 276.64,
+            "end": 283.04,
+            "text": " something. And just for the purpose of demo, you can ignore the name. But you see the cohorts health"
+          },
+          {
+            "start": 283.04,
+            "end": 288.4,
+            "text": " score. You see your average attendance. You see your participation rates. Who are the people speaking?"
+          },
+          {
+            "start": 288.4,
+            "end": 292.96,
+            "text": " Why are the people asking questions? Like what's the rates? And then at risk counts, like how many"
+          },
+          {
+            "start": 292.96,
+            "end": 298.15999999999997,
+            "text": " participants need attention? So by this, the data for determining these are the people who aren't"
+          },
+          {
+            "start": 298.15999999999997,
+            "end": 306.15999999999997,
+            "text": " engaging in sessions. So a session basically is like a live class or a meeting that you jump on or that you"
+          },
+          {
+            "start": 307.12,
+            "end": 314.47999999999996,
+            "text": " hold as cohorts. So you can come here to add the new session. So you impute the session title."
+          },
+          {
+            "start": 314.48,
+            "end": 320.40000000000003,
+            "text": " You upload the session recording if it has already been done. And you can also still add it to a live"
+          },
+          {
+            "start": 320.40000000000003,
+            "end": 325.76,
+            "text": " meeting. And you just click on upload session and it creates one which comes to this list right here."
+          },
+          {
+            "start": 326.32,
+            "end": 331.68,
+            "text": " So we already have one that is completed. So the data was quite bulky. So we had to do it beforehand."
+          },
+          {
+            "start": 331.68,
+            "end": 337.76,
+            "text": " So we have the duration of the cohorts intro call, which is one hour 45 minutes, you know, hence the long"
+          },
+          {
+            "start": 337.76,
+            "end": 346.15999999999997,
+            "text": " duration. So speaking time of 68% versus 32% silence or pauses, you know, all those things are captured."
+          },
+          {
+            "start": 346.15999999999997,
+            "end": 352.08,
+            "text": " So you also have the questions that we ask. We also have the engagement score, how active were the"
+          },
+          {
+            "start": 352.08,
+            "end": 357.59999999999997,
+            "text": " participants within the meeting. So the session summary, like I said, is the intro chord. So it tells"
+          },
+          {
+            "start": 357.59999999999997,
+            "end": 362.96,
+            "text": " you about the training, your trainers, where the training will be held, and what are the tracks within"
+          },
+          {
+            "start": 362.96,
+            "end": 368.47999999999996,
+            "text": " that particular training. So you have your key moments. So you have the action items. So this"
+          },
+          {
+            "start": 368.47999999999996,
+            "end": 373.84,
+            "text": " helps keep facilitators on their toes. So once integration is done, you can actually add this"
+          },
+          {
+            "start": 373.84,
+            "end": 379.44,
+            "text": " into your task management platforms like Trello. You have your participants breakdown right here,"
+          },
+          {
+            "start": 379.44,
+            "end": 383.67999999999995,
+            "text": " where it tells you the speaking time for each participants. You have myself and you have other"
+          },
+          {
+            "start": 383.67999999999995,
+            "end": 389.03999999999996,
+            "text": " participants that were in that particular meeting. Then lastly, you also have the transcript preview,"
+          },
+          {
+            "start": 389.04,
+            "end": 395.20000000000005,
+            "text": " where you can set the raw transcript of the meeting. So you have it right here. You can also still view"
+          },
+          {
+            "start": 395.20000000000005,
+            "end": 400.24,
+            "text": " the full transcript if you want. But then there's also this button for you to download the VCon. So"
+          },
+          {
+            "start": 400.24,
+            "end": 404.96000000000004,
+            "text": " just show you that it works. You download the VCon in JSON format and you can share it with whoever you"
+          },
+          {
+            "start": 404.96000000000004,
+            "end": 410.88,
+            "text": " want to share it with. So this right here is basically the rundown of the product. And with this,"
+          },
+          {
+            "start": 410.88,
+            "end": 416.32000000000005,
+            "text": " we are turning conversations into intelligence and intelligence into better learning outcomes. Thank you."
+          }
+        ]
+      }
+    },
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "Addresses Nigeria's education scale gap by supporting bootcamps, mentorship programs, and cohort-based learning. vCohort uses vCon to capture and structure educational conversations, enabling better tracking of student progress, mentor interactions, and learning outcomes across growing educational programs.",
+        "tags": [
+          "education",
+          "bootcamps",
+          "mentorship",
+          "cohort-learning",
+          "Nigeria",
+          "scale"
+        ],
+        "technologies": [
+          "vCon",
+          "AI education analytics",
+          "learning management"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "vCohort",
+        "youtube_id": "j6f88p8DIZU",
+        "submission_type": "video_presentation"
+      }
+    }
+  ]
+}
