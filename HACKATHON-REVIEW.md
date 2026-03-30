@@ -6,7 +6,7 @@
 
 ## Overview
 
-The VCONIC TADHack 2026 (March 7-8) drew 15 submissions from developers across four continents — Nigeria, Kenya, the United States, and Brazil — tackling problems in emergency response, financial services, education, compliance, supply chains, animal rescue, and personal memory. Every team built on the [vCon standard](https://datatracker.ietf.org/group/vcon/about/). Most connected to the [vCon MCP Server](https://github.com/vcon-dev/vcon-mcp). Several pushed the boundaries of what vCon can represent, demonstrating that a conversation container originally designed for telephony is becoming a general-purpose intelligence format.
+The VCONIC TADHack 2026 (March 7-8) drew 16 submissions from developers across four continents — Nigeria, Kenya, the United States, and Brazil — tackling problems in emergency response, financial services, education, compliance, supply chains, animal rescue, and personal memory. Every team built on the [vCon standard](https://datatracker.ietf.org/group/vcon/about/). Most connected to the [vCon MCP Server](https://github.com/vcon-dev/vcon-mcp). Several pushed the boundaries of what vCon can represent, demonstrating that a conversation container originally designed for telephony is becoming a general-purpose intelligence format.
 
 This review examines each submission individually, then steps back to assess the hackathon as a whole: what it revealed about vCon's capabilities, where teams innovated, and what patterns emerged.
 
@@ -67,7 +67,25 @@ This review examines each submission individually, then steps back to assess the
 
 ---
 
-### 4. ConsentMate — Abdurrahman Umar & Berlu (Team Skyline Coders)
+### 4. Community Watch — Victor Abdul
+
+> [Video](https://www.youtube.com/watch?v=7RWY4BdJNb8) | [vCon](vcons/community-watch.vcon.json) | [Transcript](transcripts/community-watch.json) | **Student Honorable Mention ($1,000)**
+
+**The idea:** Turn fragmented neighborhood safety reports into a unified, interoperable intelligence stream. Community sightings — suspicious activity, incidents, hazards — are structured as vCon records, aggregated in real time, and analyzed by Groq AI to give residents, NGOs, and first responders a shared operational picture of what's happening on the ground.
+
+**What they built:** A platform that ingests neighborhood safety reports from multiple sources, converts them to vCon records, and runs Groq AI analysis for pattern detection and real-time alerts. The unified dashboard gives different stakeholders (residents, NGOs, first responders) visibility into community safety events with structured data they can act on. One standard, one platform, faster answers.
+
+**vCon capabilities demonstrated:**
+- vCon as the standard for community incident data — one format regardless of report source
+- Real-time aggregation of disparate safety reports into structured, queryable records
+- Groq AI analysis stored in the vCon analysis array for pattern detection and alert generation
+- Multi-stakeholder access: residents, NGOs, and emergency services sharing the same data structure
+
+**What makes it unique:** This submission applies vCon's "treat it like data" principle to community safety — a domain where fragmented, informal reports are the norm. The emphasis on interoperability (one standard for all stakeholders) mirrors ConvoSense's anti-lock-in positioning but in a civic context. As the judge noted: "vCons have two sides — they protect people. And protecting people is more than just the protocol to us."
+
+---
+
+### 5. ConsentMate — Abdurrahman Umar & Berlu (Team Skyline Coders)
 
 > [Video](https://www.youtube.com/watch?v=WUdpfmbMAAQ) | [vCon](vcons/consentmate.vcon.json) | [Transcript](transcripts/consentmate.json)
 
@@ -84,7 +102,7 @@ This review examines each submission individually, then steps back to assess the
 
 ---
 
-### 5. ConvoLens — Josphat Mwangi
+### 6. ConvoLens — Josphat Mwangi
 
 > [Video](https://www.youtube.com/watch?v=lX8pXsz-47c) | [vCon](vcons/convolens.vcon.json) | [Transcript](transcripts/convolens.json)
 
@@ -103,7 +121,7 @@ This review examines each submission individually, then steps back to assess the
 
 ---
 
-### 6. ConvoSense — Collins Omondi
+### 7. ConvoSense — Collins Omondi
 
 > [Video](https://www.youtube.com/watch?v=XNn8HUwuzec) | [vCon](vcons/convosense.vcon.json) | [Transcript](transcripts/convosense.json)
 
@@ -121,7 +139,7 @@ This review examines each submission individually, then steps back to assess the
 
 ---
 
-### 7. Life Canvas — Sabrina (Valencia College)
+### 8. Life Canvas — Sabrina (Valencia College)
 
 > [Video](https://www.youtube.com/watch?v=C0UhGJR72pk) | [vCon](vcons/life-canvas.vcon.json) | [Transcript](transcripts/life-canvas.json)
 
@@ -139,7 +157,7 @@ This review examines each submission individually, then steps back to assess the
 
 ---
 
-### 8. Ollie — Anna Correa
+### 9. Ollie — Anna Correa
 
 > [Video](https://www.youtube.com/watch?v=guBpk1E9yZA) | [vCon](vcons/ollie.vcon.json) | [Transcript](transcripts/ollie.json)
 
@@ -158,7 +176,7 @@ This review examines each submission individually, then steps back to assess the
 
 ---
 
-### 9. OnePrice Sales Memory — Joan Ovalles Rosario (Valencia College)
+### 10. OnePrice Sales Memory — Joan Ovalles Rosario (Valencia College)
 
 > [Video](https://www.youtube.com/watch?v=XCIGV91PZn4) | [vCon](vcons/oneprice-sales-memory.vcon.json) | [Transcript](transcripts/oneprice-sales-memory.json)
 
@@ -177,7 +195,7 @@ This review examines each submission individually, then steps back to assess the
 
 ---
 
-### 10. Patanisha — Charles Wachira
+### 11. Patanisha — Charles Wachira
 
 > [Video](https://www.youtube.com/watch?v=bl_YNeu3MCM) | [vCon](vcons/patanisha.vcon.json) | [Transcript](transcripts/patanisha.json)
 
@@ -196,7 +214,7 @@ This review examines each submission individually, then steps back to assess the
 
 ---
 
-### 11. TraceConnect — Jevans Otieno
+### 12. TraceConnect — Jevans Otieno
 
 > [Video](https://www.youtube.com/watch?v=POUeuloABtU) | [vCon](vcons/traceconnect.vcon.json) | [Transcript](transcripts/traceconnect.json)
 
@@ -215,7 +233,7 @@ This review examines each submission individually, then steps back to assess the
 
 ---
 
-### 12. vChat — Ahmadu Suleiman
+### 13. vChat — Ahmadu Suleiman
 
 > [Video](https://www.youtube.com/watch?v=7_PImyiISn8) | [vCon](vcons/vchat.vcon.json) | [Transcript](transcripts/vchat.json)
 
@@ -235,7 +253,7 @@ This review examines each submission individually, then steps back to assess the
 
 ---
 
-### 13. vCohort — Ziyad Shuaibu, Abdulalim Ladan & Mubarak Ibrahim
+### 14. vCohort — Ziyad Shuaibu, Abdulalim Ladan & Mubarak Ibrahim
 
 > [Video](https://www.youtube.com/watch?v=j6f88p8DIZU) | [vCon](vcons/vcohort.vcon.json) | [Transcript](transcripts/vcohort.json)
 
@@ -255,7 +273,7 @@ This review examines each submission individually, then steps back to assess the
 
 ---
 
-### 14. vCon Example App — Muntaser Syed (Submission 1)
+### 15. vCon Example App — Muntaser Syed (Submission 1)
 
 > [Video](https://www.youtube.com/watch?v=msvvAcZFEng) | [vCon](vcons/vcon-example-app.vcon.json) | [Transcript](transcripts/vcon-example-app.json) | [Pull request on vcon-mcp](https://github.com/vcon-dev/vcon-mcp)
 
@@ -274,7 +292,7 @@ This review examines each submission individually, then steps back to assess the
 
 ---
 
-### 15. vCon Intelligence Platform — Muntaser Syed (Submission 2)
+### 16. vCon Intelligence Platform — Muntaser Syed (Submission 2)
 
 > [Video](https://www.youtube.com/watch?v=h4ehOvFSqLw) | [vCon](vcons/vcon-intelligence-platform.vcon.json) | [Transcript](transcripts/vcon-intelligence-platform.json)
 
@@ -316,6 +334,7 @@ The original vCon use case was capturing phone calls. This hackathon proved the 
 | Emergency 911 calls | 911 First Response |
 | Location-based AR experiences | Apparitions |
 | Human-AI financial conversations | Budget Yangu |
+| Community safety incident reports | Community Watch |
 | GDPR consent records | ConsentMate |
 | Multi-channel banking complaints | ConvoLens |
 | Voice AI + Intercom chats | ConvoSense |
