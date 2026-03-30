@@ -2,6 +2,21 @@
 
 This repository contains [vCon](https://datatracker.ietf.org/doc/draft-ietf-vcon-vcon-container/) (Virtual Conversation Container) files for hackathon submissions from the [VCONIC TADHack](https://blog.tadhack.com/2025/12/19/vconic-tadhack/), held March 7-8, 2026.
 
+## Winners
+
+See **[WINNERS.md](WINNERS.md)** for the full winners announcement with judge commentary.
+
+| Track | Award | Team | Hack |
+|-------|-------|------|------|
+| Senior | 🏆 Senior Class Winner | David Sikes & Jared Ashcraft | [Apparitions](#) |
+| Senior | ⭐ Matriculation Award | Anna Correa | [Ollie](#) |
+| Senior | ⭐ Respect Mention | Muntaser Syed | [vCon Example App](#) + [vCon Intelligence Platform](#) |
+| Student | 🥇 Grand Prize ($3K) | Ziyad Shuaibu, Abdulalim Ladan, Mubarak Ibrahim | [vCohort](#) |
+| Student | 🥈 Honorable Mention ($1K) | Victor Abdul | [Community Watch](#) |
+| Student | 🥈 Honorable Mention ($1K) | Sabrina (Valencia College) | [Life Canvas](#) |
+
+---
+
 ## About the Hackathon
 
 The VCONIC TADHack challenged developers worldwide to build applications using the [vCon MCP Server](https://www.conserver.io/mcp-server/what-is-the-vcon-mcp-server) — a Model Context Protocol server that lets AI assistants work with structured conversation data. Teams had 48 hours to create solutions that demonstrate how standardized conversation containers can power real-world applications across industries including emergency services, finance, education, compliance, and personal productivity.
@@ -20,34 +35,37 @@ The hackathon was organized by [TADHack](https://tadhack.com) and [VCONIC](https
 | # | Project | Team | Video | Description |
 |---|---------|------|-------|-------------|
 | 1 | **911 First Response** | Shouvik Sharma, Ankita Bhanushali | [Video](https://www.youtube.com/watch?v=HRKcU5U-gzI) | AI-assisted workflow that processes 911 emergency calls in real time, converting them into structured dispatch actions for first responders |
-| 2 | **Apparitions** | David Sikes, Jared Ashcraft | [Video](https://www.youtube.com/watch?v=kYvfCVWyz1M) | Location-based augmented reality framework using vCon as the container for GPS-triggered media experiences |
+| 2 | **Apparitions** 🏆 | David Sikes, Jared Ashcraft | [Video](https://www.youtube.com/watch?v=kYvfCVWyz1M) | Location-based augmented reality framework using vCon as the container for GPS-triggered media experiences |
 | 3 | **Budget Yangu** | Elvis Ogunga | [Video](https://www.youtube.com/watch?v=fxBPIaZPSTk) | AI-powered personal finance assistant ("My Budget" in Swahili) providing budgeting advice and financial guidance through conversation |
-| 4 | **ConsentMate** | Abdurrahman Umar, Berlu (Team Skyline Coders) | [Video](https://www.youtube.com/watch?v=WUdpfmbMAAQ) | AI-powered GDPR compliance dashboard that tracks customer consent, provides compliance scoring, and delivers daily actionable updates |
-| 5 | **ConvoLens** | Josphat Mwangi | [Video](https://www.youtube.com/watch?v=lX8pXsz-47c) | Customer conversation intelligence platform built for banking and financial services |
-| 6 | **ConvoSense** | Collins Omondi | [Video](https://www.youtube.com/watch?v=XNn8HUwuzec) | Conversation analysis tool for small to mid-size businesses to improve customer support operations |
-| 7 | **Life Canvas** | Sabrina (Valencia College) | [Video](https://www.youtube.com/watch?v=C0UhGJR72pk) | Personal life intelligence system that captures everyday moments and turns them into searchable, structured insights using vCon |
-| 8 | **Ollie** | Anna Correa | [Video](https://www.youtube.com/watch?v=guBpk1E9yZA) | AI-powered platform to help find and rescue lost animals faster through coordinated conversation tracking |
-| 9 | **OnePrice Sales Memory** | Joan Ovalles Rosario (Valencia College) | [Video](https://www.youtube.com/watch?v=XCIGV91PZn4) | Sales conversation memory system for auto dealerships, giving sales teams persistent memory of customer interactions |
-| 10 | **Patanisha** | Charles Wachira | [Video](https://www.youtube.com/watch?v=bl_YNeu3MCM) | Unified customer support platform that consolidates phone, SMS, email, and chat conversations into vCon-structured records |
-| 11 | **TraceConnect** | Jevans Otieno | [Video](https://www.youtube.com/watch?v=POUeuloABtU) | vCon-powered real-time visibility and compliance platform for global distribution networks |
-| 12 | **vChat** | Ahmadu Suleiman | [Video](https://www.youtube.com/watch?v=7_PImyiISn8) | Community mediation platform that records and structures informal agreements for accountability and conflict resolution |
-| 13 | **vCohort** | Ziyad Shuaibu, Abdulalim Ladan, Mubarak Ibrahim | [Video](https://www.youtube.com/watch?v=j6f88p8DIZU) | Educational platform supporting bootcamps and cohort-based learning in Nigeria, using vCon to track student progress and mentor interactions |
-| 14 | **vCon Example App** | Muntaser Syed | [Video](https://www.youtube.com/watch?v=msvvAcZFEng) | Reference implementation demonstrating vCon JSON-LD extensions, cryptographic signing, and MongoDB vector search |
-| 15 | **vCon Intelligence Platform** | Muntaser Syed | [Video](https://www.youtube.com/watch?v=h4ehOvFSqLw) | Comprehensive multi-backend platform for conversation intelligence with SIP REC, Teams, WhatsApp, and MQTT ingestion |
+| 4 | **Community Watch** 🥈 | Victor Abdul | [Video](https://www.youtube.com/watch?v=7RWY4BdJNb8) | Unified neighborhood safety intelligence platform that structures and analyzes community sightings in real time using Groq AI |
+| 5 | **ConsentMate** | Abdurrahman Umar, Berlu (Team Skyline Coders) | [Video](https://www.youtube.com/watch?v=WUdpfmbMAAQ) | AI-powered GDPR compliance dashboard that tracks customer consent, provides compliance scoring, and delivers daily actionable updates |
+| 6 | **ConvoLens** | Josphat Mwangi | [Video](https://www.youtube.com/watch?v=lX8pXsz-47c) | Customer conversation intelligence platform built for banking and financial services |
+| 7 | **ConvoSense** | Collins Omondi | [Video](https://www.youtube.com/watch?v=XNn8HUwuzec) | Conversation analysis tool for small to mid-size businesses to improve customer support operations |
+| 8 | **Life Canvas** 🥈 | Sabrina (Valencia College) | [Video](https://www.youtube.com/watch?v=C0UhGJR72pk) | Personal life intelligence system that captures everyday moments and turns them into searchable, structured insights using vCon |
+| 9 | **Ollie** ⭐ | Anna Correa | [Video](https://www.youtube.com/watch?v=guBpk1E9yZA) | AI-powered platform to help find and rescue lost animals faster through coordinated conversation tracking |
+| 10 | **OnePrice Sales Memory** | Joan Ovalles Rosario (Valencia College) | [Video](https://www.youtube.com/watch?v=XCIGV91PZn4) | Sales conversation memory system for auto dealerships, giving sales teams persistent memory of customer interactions |
+| 11 | **Patanisha** | Charles Wachira | [Video](https://www.youtube.com/watch?v=bl_YNeu3MCM) | Unified customer support platform that consolidates phone, SMS, email, and chat conversations into vCon-structured records |
+| 12 | **TraceConnect** | Jevans Otieno | [Video](https://www.youtube.com/watch?v=POUeuloABtU) | vCon-powered real-time visibility and compliance platform for global distribution networks |
+| 13 | **vChat** | Ahmadu Suleiman | [Video](https://www.youtube.com/watch?v=7_PImyiISn8) | Community mediation platform that records and structures informal agreements for accountability and conflict resolution |
+| 14 | **vCohort** 🥇 | Ziyad Shuaibu, Abdulalim Ladan, Mubarak Ibrahim | [Video](https://www.youtube.com/watch?v=j6f88p8DIZU) | Educational platform supporting bootcamps and cohort-based learning in Nigeria, using vCon to track student progress and mentor interactions |
+| 15 | **vCon Example App** ⭐ | Muntaser Syed | [Video](https://www.youtube.com/watch?v=msvvAcZFEng) | Reference implementation demonstrating vCon JSON-LD extensions, cryptographic signing, and MongoDB vector search |
+| 16 | **vCon Intelligence Platform** ⭐ | Muntaser Syed | [Video](https://www.youtube.com/watch?v=h4ehOvFSqLw) | Comprehensive multi-backend platform for conversation intelligence with SIP REC, Teams, WhatsApp, and MQTT ingestion |
 
 ## Hackathon Review
 
-See **[HACKATHON-REVIEW.md](HACKATHON-REVIEW.md)** for a detailed review of all 15 submissions — individual assessments, demonstrations of vCon capabilities, unique ideas, and overall themes.
+See **[HACKATHON-REVIEW.md](HACKATHON-REVIEW.md)** for a detailed review of all 16 submissions — individual assessments, demonstrations of vCon capabilities, unique ideas, and overall themes. See **[WINNERS.md](WINNERS.md)** for the winners announcement.
 
 ## Repository Structure
 
 ```
 vcon-the-hacks/
 ├── README.md
+├── WINNERS.md                      # Winners announcement with judge commentary
 ├── vcons/                          # vCon files for each submission
 │   ├── 911-first-response.vcon.json
 │   ├── apparitions.vcon.json
 │   ├── budget-yangu.vcon.json
+│   ├── community-watch.vcon.json
 │   ├── consentmate.vcon.json
 │   ├── convolens.vcon.json
 │   ├── convosense.vcon.json

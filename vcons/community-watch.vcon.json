@@ -1,0 +1,73 @@
+{
+  "uuid": "3d31a7f6-34f2-423e-ad6b-d9bcc5d73db6",
+  "vcon": "0.0.1",
+  "created_at": "2026-03-07T12:00:00Z",
+  "subject": "VCONIC TADHack 2026 Submission: Community Watch",
+  "parties": [
+    {
+      "name": "Victor Abdul",
+      "meta": {
+        "party_type": "human",
+        "role": "presenter"
+      }
+    }
+  ],
+  "dialog": [
+    {
+      "type": "recording",
+      "start": "2026-03-07T12:00:00Z",
+      "parties": [
+        0
+      ],
+      "originator": 0,
+      "mediatype": "video/webm",
+      "filename": "Community Watch, by Victor Abdul [7RWY4BdJNb8].webm",
+      "url": "https://www.youtube.com/watch?v=7RWY4BdJNb8",
+      "encoding": "none"
+    }
+  ],
+  "analysis": [
+    {
+      "type": "summary",
+      "dialog": [
+        0
+      ],
+      "vendor": "claude-opus-4-6",
+      "schema": "hackathon-summary-v1",
+      "encoding": "json",
+      "body": {
+        "summary": "Turns fragmented neighborhood safety reports into a unified, interoperable intelligence stream using the vCon data standard. Community sightings are structured, aggregated, and analyzed in real time by Groq AI — giving residents, NGOs, and first responders a shared picture of what's happening on the ground. One standard. One platform. Faster answers.",
+        "tags": [
+          "community-safety",
+          "neighborhood-watch",
+          "real-time-alerts",
+          "Groq-AI",
+          "first-responders",
+          "NGO",
+          "incident-reporting"
+        ],
+        "technologies": [
+          "vCon",
+          "Groq AI",
+          "real-time aggregation"
+        ]
+      }
+    }
+  ],
+  "attachments": [
+    {
+      "type": "hackathon_metadata",
+      "start": "2026-03-07T12:00:00Z",
+      "party": 0,
+      "encoding": "json",
+      "body": {
+        "event": "VCONIC TADHack 2026",
+        "event_dates": "2026-03-07/2026-03-08",
+        "project_name": "Community Watch",
+        "youtube_id": "7RWY4BdJNb8",
+        "submission_type": "video_presentation",
+        "award": "Student Honorable Mention ($1,000)"
+      }
+    }
+  ]
+}
