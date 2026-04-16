@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "repo": "vcon-the-hacks",
+  "repo_version": null,
+  "archetype": "minimal",
+  "generated_at": "2026-04-16T15:15:46.733515+00:00",
+  "stats": {
+    "node_count": 3,
+    "edge_count": 0
+  },
+  "nodes": [
+    {
+      "id": "document:readme",
+      "type": "document",
+      "name": "README",
+      "file": "README.md"
+    },
+    {
+      "id": "component:transcripts",
+      "type": "component",
+      "name": "transcripts",
+      "file": "transcripts",
+      "description": "16 files"
+    },
+    {
+      "id": "component:vcons",
+      "type": "component",
+      "name": "vcons",
+      "file": "vcons",
+      "description": "16 files"
+    }
+  ],
+  "edges": [],
+  "subsystems": []
+}
